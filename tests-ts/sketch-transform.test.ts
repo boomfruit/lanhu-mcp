@@ -4,8 +4,13 @@ import { extractFullAnnotationsFromSketch } from "../src/transform/sketch-annota
 import {
   convertSketchToHtml,
   convertSketchToHtmlMinified,
+  extractSketchLayerAnnotations,
   inferDesignScale,
 } from "../src/transform/sketch-to-html.js";
+import {
+  legacyInfoSketch,
+  unrecognizedLegacyTextSketch,
+} from "./fixtures/legacy-sketch.js";
 
 const minimalSketch = {
   device: "iPhone 12 @2x",
@@ -166,6 +171,86 @@ describe("convertSketchToHtml", () => {
   });
 });
 
+describe("extractSketchLayerAnnotations", () => {
+  it("extracts structured annotations without returning HTML", () => {
+    const annotations = extractSketchLayerAnnotations(minimalSketch, 2.0);
+
+    expect(annotations).toHaveLength(4);
+    expect(annotations).toEqual(
+      expect.arrayContaining([
+        expect.objectContaining({
+          name: "title",
+          type: "textLayer",
+          text: "Hello World",
+          text_source: "textInfo-object",
+        }),
+      ]),
+    );
+  });
+});
+
+describe("legacy info Sketch", () => {
+  it("renders actual legacy layers into HTML and structured annotations", () => {
+    const result = convertSketchToHtml(legacyInfoSketch, 1.0);
+
+    expect(result.html).toMatch(/<div[^>]*>15s<\/div>/);
+    expect(result.html).toMatch(/<div[^>]*>Your loan amount is<\/div>/);
+    expect(result.html).toContain("width:375px");
+    expect(result.layerAnnotations).toHaveLength(8);
+    expect(result.layerAnnotations.map((annotation) => annotation.name)).toEqual(
+      expect.arrayContaining(["Time", "15s", "Your loan amount is"]),
+    );
+    const textAnnotation = result.layerAnnotations.find((annotation) => annotation.name === "15s");
+    expect(textAnnotation).toMatchObject({
+      name: "15s",
+      text: "15s",
+      text_source: "legacy-layer-name",
+    });
+    expect(result.warnings).toHaveLength(8);
+    expect(result.warnings).toEqual(expect.arrayContaining([
+      'Legacy info textLayer "15s": Text was recovered heuristically from layer.name and may be ' +
+        "truncated or differ from rendered content.",
+      'Legacy info textLayer "Your loan amount is": Text was recovered heuristically from ' +
+        "layer.name and may be truncated or differ from rendered content.",
+    ]));
+    expect(result.imageUrlMapping).toEqual({});
+  });
+
+  it("produces useful formatted annotations with inferred canvas data", () => {
+    const annotations = extractFullAnnotationsFromSketch(legacyInfoSketch, 1.0);
+
+    expect(annotations).toContain("画布尺寸: 375x667");
+    expect(annotations).toContain('"15s"');
+    expect(annotations).toContain('"Your loan amount is"');
+    expect(annotations).toContain("recovered heuristically from layer.name");
+    expect(annotations).not.toContain("画布尺寸: 0x0");
+  });
+
+  it("prefers populated legacy info over an empty board root", () => {
+    const result = convertSketchToHtml({
+      ...legacyInfoSketch,
+      board: { layers: [] },
+    }, 1.0);
+
+    expect(result.html).toMatch(/<div[^>]*>15s<\/div>/);
+    expect(result.layerAnnotations).toHaveLength(8);
+  });
+
+  it("warns instead of using a layer name for unrecognized visible text", () => {
+    const result = convertSketchToHtml(unrecognizedLegacyTextSketch, 2.0);
+    const annotations = extractFullAnnotationsFromSketch(unrecognizedLegacyTextSketch, 2.0);
+
+    expect(result.html).not.toMatch(/>Layer name is not content<\/div>/);
+    expect(result.layerAnnotations[0].text).toBeUndefined();
+    expect(result.warnings).toEqual([
+      "Unsupported visible textLayer \"Layer name is not content\": " +
+        "textInfo array contains no string text values.",
+    ]);
+    expect(annotations).toContain("文本解析警告");
+    expect(annotations).toContain("textInfo array contains no string text values");
+  });
+});
+
 describe("convertSketchToHtmlMinified", () => {
   it("returns minified HTML", () => {
     const result = convertSketchToHtmlMinified(minimalSketch, 2.0);
@@ -306,10 +391,20 @@ describe("edge cases", () => {
     expect(Object.keys(result.imageUrlMapping)).toHaveLength(0);
   });
 
-  it("handles missing board", () => {
-    const result = convertSketchToHtml({}, 2.0);
-    expect(result.html).toContain("<!DOCTYPE html>");
-    expect(result.layerAnnotations).toHaveLength(0);
+  it("rejects an unknown Sketch root", () => {
+    expect(() => convertSketchToHtml({}, 2.0)).toThrow(
+      "Unsupported Sketch structure: expected board.layers, artboard.layers, or info array.",
+    );
+  });
+
+  it("rejects visible layer data that cannot be rendered", () => {
+    expect(() => convertSketchToHtml({
+      board: {
+        layers: [{ type: "layerSection", name: "unsupported", visible: true }],
+      },
+    }, 2.0)).toThrow(
+      "Unsupported Sketch board layer structure: found visible layer data but no renderable layers.",
+    );
   });
 
   it("handles zero-sized layers by flattening children", () => {
@@ -349,9 +444,9 @@ describe("edge cases", () => {
     expect(result.layerAnnotations[0].text).toBe("Nested");
   });
 
-  it("annotations handle missing board gracefully", () => {
-    const annotations = extractFullAnnotationsFromSketch({}, 2.0);
-    expect(annotations).toContain("设计标注信息");
-    expect(annotations).toContain("0x0");
+  it("annotations reject an unknown Sketch root", () => {
+    expect(() => extractFullAnnotationsFromSketch({}, 2.0)).toThrow(
+      "Unsupported Sketch structure: expected board.layers, artboard.layers, or info array.",
+    );
   });
 });

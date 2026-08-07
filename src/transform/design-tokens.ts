@@ -1,8 +1,16 @@
 import type { UnknownRecord } from "../shared/types.js";
-
-function isRecord(value: unknown): value is UnknownRecord {
-  return typeof value === "object" && value !== null && !Array.isArray(value);
-}
+import {
+  getSketchLayerFrame,
+  getSketchLayerType,
+  isRecord,
+  isSketchLayerVisible,
+  resolveSketchStructure,
+} from "./sketch-structure.js";
+import {
+  normalizeSketchTextLayer,
+  sketchColorToCss,
+  type NormalizedSketchTextStyle,
+} from "./sketch-text.js";
 
 function asNumber(value: unknown, fallback = 0): number {
   if (typeof value === "number" && Number.isFinite(value)) {
@@ -20,18 +28,12 @@ function asString(value: unknown): string {
 }
 
 function getDimensions(obj: UnknownRecord): { x: number; y: number; w: number; h: number } {
-  const frame = isRecord(obj.ddsOriginFrame)
-    ? obj.ddsOriginFrame
-    : isRecord(obj.layerOriginFrame)
-      ? obj.layerOriginFrame
-      : isRecord(obj.frame)
-        ? obj.frame
-        : {};
+  const frame = getSketchLayerFrame(obj);
   return {
-    x: asNumber(frame.x ?? obj.left),
-    y: asNumber(frame.y ?? obj.top),
-    w: asNumber(frame.width ?? obj.width),
-    h: asNumber(frame.height ?? obj.height),
+    x: frame.x,
+    y: frame.y,
+    w: frame.width,
+    h: frame.height,
   };
 }
 
@@ -78,13 +80,23 @@ function simplifyShadow(shadow: UnknownRecord): string | undefined {
   return `${asString(color.value) || "unknown"} ${asNumber(shadow.offsetX)}px ${asNumber(shadow.offsetY)}px ${asNumber(shadow.blurRadius)}px ${asNumber(shadow.spread)}px`;
 }
 
-export function extractLayerTree(sketch: UnknownRecord, maxDepth = 4): string {
-  const artboard = isRecord(sketch.artboard) ? sketch.artboard : undefined;
-  if (!artboard) {
-    return "";
-  }
+export type LayerDepth = number | "all";
+
+export interface LayerTreeResult {
+  tree: string;
+  truncated: boolean;
+  depth: LayerDepth;
+}
+
+export function extractLayerTreeResult(
+  sketch: UnknownRecord,
+  maxDepth: LayerDepth = 4,
+): LayerTreeResult {
+  const structure = resolveSketchStructure(sketch);
+  const textOptions = { allowLegacyLayerName: structure.kind === "info" };
 
   const lines: string[] = [];
+  let truncated = false;
 
   const formatStyleBrief = (style: UnknownRecord): string => {
     const parts: string[] = [];
@@ -111,23 +123,22 @@ export function extractLayerTree(sketch: UnknownRecord, maxDepth = 4): string {
   };
 
   const walk = (layer: UnknownRecord, depth = 0): void => {
-    if (depth > maxDepth || layer.visible === false) {
+    if (!isSketchLayerVisible(layer)) {
       return;
     }
-    const frame = isRecord(layer.frame) ? layer.frame : {};
-    const w = asNumber(frame.width);
-    const h = asNumber(frame.height);
-    const x = asNumber(frame.x);
-    const y = asNumber(frame.y);
-    const type = asString(layer.type) || "?";
+    if (maxDepth !== "all" && depth > maxDepth) {
+      truncated = true;
+      return;
+    }
+    const dimensions = getDimensions(layer);
+    const type = getSketchLayerType(layer);
     const name = asString(layer.name) || "?";
     const sublayers = Array.isArray(layer.layers) ? layer.layers.filter(isRecord) : [];
     const style = isRecord(layer.style) ? layer.style : {};
-    let line = `${"  ".repeat(depth)}${type}: ${name} (${Math.round(w)}x${Math.round(h)} @${Math.round(x)},${Math.round(y)})`;
+    let line = `${"  ".repeat(depth)}${type}: ${name} (${Math.round(dimensions.w)}x${Math.round(dimensions.h)} @${Math.round(dimensions.x)},${Math.round(dimensions.y)})`;
 
     if (type === "textLayer") {
-      const text = isRecord(layer.text) ? layer.text : {};
-      const rawValue = asString(text.value);
+      const rawValue = normalizeSketchTextLayer(layer, textOptions).value?.text ?? "";
       const clipped = rawValue.length > 40 ? `${rawValue.slice(0, 40)}...` : rawValue;
       if (clipped) {
         line += ` "${clipped}"`;
@@ -148,25 +159,44 @@ export function extractLayerTree(sketch: UnknownRecord, maxDepth = 4): string {
     }
   };
 
-  const frame = isRecord(artboard.frame) ? artboard.frame : {};
-  lines.push(`Artboard: ${asString(artboard.name) || "?"} (${Math.round(asNumber(frame.width))}x${Math.round(asNumber(frame.height))})`);
-  lines.push(`Total layers: ${Array.isArray(artboard.layers) ? artboard.layers.length : 0}`);
+  const rootType = structure.kind === "artboard"
+    ? "Artboard"
+    : structure.kind === "board"
+      ? "Board"
+      : "Legacy Sketch";
+  lines.push(`${rootType}: ${structure.name} (${Math.round(structure.width)}x${Math.round(structure.height)})`);
+  lines.push(`Total layers: ${structure.layers.length}`);
   lines.push("");
 
-  const layers = Array.isArray(artboard.layers) ? artboard.layers.filter(isRecord) : [];
-  for (const layer of layers) {
+  for (const layer of structure.layers) {
     walk(layer);
   }
-  return lines.join("\n");
+  if (truncated) {
+    lines.push("");
+    lines.push(`[Layer tree truncated at depth ${maxDepth}; pass layer_depth: "all" for the complete tree.]`);
+  }
+  return { tree: lines.join("\n"), truncated, depth: maxDepth };
 }
 
-export function extractDesignTokens(sketch: UnknownRecord): string {
+export function extractLayerTree(sketch: UnknownRecord, maxDepth: LayerDepth = 4): string {
+  return extractLayerTreeResult(sketch, maxDepth).tree;
+}
+
+export interface DesignTokensResult {
+  tokens: string;
+  warnings: string[];
+}
+
+export function extractDesignTokensResult(sketch: UnknownRecord): DesignTokensResult {
+  const structure = resolveSketchStructure(sketch);
+  const textOptions = { allowLegacyLayerName: structure.kind === "info" };
   const colors = new Map<string, number>();
   const fonts = new Map<string, number>();
   const gradients = new Map<string, number>();
   const shadows = new Map<string, number>();
   const radii = new Map<string, number>();
   const borders = new Map<string, number>();
+  const warnings = new Set<string>();
 
   const addTo = (map: Map<string, number>, key: string): void => {
     map.set(key, (map.get(key) ?? 0) + 1);
@@ -174,25 +204,24 @@ export function extractDesignTokens(sketch: UnknownRecord): string {
 
   const collectColor = (colorObj: unknown): void => {
     if (!isRecord(colorObj)) return;
-    const v = asString(colorObj.value);
-    if (v && !v.includes("undefined") && !v.includes("NaN")) addTo(colors, v);
+    const value = sketchColorToCss(colorObj);
+    if (value && !value.includes("undefined") && !value.includes("NaN")) addTo(colors, value);
   };
 
-  const collectFont = (fontObj: unknown): void => {
-    if (!isRecord(fontObj)) return;
-    const name = asString(fontObj.name);
-    const type = asString(fontObj.type);
-    const size = asNumber(fontObj.size);
+  const collectFont = (style: NormalizedSketchTextStyle): void => {
+    const name = style.fontFamily ?? style.fontPostScriptName ?? "";
+    const weight = style.fontWeight;
+    const size = style.fontSize ?? 0;
     if (!name && !size) return;
     const parts: string[] = [];
     if (name) parts.push(name);
-    if (type) parts.push(type);
+    if (weight !== undefined) parts.push(String(weight));
     if (size) parts.push(`${size}px`);
     addTo(fonts, parts.join(" / "));
   };
 
   const walk = (layer: UnknownRecord): void => {
-    if (layer.visible === false || layer.isVisible === false) return;
+    if (!isSketchLayerVisible(layer)) return;
 
     const style = isRecord(layer.style) ? layer.style : {};
     const fills = Array.isArray(style.fills) ? style.fills.filter(isRecord) : [];
@@ -238,18 +267,14 @@ export function extractDesignTokens(sketch: UnknownRecord): string {
       addTo(radii, `${layer.radius}px`);
     }
 
-    // Collect font and text color from artboard textLayer format
-    if (asString(layer.type) === "textLayer") {
-      const text = isRecord(layer.text) ? layer.text : {};
-      const textStyle = isRecord(text.style) ? text.style : {};
-      if (isRecord(textStyle.color)) collectColor(textStyle.color);
-      if (isRecord(textStyle.font)) collectFont(textStyle.font);
-
-      // Board format: textInfo array
-      const textInfoList = Array.isArray(layer.textInfo) ? layer.textInfo.filter(isRecord) : [];
-      for (const ti of textInfoList) {
-        if (isRecord(ti.color)) collectColor(ti.color);
-        if (isRecord(ti.font)) collectFont(ti.font);
+    if (getSketchLayerType(layer) === "textLayer") {
+      const normalized = normalizeSketchTextLayer(layer, textOptions);
+      for (const warning of normalized.tokenWarnings) warnings.add(warning);
+      if (normalized.value) {
+        for (const run of normalized.value.runs) {
+          collectColor(run.color);
+          collectFont(run);
+        }
       }
     }
 
@@ -257,18 +282,7 @@ export function extractDesignTokens(sketch: UnknownRecord): string {
     for (const child of children) walk(child);
   };
 
-  // Entry points: artboard.layers, board.layers, info[]
-  const artboard = isRecord(sketch.artboard) ? sketch.artboard : undefined;
-  const board = isRecord(sketch.board) ? sketch.board : undefined;
-  if (artboard && Array.isArray(artboard.layers)) {
-    for (const layer of artboard.layers.filter(isRecord)) walk(layer);
-  }
-  if (board && Array.isArray(board.layers)) {
-    for (const layer of board.layers.filter(isRecord)) walk(layer);
-  }
-  if (Array.isArray(sketch.info)) {
-    for (const item of sketch.info.filter(isRecord)) walk(item);
-  }
+  for (const layer of structure.layers) walk(layer);
 
   const sortedEntries = (map: Map<string, number>): [string, number][] =>
     [...map.entries()].sort((a, b) => b[1] - a[1]);
@@ -291,6 +305,12 @@ export function extractDesignTokens(sketch: UnknownRecord): string {
     formatSection("Border Radius", radii),
   ].filter(Boolean);
 
-  if (sections.length === 0) return "";
-  return `=== Design Tokens ===\n\n${sections.join("\n\n")}`;
+  const tokens = sections.length === 0
+    ? ""
+    : `=== Design Tokens ===\n\n${sections.join("\n\n")}`;
+  return { tokens, warnings: [...warnings] };
+}
+
+export function extractDesignTokens(sketch: UnknownRecord): string {
+  return extractDesignTokensResult(sketch).tokens;
 }

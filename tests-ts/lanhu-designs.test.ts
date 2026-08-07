@@ -1,7 +1,12 @@
 import { describe, expect, it } from "vitest";
 
 import { LanhuClient, parseLanhuUrl } from "../src/lanhu/client.js";
-import { getSketchJson, listDesigns } from "../src/lanhu/designs.js";
+import {
+  createSlicesResultFromSketch,
+  extractSlicesFromSketch,
+  getSketchJson,
+  listDesigns,
+} from "../src/lanhu/designs.js";
 
 function createJsonResponse(body: unknown): Response {
   return new Response(JSON.stringify(body), {
@@ -230,5 +235,63 @@ describe("getSketchJson", () => {
     expect(seenPaths).toEqual(["/api/project/image", "/XDJSON/demo.json"]);
     expect(result.versionId).toBe("version-1");
     expect(result.sketch).toMatchObject({ device: "iPhone" });
+  });
+});
+
+describe("Sketch slice extraction", () => {
+  it("extracts legacy info slices from an already-loaded Sketch result", () => {
+    const legacySliceSketch = {
+      width: 375,
+      height: 667,
+      info: [{
+        ddsType: "groupLayer",
+        name: "Content",
+        layers: [{
+          ddsType: "bitmapLayer",
+          name: "Legacy icon",
+          ddsOriginFrame: { x: 320, y: 110, width: 24, height: 24 },
+          ddsImage: {
+            imageUrl: "https://cdn.example.com/legacy-icon.png",
+            size: "24x24",
+          },
+        }],
+      }],
+    };
+    const result = createSlicesResultFromSketch({
+      imageId: "design-1",
+      versionId: "version-1",
+      jsonUrl: "https://assets.example.com/design-1.json",
+      documentInfo: {
+        name: "Legacy Home",
+        width: 375,
+        height: 667,
+        versions: [{ version_info: "v1" }],
+      },
+      sketch: legacySliceSketch,
+    });
+
+    expect(result).toMatchObject({
+      designId: "design-1",
+      designName: "Legacy Home",
+      canvasSize: { width: 375, height: 667 },
+      totalSlices: 1,
+    });
+    expect(result.slices[0]).toMatchObject({
+      name: "Legacy icon",
+      downloadUrl: "https://cdn.example.com/legacy-icon.png",
+      size: "24x24",
+      position: { x: 320, y: 110 },
+      layerPath: "Content/Legacy icon",
+    });
+  });
+
+  it("accepts a valid empty board without producing slices", () => {
+    expect(extractSlicesFromSketch({ board: { layers: [] } })).toEqual([]);
+  });
+
+  it("rejects slices from an unknown Sketch root", () => {
+    expect(() => extractSlicesFromSketch({ unknown: true })).toThrow(
+      "Unsupported Sketch structure: expected board.layers, artboard.layers, or info array.",
+    );
   });
 });
