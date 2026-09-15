@@ -1,0 +1,41 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Design Analysis Results\nProject: 公众号\nStatus: success\n\n\n--- Web 1920 – 13 ---\nStatus: success\nImage downloaded: 97853 bytes"
+    }
+  ],
+  "structuredContent": {
+    "status": "success",
+    "project_name": "公众号",
+    "total_designs": 1,
+    "designs": [
+      {
+        "name": "Web 1920 – 13",
+        "status": "success",
+        "success": true,
+        "outputs": {
+          "image": {
+            "status": "success"
+          }
+        },
+        "errors": {},
+        "warnings": {},
+        "html_code": null,
+        "html_source": null,
+        "image_url_mapping": null,
+        "image_bytes": 97853,
+        "layout_summary": null,
+        "layout_source": null,
+        "layer_tree": null,
+        "layer_tree_truncated": null,
+        "layer_depth": null,
+        "layer_annotations": null,
+        "design_tokens": null,
+        "sketch_annotations": null,
+        "slices": null,
+        "fallback_mode": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,982 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Design Analysis Results\nProject: 公众号\nStatus: success\n1/1 HTML codes generated\n1 design(s) using Sketch fallback\n\n\n--- Web 1920 – 13 ---\nStatus: success\nUsing Sketch fallback for HTML. DDS Schema failed: DDS Schema is unavailable for detailDetach designs.; used Sketch fallback.\n```html\n<!DOCTYPE html><html><head><meta charset=\"UTF-8\"><meta name=\"referrer\" content=\"no-referrer\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\"><title>Design</title><style>*{margin:0;padding:0;box-sizing:border-box}img{display:block}.design{position:relative;width:375px;height:812px;overflow:hidden;margin:0 auto;background:url(https://alipic.lanhuapp.com/XDCoverPNGORG6bf0c400897e4451fe638fc579bf192b0abf88bbb880d9fa03ab83d30c7c0451.png) no-repeat;background-size:375px 812px} .el1{position:absolute;left:39px;top:544.5px;width:24px;height:16.5px;z-index:10;color:rgba(255,171,25,1);font-size:12px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el2{position:absolute;left:39px;top:430px;width:24px;height:16.5px;z-index:10;color:rgba(255,171,25,1);font-size:12px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el3{position:absolute;left:39px;top:315px;width:24px;height:16.5px;z-index:10;color:rgba(255,25,25,1);font-size:12px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el4{position:absolute;left:39px;top:204px;width:24px;height:16.5px;z-index:10;color:rgba(255,25,25,1);font-size:12px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el5{position:absolute;left:29px;top:541.5px;width:44px;height:22.5px} .el6{position:absolute;left:29px;top:427px;width:44px;height:22.5px} .el7{position:absolute;left:29px;top:312px;width:44px;height:22.5px} .el8{position:absolute;left:29px;top:201px;width:44px;height:22.5px} .el9{position:absolute;left:0.3px;top:134px;width:375px;height:0px} .el10{position:absolute;left:82.5px;top:540.5px;width:153px;height:24px;z-index:10;color:rgba(51,51,51,1);font-size:17px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:700;text-align:right;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el11{position:absolute;left:82.5px;top:427px;width:153px;height:24px;z-index:10;color:rgba(51,51,51,1);font-size:17px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:700;text-align:right;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el12{position:absolute;left:82.5px;top:313.5px;width:153px;height:24px;z-index:10;color:rgba(51,51,51,1);font-size:17px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:700;text-align:right;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el13{position:absolute;left:82.5px;top:200px;width:153px;height:24px;z-index:10;color:rgba(51,51,51,1);font-size:17px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:700;text-align:right;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el14{position:absolute;left:29px;top:602.5px;width:125.5px;height:16.5px;z-index:10;color:rgba(153,153,153,1);font-size:12px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el15{position:absolute;left:29px;top:489px;width:125.5px;height:16.5px;z-index:10;color:rgba(153,153,153,1);font-size:12px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el16{position:absolute;left:29px;top:375.5px;width:125.5px;height:16.5px;z-index:10;color:rgba(153,153,153,1);font-size:12px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el17{position:absolute;left:29px;top:262px;width:125.5px;height:16.5px;z-index:10;color:rgba(153,153,153,1);font-size:12px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el18{position:absolute;left:29px;top:571.5px;width:297.5px;height:16.5px;z-index:10;color:rgba(153,153,153,1);font-size:12px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el19{position:absolute;left:29px;top:458px;width:297.5px;height:16.5px;z-index:10;color:rgba(153,153,153,1);font-size:12px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el20{position:absolute;left:29px;top:344.5px;width:297.5px;height:16.5px;z-index:10;color:rgba(153,153,153,1);font-size:12px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el21{position:absolute;left:29px;top:231px;width:297.5px;height:16.5px;z-index:10;color:rgba(153,153,153,1);font-size:12px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el22{position:absolute;left:305.5px;top:541.5px;width:42px;height:20px;z-index:10;color:rgba(153,153,153,1);font-size:14px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el23{position:absolute;left:305.5px;top:428px;width:42px;height:20px;z-index:10;color:rgba(0,103,255,1);font-size:14px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el24{position:absolute;left:305.5px;top:314.5px;width:42px;height:20px;z-index:10;color:rgba(255,61,0,1);font-size:14px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el25{position:absolute;left:305.5px;top:201px;width:42px;height:20px;z-index:10;color:rgba(0,184,12,1);font-size:14px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el26{position:absolute;left:12px;top:527.5px;width:351px;height:103.5px} .el27{position:absolute;left:12px;top:414px;width:351px;height:103.5px} .el28{position:absolute;left:12px;top:300.5px;width:351px;height:103.5px} .el29{position:absolute;left:12px;top:187px;width:351px;height:103.5px} .el30{position:absolute;left:365px;top:146px;width:39px;height:18.5px;z-index:10;color:rgba(102,102,102,1);font-size:13px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;text-align:center;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el31{position:absolute;left:281.5px;top:146px;width:39px;height:18.5px;z-index:10;color:rgba(102,102,102,1);font-size:13px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;text-align:center;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el32{position:absolute;left:196.5px;top:146px;width:39px;height:18.5px;z-index:10;color:rgba(102,102,102,1);font-size:13px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;text-align:center;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el33{position:absolute;left:113px;top:146px;width:39px;height:18.5px;z-index:10;color:rgba(102,102,102,1);font-size:13px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;text-align:center;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el34{position:absolute;left:36px;top:146px;width:26px;height:18.5px;z-index:10;color:rgba(0,103,255,1);font-size:13px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;text-align:center;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el35{position:absolute;left:347.5px;top:142px;width:74px;height:28px} .el36{position:absolute;left:264px;top:142px;width:74px;height:28px} .el37{position:absolute;left:179px;top:142px;width:74px;height:28px} .el38{position:absolute;left:95.5px;top:142px;width:74px;height:28px} .el39{position:absolute;left:12px;top:142px;width:74px;height:28px} .el40{position:absolute;left:44px;top:128.3px;width:23.5px;height:3.5px} .el41{position:absolute;left:115.5px;top:102px;width:64px;height:22.5px;z-index:10;color:rgba(102,102,102,1);font-size:16px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el42{position:absolute;left:291.5px;top:102px;width:64px;height:22.5px;z-index:10;color:rgba(102,102,102,1);font-size:16px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el43{position:absolute;left:203.5px;top:102px;width:64px;height:22.5px;z-index:10;color:rgba(102,102,102,1);font-size:16px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el44{position:absolute;left:19.5px;top:101.5px;width:72px;height:25px;z-index:10;color:rgba(0,103,255,1);font-size:18px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:700;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el45{position:absolute;left:0px;top:85px;width:375px;height:92px} .el46{position:absolute;left:18px;top:53.8px;width:11px;height:19.6px} .el47{position:absolute;left:151.5px;top:54px;width:72px;height:25px;z-index:10;color:rgba(51,51,51,1);font-size:18px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:700;text-align:center;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el48{position:absolute;left:337px;top:64.6px;width:18.8px;height:3.8px} .el49{position:absolute;left:28.2px;top:12.7px;width:56px;height:18.5px;z-index:10;color:rgba(0,0,0,1);font-size:17px;font-family:\"SF Pro Text\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:600;text-align:center;letter-spacing:-10px;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el50{position:absolute;left:289.5px;top:19.4px;width:3.1px;height:11px} .el51{position:absolute;left:284.7px;top:21.8px;width:3.1px;height:8.6px} .el52{position:absolute;left:279.8px;top:24.2px;width:3.1px;height:6.2px} .el53{position:absolute;left:275px;top:26.3px;width:3.1px;height:4.1px} .el54{position:absolute;left:305.8px;top:26.9px;width:4.8px;height:3.5px} .el55{position:absolute;left:303px;top:23px;width:10.3px;height:3.8px} .el56{position:absolute;left:300.3px;top:19px;width:15.9px;height:4.9px} .el57{position:absolute;left:325.9px;top:21.1px;width:18.6px;height:7.6px} .el58{position:absolute;left:347.6px;top:22.8px;width:1.4px;height:4.1px} .el59{position:absolute;left:323.8px;top:19px;width:22.8px;height:11.7px} .el60{position:absolute;left:325.9px;top:20.1px;width:18.6px;height:7.6px} .el61{position:absolute;left:325.9px;top:20.1px;width:18.6px;height:7.6px} .el62{position:absolute;left:0px;top:0px;width:375px;height:85px}</style></head><body><div class=\"design\"><div class=\"el1\" title=\"一般\" data-css=\"position: absolute; left: 39px; top: 544.5px; width: 24px; height: 16.5px; color: rgba(255,171,25,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1\">一般</div><div class=\"el2\" title=\"一般\" data-css=\"position: absolute; left: 39px; top: 430px; width: 24px; height: 16.5px; color: rgba(255,171,25,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1\">一般</div><div class=\"el3\" title=\"紧急\" data-css=\"position: absolute; left: 39px; top: 315px; width: 24px; height: 16.5px; color: rgba(255,25,25,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1\">紧急</div><div class=\"el4\" title=\"紧急\" data-css=\"position: absolute; left: 39px; top: 204px; width: 24px; height: 16.5px; color: rgba(255,25,25,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1\">紧急</div><div class=\"el5\" title=\"矩形 475\" data-css=\"position: absolute; left: 29px; top: 541.5px; width: 44px; height: 22.5px\"></div><div class=\"el6\" title=\"矩形 474\" data-css=\"position: absolute; left: 29px; top: 427px; width: 44px; height: 22.5px\"></div><div class=\"el7\" title=\"矩形 473\" data-css=\"position: absolute; left: 29px; top: 312px; width: 44px; height: 22.5px\"></div><div class=\"el8\" title=\"矩形 472\" data-css=\"position: absolute; left: 29px; top: 201px; width: 44px; height: 22.5px\"></div><div class=\"el9\" title=\"直线 129\" data-css=\"position: absolute; left: 0.3px; top: 134px; width: 375px; height: 0px\"></div><div class=\"el10\" title=\"一厂设备的设备名称\" data-css=\"position: absolute; left: 82.5px; top: 540.5px; width: 153px; height: 24px; color: rgba(51,51,51,1); font-size: 17px; font-family: PingFang SC; font-weight: 700; text-align: right; line-height: 1\">一厂设备的设备名称</div><div class=\"el11\" title=\"一厂设备的设备名称\" data-css=\"position: absolute; left: 82.5px; top: 427px; width: 153px; height: 24px; color: rgba(51,51,51,1); font-size: 17px; font-family: PingFang SC; font-weight: 700; text-align: right; line-height: 1\">一厂设备的设备名称</div><div class=\"el12\" title=\"一厂设备的设备名称\" data-css=\"position: absolute; left: 82.5px; top: 313.5px; width: 153px; height: 24px; color: rgba(51,51,51,1); font-size: 17px; font-family: PingFang SC; font-weight: 700; text-align: right; line-height: 1\">一厂设备的设备名称</div><div class=\"el13\" title=\"一厂设备的设备名称\" data-css=\"position: absolute; left: 82.5px; top: 200px; width: 153px; height: 24px; color: rgba(51,51,51,1); font-size: 17px; font-family: PingFang SC; font-weight: 700; text-align: right; line-height: 1\">一厂设备的设备名称</div><div class=\"el14\" title=\"2026-10-20 14:32:20\" data-css=\"position: absolute; left: 29px; top: 602.5px; width: 125.5px; height: 16.5px; color: rgba(153,153,153,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1\">2026-10-20 14:32:20</div><div class=\"el15\" title=\"2026-10-20 14:32:20\" data-css=\"position: absolute; left: 29px; top: 489px; width: 125.5px; height: 16.5px; color: rgba(153,153,153,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1\">2026-10-20 14:32:20</div><div class=\"el16\" title=\"2026-10-20 14:32:20\" data-css=\"position: absolute; left: 29px; top: 375.5px; width: 125.5px; height: 16.5px; color: rgba(153,153,153,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1\">2026-10-20 14:32:20</div><div class=\"el17\" title=\"2026-10-20 14:32:20\" data-css=\"position: absolute; left: 29px; top: 262px; width: 125.5px; height: 16.5px; color: rgba(153,153,153,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1\">2026-10-20 14:32:20</div><div class=\"el18\" title=\"描述信息描述信息描述信息描述信息描述信息描述信息...\" data-css=\"position: absolute; left: 29px; top: 571.5px; width: 297.5px; height: 16.5px; color: rgba(153,153,153,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1\">描述信息描述信息描述信息描述信息描述信息描述信息...</div><div class=\"el19\" title=\"描述信息描述信息描述信息描述信息描述信息描述信息...\" data-css=\"position: absolute; left: 29px; top: 458px; width: 297.5px; height: 16.5px; color: rgba(153,153,153,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1\">描述信息描述信息描述信息描述信息描述信息描述信息...</div><div class=\"el20\" title=\"描述信息描述信息描述信息描述信息描述信息描述信息...\" data-css=\"position: absolute; left: 29px; top: 344.5px; width: 297.5px; height: 16.5px; color: rgba(153,153,153,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1\">描述信息描述信息描述信息描述信息描述信息描述信息...</div><div class=\"el21\" title=\"描述信息描述信息描述信息描述信息描述信息描述信息...\" data-css=\"position: absolute; left: 29px; top: 231px; width: 297.5px; height: 16.5px; color: rgba(153,153,153,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1\">描述信息描述信息描述信息描述信息描述信息描述信息...</div><div class=\"el22\" title=\"已完成\" data-css=\"position: absolute; left: 305.5px; top: 541.5px; width: 42px; height: 20px; color: rgba(153,153,153,1); font-size: 14px; font-family: PingFang SC; font-weight: 400; line-height: 1\">已完成</div><div class=\"el23\" title=\"待验收\" data-css=\"position: absolute; left: 305.5px; top: 428px; width: 42px; height: 20px; color: rgba(0,103,255,1); font-size: 14px; font-family: PingFang SC; font-weight: 400; line-height: 1\">待验收</div><div class=\"el24\" title=\"待处理\" data-css=\"position: absolute; left: 305.5px; top: 314.5px; width: 42px; height: 20px; color: rgba(255,61,0,1); font-size: 14px; font-family: PingFang SC; font-weight: 400; line-height: 1\">待处理</div><div class=\"el25\" title=\"待签收\" data-css=\"position: absolute; left: 305.5px; top: 201px; width: 42px; height: 20px; color: rgba(0,184,12,1); font-size: 14px; font-family: PingFang SC; font-weight: 400; line-height: 1\">待签收</div><div class=\"el26\" title=\"矩形 450\" data-css=\"position: absolute; left: 12px; top: 527.5px; width: 351px; height: 103.5px\"></div><div class=\"el27\" title=\"矩形 449\" data-css=\"position: absolute; left: 12px; top: 414px; width: 351px; height: 103.5px\"></div><div class=\"el28\" title=\"矩形 448\" data-css=\"position: absolute; left: 12px; top: 300.5px; width: 351px; height: 103.5px\"></div><div class=\"el29\" title=\"矩形 420\" data-css=\"position: absolute; left: 12px; top: 187px; width: 351px; height: 103.5px\"></div><div class=\"el30\" title=\"待验收\" data-css=\"position: absolute; left: 365px; top: 146px; width: 39px; height: 18.5px; color: rgba(102,102,102,1); font-size: 13px; font-family: PingFang SC; font-weight: 400; text-align: center; line-height: 1\">待验收</div><div class=\"el31\" title=\"待验收\" data-css=\"position: absolute; left: 281.5px; top: 146px; width: 39px; height: 18.5px; color: rgba(102,102,102,1); font-size: 13px; font-family: PingFang SC; font-weight: 400; text-align: center; line-height: 1\">待验收</div><div class=\"el32\" title=\"待处理\" data-css=\"position: absolute; left: 196.5px; top: 146px; width: 39px; height: 18.5px; color: rgba(102,102,102,1); font-size: 13px; font-family: PingFang SC; font-weight: 400; text-align: center; line-height: 1\">待处理</div><div class=\"el33\" title=\"待签收\" data-css=\"position: absolute; left: 113px; top: 146px; width: 39px; height: 18.5px; color: rgba(102,102,102,1); font-size: 13px; font-family: PingFang SC; font-weight: 400; text-align: center; line-height: 1\">待签收</div><div class=\"el34\" title=\"全部\" data-css=\"position: absolute; left: 36px; top: 146px; width: 26px; height: 18.5px; color: rgba(0,103,255,1); font-size: 13px; font-family: PingFang SC; font-weight: 400; text-align: center; line-height: 1\">全部</div><div class=\"el35\" title=\"矩形 447\" data-css=\"position: absolute; left: 347.5px; top: 142px; width: 74px; height: 28px\"></div><div class=\"el36\" title=\"矩形 412\" data-css=\"position: absolute; left: 264px; top: 142px; width: 74px; height: 28px\"></div><div class=\"el37\" title=\"矩形 411\" data-css=\"position: absolute; left: 179px; top: 142px; width: 74px; height: 28px\"></div><div class=\"el38\" title=\"矩形 410\" data-css=\"position: absolute; left: 95.5px; top: 142px; width: 74px; height: 28px\"></div><div class=\"el39\" title=\"矩形 409\" data-css=\"position: absolute; left: 12px; top: 142px; width: 74px; height: 28px\"></div><div class=\"el40\" title=\"矩形 407\" data-css=\"position: absolute; left: 44px; top: 128.3px; width: 23.5px; height: 3.5px\"></div><div class=\"el41\" title=\"保养工单\" data-css=\"position: absolute; left: 115.5px; top: 102px; width: 64px; height: 22.5px; color: rgba(102,102,102,1); font-size: 16px; font-family: PingFang SC; font-weight: 400; line-height: 1\">保养工单</div><div class=\"el42\" title=\"点检工单\" data-css=\"position: absolute; left: 291.5px; top: 102px; width: 64px; height: 22.5px; color: rgba(102,102,102,1); font-size: 16px; font-family: PingFang SC; font-weight: 400; line-height: 1\">点检工单</div><div class=\"el43\" title=\"寻检工单\" data-css=\"position: absolute; left: 203.5px; top: 102px; width: 64px; height: 22.5px; color: rgba(102,102,102,1); font-size: 16px; font-family: PingFang SC; font-weight: 400; line-height: 1\">寻检工单</div><div class=\"el44\" title=\"维修工单\" data-css=\"position: absolute; left: 19.5px; top: 101.5px; width: 72px; height: 25px; color: rgba(0,103,255,1); font-size: 18px; font-family: PingFang SC; font-weight: 700; line-height: 1\">维修工单</div><div class=\"el45\" title=\"矩形 426\" data-css=\"position: absolute; left: 0px; top: 85px; width: 375px; height: 92px\"></div><div class=\"el46\" title=\"icon\" data-css=\"position: absolute; left: 18px; top: 53.8px; width: 11px; height: 19.6px\"></div><div class=\"el47\" title=\"我的工单\" data-css=\"position: absolute; left: 151.5px; top: 54px; width: 72px; height: 25px; color: rgba(51,51,51,1); font-size: 18px; font-family: PingFang SC; font-weight: 700; text-align: center; line-height: 1\">我的工单</div><div class=\"el48\" title=\"icon\" data-css=\"position: absolute; left: 337px; top: 64.6px; width: 18.8px; height: 3.8px\"></div><div class=\"el49\" title=\"Time\" data-css=\"position: absolute; left: 28.2px; top: 12.7px; width: 56px; height: 18.5px; color: rgba(0,0,0,1); font-size: 17px; font-family: SF Pro Text; font-weight: 600; text-align: center; letter-spacing: -10px; line-height: 1\">9:41</div><div class=\"el50\" title=\"Cellular-Connection-path\" data-css=\"position: absolute; left: 289.5px; top: 19.4px; width: 3.1px; height: 11px\"></div><div class=\"el51\" title=\"Cellular-Connection-path\" data-css=\"position: absolute; left: 284.7px; top: 21.8px; width: 3.1px; height: 8.6px\"></div><div class=\"el52\" title=\"Cellular-Connection-path\" data-css=\"position: absolute; left: 279.8px; top: 24.2px; width: 3.1px; height: 6.2px\"></div><div class=\"el53\" title=\"Cellular-Connection-path\" data-css=\"position: absolute; left: 275px; top: 26.3px; width: 3.1px; height: 4.1px\"></div><div class=\"el54\" title=\"Wifi-path\" data-css=\"position: absolute; left: 305.8px; top: 26.9px; width: 4.8px; height: 3.5px\"></div><div class=\"el55\" title=\"Wifi-path\" data-css=\"position: absolute; left: 303px; top: 23px; width: 10.3px; height: 3.8px\"></div><div class=\"el56\" title=\"Wifi-path\" data-css=\"position: absolute; left: 300.3px; top: 19px; width: 15.9px; height: 4.9px\"></div><div class=\"el57\" title=\"Capacity\" data-css=\"position: absolute; left: 325.9px; top: 21.1px; width: 18.6px; height: 7.6px\"></div><div class=\"el58\" title=\"Cap\" data-css=\"position: absolute; left: 347.6px; top: 22.8px; width: 1.4px; height: 4.1px\"></div><div class=\"el59\" title=\"Border\" data-css=\"position: absolute; left: 323.8px; top: 19px; width: 22.8px; height: 11.7px\"></div><div class=\"el60\" title=\"Capacity\" data-css=\"position: absolute; left: 325.9px; top: 20.1px; width: 18.6px; height: 7.6px\"></div><div class=\"el61\" title=\"Capacity\" data-css=\"position: absolute; left: 325.9px; top: 20.1px; width: 18.6px; height: 7.6px\"></div><div class=\"el62\" title=\"矩形 344\" data-css=\"position: absolute; left: 0px; top: 0px; width: 375px; height: 85px\"></div></div></body></html>\n```\n\nImage assets (1):\n  ./assets/designs/design.png <- https://alipic.lanhuapp.com/XDCoverPNGORG6bf0c400897e4451fe638fc579bf192b0abf88bbb880d9fa03ab83d30c7c0451.png\n\n--- Layout Summary (sketch) ---\n[textLayer] \"一般\" 一般 left:39px top:544.5px width:24px height:16.5px\n[textLayer] \"一般\" 一般 left:39px top:430px width:24px height:16.5px\n[textLayer] \"紧急\" 紧急 left:39px top:315px width:24px height:16.5px\n[textLayer] \"紧急\" 紧急 left:39px top:204px width:24px height:16.5px\n[shapeLayer] 矩形 475 left:29px top:541.5px width:44px height:22.5px\n[shapeLayer] 矩形 474 left:29px top:427px width:44px height:22.5px\n[shapeLayer] 矩形 473 left:29px top:312px width:44px height:22.5px\n[shapeLayer] 矩形 472 left:29px top:201px width:44px height:22.5px\n[shapeLayer] 直线 129 left:0.3px top:134px width:375px height:0px\n[textLayer] \"一厂设备的设备名称\" 一厂设备的设备名称 left:82.5px top:540.5px width:153px height:24px\n[textLayer] \"一厂设备的设备名称\" 一厂设备的设备名称 left:82.5px top:427px width:153px height:24px\n[textLayer] \"一厂设备的设备名称\" 一厂设备的设备名称 left:82.5px top:313.5px width:153px height:24px\n[textLayer] \"一厂设备的设备名称\" 一厂设备的设备名称 left:82.5px top:200px width:153px height:24px\n[textLayer] \"2026-10-20 14:32:20\" 2026-10-20 14:32:20 left:29px top:602.5px width:125.5px height:16.5px\n[textLayer] \"2026-10-20 14:32:20\" 2026-10-20 14:32:20 left:29px top:489px width:125.5px height:16.5px\n[textLayer] \"2026-10-20 14:32:20\" 2026-10-20 14:32:20 left:29px top:375.5px width:125.5px height:16.5px\n[textLayer] \"2026-10-20 14:32:20\" 2026-10-20 14:32:20 left:29px top:262px width:125.5px height:16.5px\n[textLayer] \"描述信息描述信息描述信息描述信息描述信息描述信息...\" 描述信息描述信息描述信息描述信息描述信息描述信息... left:29px top:571.5px width:297.5px height:16.5px\n[textLayer] \"描述信息描述信息描述信息描述信息描述信息描述信息...\" 描述信息描述信息描述信息描述信息描述信息描述信息... left:29px top:458px width:297.5px height:16.5px\n[textLayer] \"描述信息描述信息描述信息描述信息描述信息描述信息...\" 描述信息描述信息描述信息描述信息描述信息描述信息... left:29px top:344.5px width:297.5px height:16.5px\n[textLayer] \"描述信息描述信息描述信息描述信息描述信息描述信息...\" 描述信息描述信息描述信息描述信息描述信息描述信息... left:29px top:231px width:297.5px height:16.5px\n[textLayer] \"已完成\" 已完成 left:305.5px top:541.5px width:42px height:20px\n[textLayer] \"待验收\" 待验收 left:305.5px top:428px width:42px height:20px\n[textLayer] \"待处理\" 待处理 left:305.5px top:314.5px width:42px height:20px\n[textLayer] \"待签收\" 待签收 left:305.5px top:201px width:42px height:20px\n[shapeLayer] 矩形 450 left:12px top:527.5px width:351px height:103.5px\n[shapeLayer] 矩形 449 left:12px top:414px width:351px height:103.5px\n[shapeLayer] 矩形 448 left:12px top:300.5px width:351px height:103.5px\n[shapeLayer] 矩形 420 left:12px top:187px width:351px height:103.5px\n[textLayer] \"待验收\" 待验收 left:365px top:146px width:39px height:18.5px\n[textLayer] \"待验收\" 待验收 left:281.5px top:146px width:39px height:18.5px\n[textLayer] \"待处理\" 待处理 left:196.5px top:146px width:39px height:18.5px\n[textLayer] \"待签收\" 待签收 left:113px top:146px width:39px height:18.5px\n[textLayer] \"全部\" 全部 left:36px top:146px width:26px height:18.5px\n[shapeLayer] 矩形 447 left:347.5px top:142px width:74px height:28px\n[shapeLayer] 矩形 412 left:264px top:142px width:74px height:28px\n[shapeLayer] 矩形 411 left:179px top:142px width:74px height:28px\n[shapeLayer] 矩形 410 left:95.5px top:142px width:74px height:28px\n[shapeLayer] 矩形 409 left:12px top:142px width:74px height:28px\n[shapeLayer] 矩形 407 left:44px top:128.3px width:23.5px height:3.5px\n[textLayer] \"保养工单\" 保养工单 left:115.5px top:102px width:64px height:22.5px\n[textLayer] \"点检工单\" 点检工单 left:291.5px top:102px width:64px height:22.5px\n[textLayer] \"寻检工单\" 寻检工单 left:203.5px top:102px width:64px height:22.5px\n[textLayer] \"维修工单\" 维修工单 left:19.5px top:101.5px width:72px height:25px\n[shapeLayer] 矩形 426 left:0px top:85px width:375px height:92px\n[shapeLayer] icon left:18px top:53.8px width:11px height:19.6px\n[textLayer] \"我的工单\" 我的工单 left:151.5px top:54px width:72px height:25px\n[shapeLayer] icon left:337px top:64.6px width:18.8px height:3.8px\n[textLayer] \"9:41\" Time left:28.2px top:12.7px width:56px height:18.5px\n[shapeLayer] Cellular-Connection-path left:289.5px top:19.4px width:3.1px height:11px\n[shapeLayer] Cellular-Connection-path left:284.7px top:21.8px width:3.1px height:8.6px\n[shapeLayer] Cellular-Connection-path left:279.8px top:24.2px width:3.1px height:6.2px\n[shapeLayer] Cellular-Connection-path left:275px top:26.3px width:3.1px height:4.1px\n[shapeLayer] Wifi-path left:305.8px top:26.9px width:4.8px height:3.5px\n[shapeLayer] Wifi-path left:303px top:23px width:10.3px height:3.8px\n[shapeLayer] Wifi-path left:300.3px top:19px width:15.9px height:4.9px\n[shapeLayer] Capacity left:325.9px top:21.1px width:18.6px height:7.6px\n[shapeLayer] Cap left:347.6px top:22.8px width:1.4px height:4.1px\n[shapeLayer] Border left:323.8px top:19px width:22.8px height:11.7px\n[shapeLayer] Capacity left:325.9px top:20.1px width:18.6px height:7.6px\n[shapeLayer] Capacity left:325.9px top:20.1px width:18.6px height:7.6px\n[shapeLayer] 矩形 344 left:0px top:0px width:375px height:85px\nLayout warning: DDS Schema failed: DDS Schema is unavailable for detailDetach designs.; used Sketch fallback.\n\n--- Layer Structure ---\nArtboard: Web 1920 – 13 (750x1624)\nTotal layers: 50\n\nshapeLayer: 矩形 344 (750x170 @0,0) [fill:rgba(255,255,255,1)]\ngroupLayer: 组 8 (642x37 @56,25) (13 children)\n  shapeLayer: Capacity (37x15 @652,40) [fill:rgba(255,255,255,1)]\n  shapeLayer: Capacity (37x15 @652,40) [fill:rgba(255,255,255,1)]\n  shapeLayer: Border (46x23 @648,38) [fill:rgba(0,0,0,0.6) border:1]\n  shapeLayer: Cap (3x8 @695,46) [fill:rgba(0,0,0,1)]\n  shapeLayer: Capacity (37x15 @652,42) [fill:rgba(0,0,0,1)]\n  shapeLayer: Wifi-path (32x10 @601,38) [fill:rgba(0,0,0,1)]\n  shapeLayer: Wifi-path (21x8 @606,46) [fill:rgba(0,0,0,1)]\n  shapeLayer: Wifi-path (10x7 @612,54) [fill:rgba(0,0,0,1)]\n  shapeLayer: Cellular-Connection-path (6x8 @550,53) [fill:rgba(0,0,0,1)]\n  shapeLayer: Cellular-Connection-path (6x12 @560,48) [fill:rgba(0,0,0,1)]\n  shapeLayer: Cellular-Connection-path (6x17 @569,44) [fill:rgba(0,0,0,1)]\n  shapeLayer: Cellular-Connection-path (6x22 @579,39) [fill:rgba(0,0,0,1)]\n  textLayer: Time (112x37 @56,25) \"9:41\" [fill:rgba(0,0,0,1)]\nshapeLayer: icon (38x8 @674,129) [fill:rgba(20,16,28,1)]\ntextLayer: 我的工单 (144x50 @303,108) \"我的工单\" [fill:rgba(51,51,51,1)]\nshapeLayer: icon (22x39 @36,108) [fill:rgba(0,14,35,1)]\nshapeLayer: 矩形 426 (750x184 @0,170) [fill:rgba(255,255,255,1)]\ntextLayer: 维修工单 (144x50 @39,203) \"维修工单\" [fill:rgba(0,103,255,1)]\ntextLayer: 寻检工单 (128x45 @407,204) \"寻检工单\" [fill:rgba(102,102,102,1)]\ntextLayer: 点检工单 (128x45 @583,204) \"点检工单\" [fill:rgba(102,102,102,1)]\ntextLayer: 保养工单 (128x45 @231,204) \"保养工单\" [fill:rgba(102,102,102,1)]\nshapeLayer: 矩形 407 (47x7 @88,257) [fill:rgba(0,103,255,1)]\nshapeLayer: 矩形 409 (148x56 @24,284) [fill:rgba(0,103,255,1)]\nshapeLayer: 矩形 410 (148x56 @191,284) [fill:rgba(247,247,247,1)]\nshapeLayer: 矩形 411 (148x56 @358,284) [fill:rgba(247,247,247,1)]\nshapeLayer: 矩形 412 (148x56 @528,284) [fill:rgba(247,247,247,1)]\nshapeLayer: 矩形 447 (148x56 @695,284) [fill:rgba(247,247,247,1)]\ntextLayer: 全部 (52x37 @72,292) \"全部\" [fill:rgba(0,103,255,1)]\ntextLayer: 待签收 (78x37 @226,292) \"待签收\" [fill:rgba(102,102,102,1)]\ntextLayer: 待处理 (78x37 @393,292) \"待处理\" [fill:rgba(102,102,102,1)]\ntextLayer: 待验收 (78x37 @563,292) \"待验收\" [fill:rgba(102,102,102,1)]\ntextLayer: 待验收 (78x37 @730,292) \"待验收\" [fill:rgba(102,102,102,1)]\nshapeLayer: 矩形 420 (702x207 @24,374) [fill:rgba(255,255,255,1)]\nshapeLayer: 矩形 448 (702x207 @24,601) [fill:rgba(255,255,255,1)]\nshapeLayer: 矩形 449 (702x207 @24,828) [fill:rgba(255,255,255,1)]\nshapeLayer: 矩形 450 (702x207 @24,1055) [fill:rgba(255,255,255,1)]\ntextLayer: 待签收 (84x40 @611,402) \"待签收\" [fill:rgba(0,184,12,1)]\ntextLayer: 待处理 (84x40 @611,629) \"待处理\" [fill:rgba(255,61,0,1)]\ntextLayer: 待验收 (84x40 @611,856) \"待验收\" [fill:rgba(0,103,255,1)]\ntextLayer: 已完成 (84x40 @611,1083) \"已完成\" [fill:rgba(153,153,153,1)]\ntextLayer: 描述信息描述信息描述信息描述信息描述信息描述信息... (595x33 @58,462) \"描述信息描述信息描述信息描述信息描述信息描述信息...\" [fill:rgba(153,153,153,1)]\ntextLayer: 描述信息描述信息描述信息描述信息描述信息描述信息... (595x33 @58,689) \"描述信息描述信息描述信息描述信息描述信息描述信息...\" [fill:rgba(153,153,153,1)]\ntextLayer: 描述信息描述信息描述信息描述信息描述信息描述信息... (595x33 @58,916) \"描述信息描述信息描述信息描述信息描述信息描述信息...\" [fill:rgba(153,153,153,1)]\ntextLayer: 描述信息描述信息描述信息描述信息描述信息描述信息... (595x33 @58,1143) \"描述信息描述信息描述信息描述信息描述信息描述信息...\" [fill:rgba(153,153,153,1)]\ntextLayer: 2026-10-20 14:32:20 (251x33 @58,524) \"2026-10-20 14:32:20\" [fill:rgba(153,153,153,1)]\ntextLayer: 2026-10-20 14:32:20 (251x33 @58,751) \"2026-10-20 14:32:20\" [fill:rgba(153,153,153,1)]\ntextLayer: 2026-10-20 14:32:20 (251x33 @58,978) \"2026-10-20 14:32:20\" [fill:rgba(153,153,153,1)]\ntextLayer: 2026-10-20 14:32:20 (251x33 @58,1205) \"2026-10-20 14:32:20\" [fill:rgba(153,153,153,1)]\ntextLayer: 一厂设备的设备名称 (306x48 @165,400) \"一厂设备的设备名称\" [fill:rgba(51,51,51,1)]\ntextLayer: 一厂设备的设备名称 (306x48 @165,627) \"一厂设备的设备名称\" [fill:rgba(51,51,51,1)]\ntextLayer: 一厂设备的设备名称 (306x48 @165,854) \"一厂设备的设备名称\" [fill:rgba(51,51,51,1)]\ntextLayer: 一厂设备的设备名称 (306x48 @165,1081) \"一厂设备的设备名称\" [fill:rgba(51,51,51,1)]\nshapeLayer: 直线 129 (750x0 @1,268) [border:1]\nshapeLayer: 矩形 472 (88x45 @58,402) [fill:rgba(255,255,255,1) border:1]\nshapeLayer: 矩形 473 (88x45 @58,624) [fill:rgba(255,255,255,1) border:1]\nshapeLayer: 矩形 474 (88x45 @58,854) [fill:rgba(255,255,255,1) border:1]\nshapeLayer: 矩形 475 (88x45 @58,1083) [fill:rgba(255,255,255,1) border:1]\ntextLayer: 紧急 (48x33 @78,408) \"紧急\" [fill:rgba(255,25,25,1)]\ntextLayer: 紧急 (48x33 @78,630) \"紧急\" [fill:rgba(255,25,25,1)]\ntextLayer: 一般 (48x33 @78,860) \"一般\" [fill:rgba(255,171,25,1)]\ntextLayer: 一般 (48x33 @78,1089) \"一般\" [fill:rgba(255,171,25,1)]\n\nCSS annotations (62 layers):\n  [textLayer] 一般: position: absolute; left: 39px; top: 544.5px; width: 24px; height: 16.5px; color: rgba(255,171,25,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1 | text=\"一般\"\n  [textLayer] 一般: position: absolute; left: 39px; top: 430px; width: 24px; height: 16.5px; color: rgba(255,171,25,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1 | text=\"一般\"\n  [textLayer] 紧急: position: absolute; left: 39px; top: 315px; width: 24px; height: 16.5px; color: rgba(255,25,25,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1 | text=\"紧急\"\n  [textLayer] 紧急: position: absolute; left: 39px; top: 204px; width: 24px; height: 16.5px; color: rgba(255,25,25,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1 | text=\"紧急\"\n  [shapeLayer] 矩形 475: position: absolute; left: 29px; top: 541.5px; width: 44px; height: 22.5px\n  [shapeLayer] 矩形 474: position: absolute; left: 29px; top: 427px; width: 44px; height: 22.5px\n  [shapeLayer] 矩形 473: position: absolute; left: 29px; top: 312px; width: 44px; height: 22.5px\n  [shapeLayer] 矩形 472: position: absolute; left: 29px; top: 201px; width: 44px; height: 22.5px\n  [shapeLayer] 直线 129: position: absolute; left: 0.3px; top: 134px; width: 375px; height: 0px\n  [textLayer] 一厂设备的设备名称: position: absolute; left: 82.5px; top: 540.5px; width: 153px; height: 24px; color: rgba(51,51,51,1); font-size: 17px; font-family: PingFang SC; font-weight: 700; text-align: right; line-height: 1 | text=\"一厂设备的设备名称\"\n  [textLayer] 一厂设备的设备名称: position: absolute; left: 82.5px; top: 427px; width: 153px; height: 24px; color: rgba(51,51,51,1); font-size: 17px; font-family: PingFang SC; font-weight: 700; text-align: right; line-height: 1 | text=\"一厂设备的设备名称\"\n  [textLayer] 一厂设备的设备名称: position: absolute; left: 82.5px; top: 313.5px; width: 153px; height: 24px; color: rgba(51,51,51,1); font-size: 17px; font-family: PingFang SC; font-weight: 700; text-align: right; line-height: 1 | text=\"一厂设备的设备名称\"\n  [textLayer] 一厂设备的设备名称: position: absolute; left: 82.5px; top: 200px; width: 153px; height: 24px; color: rgba(51,51,51,1); font-size: 17px; font-family: PingFang SC; font-weight: 700; text-align: right; line-height: 1 | text=\"一厂设备的设备名称\"\n  [textLayer] 2026-10-20 14:32:20: position: absolute; left: 29px; top: 602.5px; width: 125.5px; height: 16.5px; color: rgba(153,153,153,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1 | text=\"2026-10-20 14:32:20\"\n  [textLayer] 2026-10-20 14:32:20: position: absolute; left: 29px; top: 489px; width: 125.5px; height: 16.5px; color: rgba(153,153,153,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1 | text=\"2026-10-20 14:32:20\"\n  [textLayer] 2026-10-20 14:32:20: position: absolute; left: 29px; top: 375.5px; width: 125.5px; height: 16.5px; color: rgba(153,153,153,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1 | text=\"2026-10-20 14:32:20\"\n  [textLayer] 2026-10-20 14:32:20: position: absolute; left: 29px; top: 262px; width: 125.5px; height: 16.5px; color: rgba(153,153,153,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1 | text=\"2026-10-20 14:32:20\"\n  [textLayer] 描述信息描述信息描述信息描述信息描述信息描述信息...: position: absolute; left: 29px; top: 571.5px; width: 297.5px; height: 16.5px; color: rgba(153,153,153,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1 | text=\"描述信息描述信息描述信息描述信息描述信息描述信息...\"\n  [textLayer] 描述信息描述信息描述信息描述信息描述信息描述信息...: position: absolute; left: 29px; top: 458px; width: 297.5px; height: 16.5px; color: rgba(153,153,153,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1 | text=\"描述信息描述信息描述信息描述信息描述信息描述信息...\"\n  [textLayer] 描述信息描述信息描述信息描述信息描述信息描述信息...: position: absolute; left: 29px; top: 344.5px; width: 297.5px; height: 16.5px; color: rgba(153,153,153,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1 | text=\"描述信息描述信息描述信息描述信息描述信息描述信息...\"\n  [textLayer] 描述信息描述信息描述信息描述信息描述信息描述信息...: position: absolute; left: 29px; top: 231px; width: 297.5px; height: 16.5px; color: rgba(153,153,153,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1 | text=\"描述信息描述信息描述信息描述信息描述信息描述信息...\"\n  [textLayer] 已完成: position: absolute; left: 305.5px; top: 541.5px; width: 42px; height: 20px; color: rgba(153,153,153,1); font-size: 14px; font-family: PingFang SC; font-weight: 400; line-height: 1 | text=\"已完成\"\n  [textLayer] 待验收: position: absolute; left: 305.5px; top: 428px; width: 42px; height: 20px; color: rgba(0,103,255,1); font-size: 14px; font-family: PingFang SC; font-weight: 400; line-height: 1 | text=\"待验收\"\n  [textLayer] 待处理: position: absolute; left: 305.5px; top: 314.5px; width: 42px; height: 20px; color: rgba(255,61,0,1); font-size: 14px; font-family: PingFang SC; font-weight: 400; line-height: 1 | text=\"待处理\"\n  [textLayer] 待签收: position: absolute; left: 305.5px; top: 201px; width: 42px; height: 20px; color: rgba(0,184,12,1); font-size: 14px; font-family: PingFang SC; font-weight: 400; line-height: 1 | text=\"待签收\"\n  [shapeLayer] 矩形 450: position: absolute; left: 12px; top: 527.5px; width: 351px; height: 103.5px\n  [shapeLayer] 矩形 449: position: absolute; left: 12px; top: 414px; width: 351px; height: 103.5px\n  [shapeLayer] 矩形 448: position: absolute; left: 12px; top: 300.5px; width: 351px; height: 103.5px\n  [shapeLayer] 矩形 420: position: absolute; left: 12px; top: 187px; width: 351px; height: 103.5px\n  [textLayer] 待验收: position: absolute; left: 365px; top: 146px; width: 39px; height: 18.5px; color: rgba(102,102,102,1); font-size: 13px; font-family: PingFang SC; font-weight: 400; text-align: center; line-height: 1 | text=\"待验收\"\n  [textLayer] 待验收: position: absolute; left: 281.5px; top: 146px; width: 39px; height: 18.5px; color: rgba(102,102,102,1); font-size: 13px; font-family: PingFang SC; font-weight: 400; text-align: center; line-height: 1 | text=\"待验收\"\n  [textLayer] 待处理: position: absolute; left: 196.5px; top: 146px; width: 39px; height: 18.5px; color: rgba(102,102,102,1); font-size: 13px; font-family: PingFang SC; font-weight: 400; text-align: center; line-height: 1 | text=\"待处理\"\n  [textLayer] 待签收: position: absolute; left: 113px; top: 146px; width: 39px; height: 18.5px; color: rgba(102,102,102,1); font-size: 13px; font-family: PingFang SC; font-weight: 400; text-align: center; line-height: 1 | text=\"待签收\"\n  [textLayer] 全部: position: absolute; left: 36px; top: 146px; width: 26px; height: 18.5px; color: rgba(0,103,255,1); font-size: 13px; font-family: PingFang SC; font-weight: 400; text-align: center; line-height: 1 | text=\"全部\"\n  [shapeLayer] 矩形 447: position: absolute; left: 347.5px; top: 142px; width: 74px; height: 28px\n  [shapeLayer] 矩形 412: position: absolute; left: 264px; top: 142px; width: 74px; height: 28px\n  [shapeLayer] 矩形 411: position: absolute; left: 179px; top: 142px; width: 74px; height: 28px\n  [shapeLayer] 矩形 410: position: absolute; left: 95.5px; top: 142px; width: 74px; height: 28px\n  [shapeLayer] 矩形 409: position: absolute; left: 12px; top: 142px; width: 74px; height: 28px\n  [shapeLayer] 矩形 407: position: absolute; left: 44px; top: 128.3px; width: 23.5px; height: 3.5px\n  [textLayer] 保养工单: position: absolute; left: 115.5px; top: 102px; width: 64px; height: 22.5px; color: rgba(102,102,102,1); font-size: 16px; font-family: PingFang SC; font-weight: 400; line-height: 1 | text=\"保养工单\"\n  [textLayer] 点检工单: position: absolute; left: 291.5px; top: 102px; width: 64px; height: 22.5px; color: rgba(102,102,102,1); font-size: 16px; font-family: PingFang SC; font-weight: 400; line-height: 1 | text=\"点检工单\"\n  [textLayer] 寻检工单: position: absolute; left: 203.5px; top: 102px; width: 64px; height: 22.5px; color: rgba(102,102,102,1); font-size: 16px; font-family: PingFang SC; font-weight: 400; line-height: 1 | text=\"寻检工单\"\n  [textLayer] 维修工单: position: absolute; left: 19.5px; top: 101.5px; width: 72px; height: 25px; color: rgba(0,103,255,1); font-size: 18px; font-family: PingFang SC; font-weight: 700; line-height: 1 | text=\"维修工单\"\n  [shapeLayer] 矩形 426: position: absolute; left: 0px; top: 85px; width: 375px; height: 92px\n  [shapeLayer] icon: position: absolute; left: 18px; top: 53.8px; width: 11px; height: 19.6px\n  [textLayer] 我的工单: position: absolute; left: 151.5px; top: 54px; width: 72px; height: 25px; color: rgba(51,51,51,1); font-size: 18px; font-family: PingFang SC; font-weight: 700; text-align: center; line-height: 1 | text=\"我的工单\"\n  [shapeLayer] icon: position: absolute; left: 337px; top: 64.6px; width: 18.8px; height: 3.8px\n  [textLayer] Time: position: absolute; left: 28.2px; top: 12.7px; width: 56px; height: 18.5px; color: rgba(0,0,0,1); font-size: 17px; font-family: SF Pro Text; font-weight: 600; text-align: center; letter-spacing: -10px; line-height: 1 | text=\"9:41\"\n  [shapeLayer] Cellular-Connection-path: position: absolute; left: 289.5px; top: 19.4px; width: 3.1px; height: 11px\n  [shapeLayer] Cellular-Connection-path: position: absolute; left: 284.7px; top: 21.8px; width: 3.1px; height: 8.6px\n  [shapeLayer] Cellular-Connection-path: position: absolute; left: 279.8px; top: 24.2px; width: 3.1px; height: 6.2px\n  [shapeLayer] Cellular-Connection-path: position: absolute; left: 275px; top: 26.3px; width: 3.1px; height: 4.1px\n  [shapeLayer] Wifi-path: position: absolute; left: 305.8px; top: 26.9px; width: 4.8px; height: 3.5px\n  [shapeLayer] Wifi-path: position: absolute; left: 303px; top: 23px; width: 10.3px; height: 3.8px\n  [shapeLayer] Wifi-path: position: absolute; left: 300.3px; top: 19px; width: 15.9px; height: 4.9px\n  [shapeLayer] Capacity: position: absolute; left: 325.9px; top: 21.1px; width: 18.6px; height: 7.6px\n  [shapeLayer] Cap: position: absolute; left: 347.6px; top: 22.8px; width: 1.4px; height: 4.1px\n  [shapeLayer] Border: position: absolute; left: 323.8px; top: 19px; width: 22.8px; height: 11.7px\n  [shapeLayer] Capacity: position: absolute; left: 325.9px; top: 20.1px; width: 18.6px; height: 7.6px\n  [shapeLayer] Capacity: position: absolute; left: 325.9px; top: 20.1px; width: 18.6px; height: 7.6px\n  [shapeLayer] 矩形 344: position: absolute; left: 0px; top: 0px; width: 375px; height: 85px\n\n--- Sketch Annotations ---\n============================================================\n设计标注信息（从原始 Sketch/PSD 数据提取）\n============================================================\n设计稿名称: Web 1920 – 13\n设备:   |  缩放: @2x\n画布尺寸: 375x812 (逻辑像素)\n画布背景色: #FFFFFF\n\n以下所有尺寸/坐标均为逻辑像素（已除以 @2x）\n------------------------------------------------------------\n\n📂 图层组结构 (布局参考):\n  [组] \"组 8\" @(28.2,12.7) 320.8x18.5\n\n📝 文本图层:\n  \"9:41\"\n    位置: (28.2,12.7) 56x18.5\n    样式: font-size: 17px; font-family: SF Pro Text; font-weight: bold; color: rgba(0,0,0,1); text-align: center; line-height: 0px; letter-spacing: -10\n  \"我的工单\"\n    位置: (151.5,54) 72x25\n    样式: font-size: 18px; font-family: PingFang SC; font-weight: bold; color: rgba(51,51,51,1); text-align: center; line-height: 0px; letter-spacing: 0\n  \"维修工单\"\n    位置: (19.5,101.5) 72x25\n    样式: font-size: 18px; font-family: PingFang SC; font-weight: bold; color: rgba(0,103,255,1); line-height: 0px; letter-spacing: 0\n  \"寻检工单\"\n    位置: (203.5,102) 64x22.5\n    样式: font-size: 16px; font-family: PingFang SC; color: rgba(102,102,102,1); line-height: 0px; letter-spacing: 0\n  \"点检工单\"\n    位置: (291.5,102) 64x22.5\n    样式: font-size: 16px; font-family: PingFang SC; color: rgba(102,102,102,1); line-height: 0px; letter-spacing: 0\n  \"保养工单\"\n    位置: (115.5,102) 64x22.5\n    样式: font-size: 16px; font-family: PingFang SC; color: rgba(102,102,102,1); line-height: 0px; letter-spacing: 0\n  \"全部\"\n    位置: (36,146) 26x18.5\n    样式: font-size: 13px; font-family: PingFang SC; color: rgba(0,103,255,1); text-align: center; line-height: 0px; letter-spacing: 0\n  \"待签收\"\n    位置: (113,146) 39x18.5\n    样式: font-size: 13px; font-family: PingFang SC; color: rgba(102,102,102,1); text-align: center; line-height: 0px; letter-spacing: 0\n  \"待处理\"\n    位置: (196.5,146) 39x18.5\n    样式: font-size: 13px; font-family: PingFang SC; color: rgba(102,102,102,1); text-align: center; line-height: 0px; letter-spacing: 0\n  \"待验收\"\n    位置: (281.5,146) 39x18.5\n    样式: font-size: 13px; font-family: PingFang SC; color: rgba(102,102,102,1); text-align: center; line-height: 0px; letter-spacing: 0\n  \"待验收\"\n    位置: (365,146) 39x18.5\n    样式: font-size: 13px; font-family: PingFang SC; color: rgba(102,102,102,1); text-align: center; line-height: 0px; letter-spacing: 0\n  \"待签收\"\n    位置: (305.5,201) 42x20\n    样式: font-size: 14px; font-family: PingFang SC; color: rgba(0,184,12,1); line-height: 0px; letter-spacing: 0\n  \"待处理\"\n    位置: (305.5,314.5) 42x20\n    样式: font-size: 14px; font-family: PingFang SC; color: rgba(255,61,0,1); line-height: 0px; letter-spacing: 0\n  \"待验收\"\n    位置: (305.5,428) 42x20\n    样式: font-size: 14px; font-family: PingFang SC; color: rgba(0,103,255,1); line-height: 0px; letter-spacing: 0\n  \"已完成\"\n    位置: (305.5,541.5) 42x20\n    样式: font-size: 14px; font-family: PingFang SC; color: rgba(153,153,153,1); line-height: 0px; letter-spacing: 0\n  \"描述信息描述信息描述信息描述信息描述信息描述信息...\"\n    位置: (29,231) 297.5x16.5\n    样式: font-size: 12px; font-family: PingFang SC; color: rgba(153,153,153,1); line-height: 0px; letter-spacing: 0\n  \"描述信息描述信息描述信息描述信息描述信息描述信息...\"\n    位置: (29,344.5) 297.5x16.5\n    样式: font-size: 12px; font-family: PingFang SC; color: rgba(153,153,153,1); line-height: 0px; letter-spacing: 0\n  \"描述信息描述信息描述信息描述信息描述信息描述信息...\"\n    位置: (29,458) 297.5x16.5\n    样式: font-size: 12px; font-family: PingFang SC; color: rgba(153,153,153,1); line-height: 0px; letter-spacing: 0\n  \"描述信息描述信息描述信息描述信息描述信息描述信息...\"\n    位置: (29,571.5) 297.5x16.5\n    样式: font-size: 12px; font-family: PingFang SC; color: rgba(153,153,153,1); line-height: 0px; letter-spacing: 0\n  \"2026-10-20 14:32:20\"\n    位置: (29,262) 125.5x16.5\n    样式: font-size: 12px; font-family: PingFang SC; color: rgba(153,153,153,1); line-height: 0px; letter-spacing: 0\n  \"2026-10-20 14:32:20\"\n    位置: (29,375.5) 125.5x16.5\n    样式: font-size: 12px; font-family: PingFang SC; color: rgba(153,153,153,1); line-height: 0px; letter-spacing: 0\n  \"2026-10-20 14:32:20\"\n    位置: (29,489) 125.5x16.5\n    样式: font-size: 12px; font-family: PingFang SC; color: rgba(153,153,153,1); line-height: 0px; letter-spacing: 0\n  \"2026-10-20 14:32:20\"\n    位置: (29,602.5) 125.5x16.5\n    样式: font-size: 12px; font-family: PingFang SC; color: rgba(153,153,153,1); line-height: 0px; letter-spacing: 0\n  \"一厂设备的设备名称\"\n    位置: (82.5,200) 153x24\n    样式: font-size: 17px; font-family: PingFang SC; font-weight: bold; color: rgba(51,51,51,1); text-align: right; line-height: 0px; letter-spacing: 0\n  \"一厂设备的设备名称\"\n    位置: (82.5,313.5) 153x24\n    样式: font-size: 17px; font-family: PingFang SC; font-weight: bold; color: rgba(51,51,51,1); text-align: right; line-height: 0px; letter-spacing: 0\n  \"一厂设备的设备名称\"\n    位置: (82.5,427) 153x24\n    样式: font-size: 17px; font-family: PingFang SC; font-weight: bold; color: rgba(51,51,51,1); text-align: right; line-height: 0px; letter-spacing: 0\n  \"一厂设备的设备名称\"\n    位置: (82.5,540.5) 153x24\n    样式: font-size: 17px; font-family: PingFang SC; font-weight: bold; color: rgba(51,51,51,1); text-align: right; line-height: 0px; letter-spacing: 0\n  \"紧急\"\n    位置: (39,204) 24x16.5\n    样式: font-size: 12px; font-family: PingFang SC; color: rgba(255,25,25,1); line-height: 0px; letter-spacing: 0\n  \"紧急\"\n    位置: (39,315) 24x16.5\n    样式: font-size: 12px; font-family: PingFang SC; color: rgba(255,25,25,1); line-height: 0px; letter-spacing: 0\n  \"一般\"\n    位置: (39,430) 24x16.5\n    样式: font-size: 12px; font-family: PingFang SC; color: rgba(255,171,25,1); line-height: 0px; letter-spacing: 0\n  \"一般\"\n    位置: (39,544.5) 24x16.5\n    样式: font-size: 12px; font-family: PingFang SC; color: rgba(255,171,25,1); line-height: 0px; letter-spacing: 0\n\n🔷 形状图层:\n  \"矩形 344\" (矩形 344)\n    位置: (0,0) 375x85\n    样式: fill: rgba(255,255,255,1); opacity: 1%\n  \"Capacity\" (组 8/Capacity)\n    位置: (325.9,20.1) 18.6x7.6\n    样式: fill: rgba(255,255,255,1); opacity: 1%\n  \"Capacity\" (组 8/Capacity)\n    位置: (325.9,20.1) 18.6x7.6\n    样式: fill: rgba(255,255,255,1); opacity: 1%\n  \"Border\" (组 8/Border)\n    位置: (323.8,19) 22.8x11.7\n    样式: fill: rgba(0,0,0,0.6); opacity: 0.35%; border: 1px rgba(255,255,255,1)\n  \"Cap\" (组 8/Cap)\n    位置: (347.6,22.8) 1.4x4.1\n    样式: fill: rgba(0,0,0,1); opacity: 0.4%\n  \"Capacity\" (组 8/Capacity)\n    位置: (325.9,21.1) 18.6x7.6\n    样式: fill: rgba(0,0,0,1); opacity: 1%\n  \"Wifi-path\" (组 8/Wifi-path)\n    位置: (300.3,19) 15.9x4.9\n    样式: fill: rgba(0,0,0,1); opacity: 1%\n  \"Wifi-path\" (组 8/Wifi-path)\n    位置: (303,23) 10.3x3.8\n    样式: fill: rgba(0,0,0,1); opacity: 1%\n  \"Wifi-path\" (组 8/Wifi-path)\n    位置: (305.8,26.9) 4.8x3.5\n    样式: fill: rgba(0,0,0,1); opacity: 1%\n  \"Cellular-Connection-path\" (组 8/Cellular-Connection-path)\n    位置: (275,26.3) 3.1x4.1\n    样式: fill: rgba(0,0,0,1); opacity: 1%\n  \"Cellular-Connection-path\" (组 8/Cellular-Connection-path)\n    位置: (279.8,24.2) 3.1x6.2\n    样式: fill: rgba(0,0,0,1); opacity: 1%\n  \"Cellular-Connection-path\" (组 8/Cellular-Connection-path)\n    位置: (284.7,21.8) 3.1x8.6\n    样式: fill: rgba(0,0,0,1); opacity: 1%\n  \"Cellular-Connection-path\" (组 8/Cellular-Connection-path)\n    位置: (289.5,19.4) 3.1x11\n    样式: fill: rgba(0,0,0,1); opacity: 1%\n  \"icon\" (icon)\n    位置: (337,64.6) 18.8x3.8\n    样式: fill: rgba(20,16,28,1); opacity: 1%\n  \"icon\" (icon)\n    位置: (18,53.8) 11x19.6\n    样式: fill: rgba(0,14,35,1); opacity: 1%\n  \"矩形 426\" (矩形 426)\n    位置: (0,85) 375x92\n    样式: fill: rgba(255,255,255,1); opacity: 1%\n  \"矩形 407\" (矩形 407)\n    位置: (44,128.3) 23.5x3.5\n    样式: fill: rgba(0,103,255,1); opacity: 1%\n  \"矩形 409\" (矩形 409)\n    位置: (12,142) 74x28\n    样式: fill: rgba(0,103,255,1); opacity: 0.08%\n  \"矩形 410\" (矩形 410)\n    位置: (95.5,142) 74x28\n    样式: fill: rgba(247,247,247,1); opacity: 1%\n  \"矩形 411\" (矩形 411)\n    位置: (179,142) 74x28\n    样式: fill: rgba(247,247,247,1); opacity: 1%\n  \"矩形 412\" (矩形 412)\n    位置: (264,142) 74x28\n    样式: fill: rgba(247,247,247,1); opacity: 1%\n  \"矩形 447\" (矩形 447)\n    位置: (347.5,142) 74x28\n    样式: fill: rgba(247,247,247,1); opacity: 1%\n  \"矩形 420\" (矩形 420)\n    位置: (12,187) 351x103.5\n    样式: fill: rgba(255,255,255,1); opacity: 1%\n  \"矩形 448\" (矩形 448)\n    位置: (12,300.5) 351x103.5\n    样式: fill: rgba(255,255,255,1); opacity: 1%\n  \"矩形 449\" (矩形 449)\n    位置: (12,414) 351x103.5\n    样式: fill: rgba(255,255,255,1); opacity: 1%\n  \"矩形 450\" (矩形 450)\n    位置: (12,527.5) 351x103.5\n    样式: fill: rgba(255,255,255,1); opacity: 1%\n  \"直线 129\" (直线 129)\n    位置: (0.3,134) 375x0\n    样式: opacity: 1%; border: 1px rgba(236,236,236,1)\n  \"矩形 472\" (矩形 472)\n    位置: (29,201) 44x22.5\n    样式: fill: rgba(255,255,255,1); opacity: 1%; border: 1px rgba(255,25,25,1)\n  \"矩形 473\" (矩形 473)\n    位置: (29,312) 44x22.5\n    样式: fill: rgba(255,255,255,1); opacity: 1%; border: 1px rgba(255,25,25,1)\n  \"矩形 474\" (矩形 474)\n    位置: (29,427) 44x22.5\n    样式: fill: rgba(255,255,255,1); opacity: 1%; border: 1px rgba(255,171,25,1)\n  \"矩形 475\" (矩形 475)\n    位置: (29,541.5) 44x22.5\n    样式: fill: rgba(255,255,255,1); opacity: 1%; border: 1px rgba(255,171,25,1)\n\n🎨 设计汇总:\n  使用颜色: rgba(0,0,0,0.6), rgba(0,0,0,1), rgba(0,103,255,1), rgba(0,14,35,1), rgba(0,184,12,1), rgba(102,102,102,1), rgba(153,153,153,1), rgba(20,16,28,1), rgba(247,247,247,1), rgba(255,171,25,1), rgba(255,25,25,1), rgba(255,255,255,1), rgba(255,61,0,1), rgba(51,51,51,1)\n  字体/字号: 12px, 13px, 14px, 16px, 17px, 18px, PingFang SC, SF Pro Text\n\n============================================================\n\n--- Design Tokens ---\n=== Design Tokens ===\n\nColors (14 unique):\n  rgba(153,153,153,1) x18\n  rgba(102,102,102,1) x14\n  rgba(255,255,255,1) x12\n  rgba(0,0,0,1) x11\n  rgba(51,51,51,1) x10\n  rgba(0,103,255,1) x8\n  rgba(247,247,247,1) x4\n  rgba(255,25,25,1) x4\n  rgba(255,171,25,1) x4\n  rgba(0,184,12,1) x2\n  rgba(255,61,0,1) x2\n  rgba(0,0,0,0.6) x1\n  rgba(20,16,28,1) x1\n  rgba(0,14,35,1) x1\n\nFonts (7 unique):\n  PingFang SC / 400 / 24px x12\n  PingFang SC / 400 / 26px x5\n  PingFang SC / 400 / 28px x4\n  PingFang SC / 700 / 34px x4\n  PingFang SC / 400 / 32px x3\n  PingFang SC / 700 / 36px x2\n  SF Pro Text / 600 / 34px x1\n\nBorders (4 unique):\n  1px center rgba(255,25,25,1) x2\n  1px center rgba(255,171,25,1) x2\n  1px center rgba(255,255,255,1) x1\n  1px center rgba(236,236,236,1) x1\nSlices extracted: 0"
+    }
+  ],
+  "structuredContent": {
+    "status": "success",
+    "project_name": "公众号",
+    "total_designs": 1,
+    "designs": [
+      {
+        "name": "Web 1920 – 13",
+        "status": "success",
+        "success": true,
+        "outputs": {
+          "html": {
+            "status": "success",
+            "warning": "DDS Schema failed: DDS Schema is unavailable for detailDetach designs.; used Sketch fallback."
+          },
+          "tokens": {
+            "status": "success"
+          },
+          "layout": {
+            "status": "success",
+            "warning": "DDS Schema failed: DDS Schema is unavailable for detailDetach designs.; used Sketch fallback."
+          },
+          "layers": {
+            "status": "success"
+          },
+          "slices": {
+            "status": "success"
+          }
+        },
+        "errors": {},
+        "warnings": {
+          "html": "DDS Schema failed: DDS Schema is unavailable for detailDetach designs.; used Sketch fallback.",
+          "layout": "DDS Schema failed: DDS Schema is unavailable for detailDetach designs.; used Sketch fallback."
+        },
+        "html_code": "<!DOCTYPE html><html><head><meta charset=\"UTF-8\"><meta name=\"referrer\" content=\"no-referrer\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\"><title>Design</title><style>*{margin:0;padding:0;box-sizing:border-box}img{display:block}.design{position:relative;width:375px;height:812px;overflow:hidden;margin:0 auto;background:url(https://alipic.lanhuapp.com/XDCoverPNGORG6bf0c400897e4451fe638fc579bf192b0abf88bbb880d9fa03ab83d30c7c0451.png) no-repeat;background-size:375px 812px} .el1{position:absolute;left:39px;top:544.5px;width:24px;height:16.5px;z-index:10;color:rgba(255,171,25,1);font-size:12px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el2{position:absolute;left:39px;top:430px;width:24px;height:16.5px;z-index:10;color:rgba(255,171,25,1);font-size:12px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el3{position:absolute;left:39px;top:315px;width:24px;height:16.5px;z-index:10;color:rgba(255,25,25,1);font-size:12px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el4{position:absolute;left:39px;top:204px;width:24px;height:16.5px;z-index:10;color:rgba(255,25,25,1);font-size:12px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el5{position:absolute;left:29px;top:541.5px;width:44px;height:22.5px} .el6{position:absolute;left:29px;top:427px;width:44px;height:22.5px} .el7{position:absolute;left:29px;top:312px;width:44px;height:22.5px} .el8{position:absolute;left:29px;top:201px;width:44px;height:22.5px} .el9{position:absolute;left:0.3px;top:134px;width:375px;height:0px} .el10{position:absolute;left:82.5px;top:540.5px;width:153px;height:24px;z-index:10;color:rgba(51,51,51,1);font-size:17px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:700;text-align:right;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el11{position:absolute;left:82.5px;top:427px;width:153px;height:24px;z-index:10;color:rgba(51,51,51,1);font-size:17px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:700;text-align:right;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el12{position:absolute;left:82.5px;top:313.5px;width:153px;height:24px;z-index:10;color:rgba(51,51,51,1);font-size:17px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:700;text-align:right;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el13{position:absolute;left:82.5px;top:200px;width:153px;height:24px;z-index:10;color:rgba(51,51,51,1);font-size:17px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:700;text-align:right;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el14{position:absolute;left:29px;top:602.5px;width:125.5px;height:16.5px;z-index:10;color:rgba(153,153,153,1);font-size:12px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el15{position:absolute;left:29px;top:489px;width:125.5px;height:16.5px;z-index:10;color:rgba(153,153,153,1);font-size:12px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el16{position:absolute;left:29px;top:375.5px;width:125.5px;height:16.5px;z-index:10;color:rgba(153,153,153,1);font-size:12px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el17{position:absolute;left:29px;top:262px;width:125.5px;height:16.5px;z-index:10;color:rgba(153,153,153,1);font-size:12px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el18{position:absolute;left:29px;top:571.5px;width:297.5px;height:16.5px;z-index:10;color:rgba(153,153,153,1);font-size:12px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el19{position:absolute;left:29px;top:458px;width:297.5px;height:16.5px;z-index:10;color:rgba(153,153,153,1);font-size:12px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el20{position:absolute;left:29px;top:344.5px;width:297.5px;height:16.5px;z-index:10;color:rgba(153,153,153,1);font-size:12px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el21{position:absolute;left:29px;top:231px;width:297.5px;height:16.5px;z-index:10;color:rgba(153,153,153,1);font-size:12px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el22{position:absolute;left:305.5px;top:541.5px;width:42px;height:20px;z-index:10;color:rgba(153,153,153,1);font-size:14px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el23{position:absolute;left:305.5px;top:428px;width:42px;height:20px;z-index:10;color:rgba(0,103,255,1);font-size:14px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el24{position:absolute;left:305.5px;top:314.5px;width:42px;height:20px;z-index:10;color:rgba(255,61,0,1);font-size:14px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el25{position:absolute;left:305.5px;top:201px;width:42px;height:20px;z-index:10;color:rgba(0,184,12,1);font-size:14px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el26{position:absolute;left:12px;top:527.5px;width:351px;height:103.5px} .el27{position:absolute;left:12px;top:414px;width:351px;height:103.5px} .el28{position:absolute;left:12px;top:300.5px;width:351px;height:103.5px} .el29{position:absolute;left:12px;top:187px;width:351px;height:103.5px} .el30{position:absolute;left:365px;top:146px;width:39px;height:18.5px;z-index:10;color:rgba(102,102,102,1);font-size:13px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;text-align:center;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el31{position:absolute;left:281.5px;top:146px;width:39px;height:18.5px;z-index:10;color:rgba(102,102,102,1);font-size:13px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;text-align:center;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el32{position:absolute;left:196.5px;top:146px;width:39px;height:18.5px;z-index:10;color:rgba(102,102,102,1);font-size:13px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;text-align:center;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el33{position:absolute;left:113px;top:146px;width:39px;height:18.5px;z-index:10;color:rgba(102,102,102,1);font-size:13px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;text-align:center;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el34{position:absolute;left:36px;top:146px;width:26px;height:18.5px;z-index:10;color:rgba(0,103,255,1);font-size:13px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;text-align:center;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el35{position:absolute;left:347.5px;top:142px;width:74px;height:28px} .el36{position:absolute;left:264px;top:142px;width:74px;height:28px} .el37{position:absolute;left:179px;top:142px;width:74px;height:28px} .el38{position:absolute;left:95.5px;top:142px;width:74px;height:28px} .el39{position:absolute;left:12px;top:142px;width:74px;height:28px} .el40{position:absolute;left:44px;top:128.3px;width:23.5px;height:3.5px} .el41{position:absolute;left:115.5px;top:102px;width:64px;height:22.5px;z-index:10;color:rgba(102,102,102,1);font-size:16px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el42{position:absolute;left:291.5px;top:102px;width:64px;height:22.5px;z-index:10;color:rgba(102,102,102,1);font-size:16px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el43{position:absolute;left:203.5px;top:102px;width:64px;height:22.5px;z-index:10;color:rgba(102,102,102,1);font-size:16px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:400;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el44{position:absolute;left:19.5px;top:101.5px;width:72px;height:25px;z-index:10;color:rgba(0,103,255,1);font-size:18px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:700;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el45{position:absolute;left:0px;top:85px;width:375px;height:92px} .el46{position:absolute;left:18px;top:53.8px;width:11px;height:19.6px} .el47{position:absolute;left:151.5px;top:54px;width:72px;height:25px;z-index:10;color:rgba(51,51,51,1);font-size:18px;font-family:\"PingFang SC\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:700;text-align:center;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el48{position:absolute;left:337px;top:64.6px;width:18.8px;height:3.8px} .el49{position:absolute;left:28.2px;top:12.7px;width:56px;height:18.5px;z-index:10;color:rgba(0,0,0,1);font-size:17px;font-family:\"SF Pro Text\",\"PingFang SC\",\"Microsoft YaHei\",\"Hiragino Sans GB\",sans-serif;font-weight:600;text-align:center;letter-spacing:-10px;line-height:1;white-space:pre-wrap;overflow:hidden;word-break:break-all} .el50{position:absolute;left:289.5px;top:19.4px;width:3.1px;height:11px} .el51{position:absolute;left:284.7px;top:21.8px;width:3.1px;height:8.6px} .el52{position:absolute;left:279.8px;top:24.2px;width:3.1px;height:6.2px} .el53{position:absolute;left:275px;top:26.3px;width:3.1px;height:4.1px} .el54{position:absolute;left:305.8px;top:26.9px;width:4.8px;height:3.5px} .el55{position:absolute;left:303px;top:23px;width:10.3px;height:3.8px} .el56{position:absolute;left:300.3px;top:19px;width:15.9px;height:4.9px} .el57{position:absolute;left:325.9px;top:21.1px;width:18.6px;height:7.6px} .el58{position:absolute;left:347.6px;top:22.8px;width:1.4px;height:4.1px} .el59{position:absolute;left:323.8px;top:19px;width:22.8px;height:11.7px} .el60{position:absolute;left:325.9px;top:20.1px;width:18.6px;height:7.6px} .el61{position:absolute;left:325.9px;top:20.1px;width:18.6px;height:7.6px} .el62{position:absolute;left:0px;top:0px;width:375px;height:85px}</style></head><body><div class=\"design\"><div class=\"el1\" title=\"一般\" data-css=\"position: absolute; left: 39px; top: 544.5px; width: 24px; height: 16.5px; color: rgba(255,171,25,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1\">一般</div><div class=\"el2\" title=\"一般\" data-css=\"position: absolute; left: 39px; top: 430px; width: 24px; height: 16.5px; color: rgba(255,171,25,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1\">一般</div><div class=\"el3\" title=\"紧急\" data-css=\"position: absolute; left: 39px; top: 315px; width: 24px; height: 16.5px; color: rgba(255,25,25,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1\">紧急</div><div class=\"el4\" title=\"紧急\" data-css=\"position: absolute; left: 39px; top: 204px; width: 24px; height: 16.5px; color: rgba(255,25,25,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1\">紧急</div><div class=\"el5\" title=\"矩形 475\" data-css=\"position: absolute; left: 29px; top: 541.5px; width: 44px; height: 22.5px\"></div><div class=\"el6\" title=\"矩形 474\" data-css=\"position: absolute; left: 29px; top: 427px; width: 44px; height: 22.5px\"></div><div class=\"el7\" title=\"矩形 473\" data-css=\"position: absolute; left: 29px; top: 312px; width: 44px; height: 22.5px\"></div><div class=\"el8\" title=\"矩形 472\" data-css=\"position: absolute; left: 29px; top: 201px; width: 44px; height: 22.5px\"></div><div class=\"el9\" title=\"直线 129\" data-css=\"position: absolute; left: 0.3px; top: 134px; width: 375px; height: 0px\"></div><div class=\"el10\" title=\"一厂设备的设备名称\" data-css=\"position: absolute; left: 82.5px; top: 540.5px; width: 153px; height: 24px; color: rgba(51,51,51,1); font-size: 17px; font-family: PingFang SC; font-weight: 700; text-align: right; line-height: 1\">一厂设备的设备名称</div><div class=\"el11\" title=\"一厂设备的设备名称\" data-css=\"position: absolute; left: 82.5px; top: 427px; width: 153px; height: 24px; color: rgba(51,51,51,1); font-size: 17px; font-family: PingFang SC; font-weight: 700; text-align: right; line-height: 1\">一厂设备的设备名称</div><div class=\"el12\" title=\"一厂设备的设备名称\" data-css=\"position: absolute; left: 82.5px; top: 313.5px; width: 153px; height: 24px; color: rgba(51,51,51,1); font-size: 17px; font-family: PingFang SC; font-weight: 700; text-align: right; line-height: 1\">一厂设备的设备名称</div><div class=\"el13\" title=\"一厂设备的设备名称\" data-css=\"position: absolute; left: 82.5px; top: 200px; width: 153px; height: 24px; color: rgba(51,51,51,1); font-size: 17px; font-family: PingFang SC; font-weight: 700; text-align: right; line-height: 1\">一厂设备的设备名称</div><div class=\"el14\" title=\"2026-10-20 14:32:20\" data-css=\"position: absolute; left: 29px; top: 602.5px; width: 125.5px; height: 16.5px; color: rgba(153,153,153,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1\">2026-10-20 14:32:20</div><div class=\"el15\" title=\"2026-10-20 14:32:20\" data-css=\"position: absolute; left: 29px; top: 489px; width: 125.5px; height: 16.5px; color: rgba(153,153,153,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1\">2026-10-20 14:32:20</div><div class=\"el16\" title=\"2026-10-20 14:32:20\" data-css=\"position: absolute; left: 29px; top: 375.5px; width: 125.5px; height: 16.5px; color: rgba(153,153,153,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1\">2026-10-20 14:32:20</div><div class=\"el17\" title=\"2026-10-20 14:32:20\" data-css=\"position: absolute; left: 29px; top: 262px; width: 125.5px; height: 16.5px; color: rgba(153,153,153,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1\">2026-10-20 14:32:20</div><div class=\"el18\" title=\"描述信息描述信息描述信息描述信息描述信息描述信息...\" data-css=\"position: absolute; left: 29px; top: 571.5px; width: 297.5px; height: 16.5px; color: rgba(153,153,153,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1\">描述信息描述信息描述信息描述信息描述信息描述信息...</div><div class=\"el19\" title=\"描述信息描述信息描述信息描述信息描述信息描述信息...\" data-css=\"position: absolute; left: 29px; top: 458px; width: 297.5px; height: 16.5px; color: rgba(153,153,153,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1\">描述信息描述信息描述信息描述信息描述信息描述信息...</div><div class=\"el20\" title=\"描述信息描述信息描述信息描述信息描述信息描述信息...\" data-css=\"position: absolute; left: 29px; top: 344.5px; width: 297.5px; height: 16.5px; color: rgba(153,153,153,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1\">描述信息描述信息描述信息描述信息描述信息描述信息...</div><div class=\"el21\" title=\"描述信息描述信息描述信息描述信息描述信息描述信息...\" data-css=\"position: absolute; left: 29px; top: 231px; width: 297.5px; height: 16.5px; color: rgba(153,153,153,1); font-size: 12px; font-family: PingFang SC; font-weight: 400; line-height: 1\">描述信息描述信息描述信息描述信息描述信息描述信息...</div><div class=\"el22\" title=\"已完成\" data-css=\"position: absolute; left: 305.5px; top: 541.5px; width: 42px; height: 20px; color: rgba(153,153,153,1); font-size: 14px; font-family: PingFang SC; font-weight: 400; line-height: 1\">已完成</div><div class=\"el23\" title=\"待验收\" data-css=\"position: absolute; left: 305.5px; top: 428px; width: 42px; height: 20px; color: rgba(0,103,255,1); font-size: 14px; font-family: PingFang SC; font-weight: 400; line-height: 1\">待验收</div><div class=\"el24\" title=\"待处理\" data-css=\"position: absolute; left: 305.5px; top: 314.5px; width: 42px; height: 20px; color: rgba(255,61,0,1); font-size: 14px; font-family: PingFang SC; font-weight: 400; line-height: 1\">待处理</div><div class=\"el25\" title=\"待签收\" data-css=\"position: absolute; left: 305.5px; top: 201px; width: 42px; height: 20px; color: rgba(0,184,12,1); font-size: 14px; font-family: PingFang SC; font-weight: 400; line-height: 1\">待签收</div><div class=\"el26\" title=\"矩形 450\" data-css=\"position: absolute; left: 12px; top: 527.5px; width: 351px; height: 103.5px\"></div><div class=\"el27\" title=\"矩形 449\" data-css=\"position: absolute; left: 12px; top: 414px; width: 351px; height: 103.5px\"></div><div class=\"el28\" title=\"矩形 448\" data-css=\"position: absolute; left: 12px; top: 300.5px; width: 351px; height: 103.5px\"></div><div class=\"el29\" title=\"矩形 420\" data-css=\"position: absolute; left: 12px; top: 187px; width: 351px; height: 103.5px\"></div><div class=\"el30\" title=\"待验收\" data-css=\"position: absolute; left: 365px; top: 146px; width: 39px; height: 18.5px; color: rgba(102,102,102,1); font-size: 13px; font-family: PingFang SC; font-weight: 400; text-align: center; line-height: 1\">待验收</div><div class=\"el31\" title=\"待验收\" data-css=\"position: absolute; left: 281.5px; top: 146px; width: 39px; height: 18.5px; color: rgba(102,102,102,1); font-size: 13px; font-family: PingFang SC; font-weight: 400; text-align: center; line-height: 1\">待验收</div><div class=\"el32\" title=\"待处理\" data-css=\"position: absolute; left: 196.5px; top: 146px; width: 39px; height: 18.5px; color: rgba(102,102,102,1); font-size: 13px; font-family: PingFang SC; font-weight: 400; text-align: center; line-height: 1\">待处理</div><div class=\"el33\" title=\"待签收\" data-css=\"position: absolute; left: 113px; top: 146px; width: 39px; height: 18.5px; color: rgba(102,102,102,1); font-size: 13px; font-family: PingFang SC; font-weight: 400; text-align: center; line-height: 1\">待签收</div><div class=\"el34\" title=\"全部\" data-css=\"position: absolute; left: 36px; top: 146px; width: 26px; height: 18.5px; color: rgba(0,103,255,1); font-size: 13px; font-family: PingFang SC; font-weight: 400; text-align: center; line-height: 1\">全部</div><div class=\"el35\" title=\"矩形 447\" data-css=\"position: absolute; left: 347.5px; top: 142px; width: 74px; height: 28px\"></div><div class=\"el36\" title=\"矩形 412\" data-css=\"position: absolute; left: 264px; top: 142px; width: 74px; height: 28px\"></div><div class=\"el37\" title=\"矩形 411\" data-css=\"position: absolute; left: 179px; top: 142px; width: 74px; height: 28px\"></div><div class=\"el38\" title=\"矩形 410\" data-css=\"position: absolute; left: 95.5px; top: 142px; width: 74px; height: 28px\"></div><div class=\"el39\" title=\"矩形 409\" data-css=\"position: absolute; left: 12px; top: 142px; width: 74px; height: 28px\"></div><div class=\"el40\" title=\"矩形 407\" data-css=\"position: absolute; left: 44px; top: 128.3px; width: 23.5px; height: 3.5px\"></div><div class=\"el41\" title=\"保养工单\" data-css=\"position: absolute; left: 115.5px; top: 102px; width: 64px; height: 22.5px; color: rgba(102,102,102,1); font-size: 16px; font-family: PingFang SC; font-weight: 400; line-height: 1\">保养工单</div><div class=\"el42\" title=\"点检工单\" data-css=\"position: absolute; left: 291.5px; top: 102px; width: 64px; height: 22.5px; color: rgba(102,102,102,1); font-size: 16px; font-family: PingFang SC; font-weight: 400; line-height: 1\">点检工单</div><div class=\"el43\" title=\"寻检工单\" data-css=\"position: absolute; left: 203.5px; top: 102px; width: 64px; height: 22.5px; color: rgba(102,102,102,1); font-size: 16px; font-family: PingFang SC; font-weight: 400; line-height: 1\">寻检工单</div><div class=\"el44\" title=\"维修工单\" data-css=\"position: absolute; left: 19.5px; top: 101.5px; width: 72px; height: 25px; color: rgba(0,103,255,1); font-size: 18px; font-family: PingFang SC; font-weight: 700; line-height: 1\">维修工单</div><div class=\"el45\" title=\"矩形 426\" data-css=\"position: absolute; left: 0px; top: 85px; width: 375px; height: 92px\"></div><div class=\"el46\" title=\"icon\" data-css=\"position: absolute; left: 18px; top: 53.8px; width: 11px; height: 19.6px\"></div><div class=\"el47\" title=\"我的工单\" data-css=\"position: absolute; left: 151.5px; top: 54px; width: 72px; height: 25px; color: rgba(51,51,51,1); font-size: 18px; font-family: PingFang SC; font-weight: 700; text-align: center; line-height: 1\">我的工单</div><div class=\"el48\" title=\"icon\" data-css=\"position: absolute; left: 337px; top: 64.6px; width: 18.8px; height: 3.8px\"></div><div class=\"el49\" title=\"Time\" data-css=\"position: absolute; left: 28.2px; top: 12.7px; width: 56px; height: 18.5px; color: rgba(0,0,0,1); font-size: 17px; font-family: SF Pro Text; font-weight: 600; text-align: center; letter-spacing: -10px; line-height: 1\">9:41</div><div class=\"el50\" title=\"Cellular-Connection-path\" data-css=\"position: absolute; left: 289.5px; top: 19.4px; width: 3.1px; height: 11px\"></div><div class=\"el51\" title=\"Cellular-Connection-path\" data-css=\"position: absolute; left: 284.7px; top: 21.8px; width: 3.1px; height: 8.6px\"></div><div class=\"el52\" title=\"Cellular-Connection-path\" data-css=\"position: absolute; left: 279.8px; top: 24.2px; width: 3.1px; height: 6.2px\"></div><div class=\"el53\" title=\"Cellular-Connection-path\" data-css=\"position: absolute; left: 275px; top: 26.3px; width: 3.1px; height: 4.1px\"></div><div class=\"el54\" title=\"Wifi-path\" data-css=\"position: absolute; left: 305.8px; top: 26.9px; width: 4.8px; height: 3.5px\"></div><div class=\"el55\" title=\"Wifi-path\" data-css=\"position: absolute; left: 303px; top: 23px; width: 10.3px; height: 3.8px\"></div><div class=\"el56\" title=\"Wifi-path\" data-css=\"position: absolute; left: 300.3px; top: 19px; width: 15.9px; height: 4.9px\"></div><div class=\"el57\" title=\"Capacity\" data-css=\"position: absolute; left: 325.9px; top: 21.1px; width: 18.6px; height: 7.6px\"></div><div class=\"el58\" title=\"Cap\" data-css=\"position: absolute; left: 347.6px; top: 22.8px; width: 1.4px; height: 4.1px\"></div><div class=\"el59\" title=\"Border\" data-css=\"position: absolute; left: 323.8px; top: 19px; width: 22.8px; height: 11.7px\"></div><div class=\"el60\" title=\"Capacity\" data-css=\"position: absolute; left: 325.9px; top: 20.1px; width: 18.6px; height: 7.6px\"></div><div class=\"el61\" title=\"Capacity\" data-css=\"position: absolute; left: 325.9px; top: 20.1px; width: 18.6px; height: 7.6px\"></div><div class=\"el62\" title=\"矩形 344\" data-css=\"position: absolute; left: 0px; top: 0px; width: 375px; height: 85px\"></div></div></body></html>",
+        "html_source": "sketch",
+        "image_url_mapping": {
+          "./assets/designs/design.png": "https://alipic.lanhuapp.com/XDCoverPNGORG6bf0c400897e4451fe638fc579bf192b0abf88bbb880d9fa03ab83d30c7c0451.png"
+        },
+        "image_bytes": null,
+        "layout_summary": "[textLayer] \"一般\" 一般 left:39px top:544.5px width:24px height:16.5px\n[textLayer] \"一般\" 一般 left:39px top:430px width:24px height:16.5px\n[textLayer] \"紧急\" 紧急 left:39px top:315px width:24px height:16.5px\n[textLayer] \"紧急\" 紧急 left:39px top:204px width:24px height:16.5px\n[shapeLayer] 矩形 475 left:29px top:541.5px width:44px height:22.5px\n[shapeLayer] 矩形 474 left:29px top:427px width:44px height:22.5px\n[shapeLayer] 矩形 473 left:29px top:312px width:44px height:22.5px\n[shapeLayer] 矩形 472 left:29px top:201px width:44px height:22.5px\n[shapeLayer] 直线 129 left:0.3px top:134px width:375px height:0px\n[textLayer] \"一厂设备的设备名称\" 一厂设备的设备名称 left:82.5px top:540.5px width:153px height:24px\n[textLayer] \"一厂设备的设备名称\" 一厂设备的设备名称 left:82.5px top:427px width:153px height:24px\n[textLayer] \"一厂设备的设备名称\" 一厂设备的设备名称 left:82.5px top:313.5px width:153px height:24px\n[textLayer] \"一厂设备的设备名称\" 一厂设备的设备名称 left:82.5px top:200px width:153px height:24px\n[textLayer] \"2026-10-20 14:32:20\" 2026-10-20 14:32:20 left:29px top:602.5px width:125.5px height:16.5px\n[textLayer] \"2026-10-20 14:32:20\" 2026-10-20 14:32:20 left:29px top:489px width:125.5px height:16.5px\n[textLayer] \"2026-10-20 14:32:20\" 2026-10-20 14:32:20 left:29px top:375.5px width:125.5px height:16.5px\n[textLayer] \"2026-10-20 14:32:20\" 2026-10-20 14:32:20 left:29px top:262px width:125.5px height:16.5px\n[textLayer] \"描述信息描述信息描述信息描述信息描述信息描述信息...\" 描述信息描述信息描述信息描述信息描述信息描述信息... left:29px top:571.5px width:297.5px height:16.5px\n[textLayer] \"描述信息描述信息描述信息描述信息描述信息描述信息...\" 描述信息描述信息描述信息描述信息描述信息描述信息... left:29px top:458px width:297.5px height:16.5px\n[textLayer] \"描述信息描述信息描述信息描述信息描述信息描述信息...\" 描述信息描述信息描述信息描述信息描述信息描述信息... left:29px top:344.5px width:297.5px height:16.5px\n[textLayer] \"描述信息描述信息描述信息描述信息描述信息描述信息...\" 描述信息描述信息描述信息描述信息描述信息描述信息... left:29px top:231px width:297.5px height:16.5px\n[textLayer] \"已完成\" 已完成 left:305.5px top:541.5px width:42px height:20px\n[textLayer] \"待验收\" 待验收 left:305.5px top:428px width:42px height:20px\n[textLayer] \"待处理\" 待处理 left:305.5px top:314.5px width:42px height:20px\n[textLayer] \"待签收\" 待签收 left:305.5px top:201px width:42px height:20px\n[shapeLayer] 矩形 450 left:12px top:527.5px width:351px height:103.5px\n[shapeLayer] 矩形 449 left:12px top:414px width:351px height:103.5px\n[shapeLayer] 矩形 448 left:12px top:300.5px width:351px height:103.5px\n[shapeLayer] 矩形 420 left:12px top:187px width:351px height:103.5px\n[textLayer] \"待验收\" 待验收 left:365px top:146px width:39px height:18.5px\n[textLayer] \"待验收\" 待验收 left:281.5px top:146px width:39px height:18.5px\n[textLayer] \"待处理\" 待处理 left:196.5px top:146px width:39px height:18.5px\n[textLayer] \"待签收\" 待签收 left:113px top:146px width:39px height:18.5px\n[textLayer] \"全部\" 全部 left:36px top:146px width:26px height:18.5px\n[shapeLayer] 矩形 447 left:347.5px top:142px width:74px height:28px\n[shapeLayer] 矩形 412 left:264px top:142px width:74px height:28px\n[shapeLayer] 矩形 411 left:179px top:142px width:74px height:28px\n[shapeLayer] 矩形 410 left:95.5px top:142px width:74px height:28px\n[shapeLayer] 矩形 409 left:12px top:142px width:74px height:28px\n[shapeLayer] 矩形 407 left:44px top:128.3px width:23.5px height:3.5px\n[textLayer] \"保养工单\" 保养工单 left:115.5px top:102px width:64px height:22.5px\n[textLayer] \"点检工单\" 点检工单 left:291.5px top:102px width:64px height:22.5px\n[textLayer] \"寻检工单\" 寻检工单 left:203.5px top:102px width:64px height:22.5px\n[textLayer] \"维修工单\" 维修工单 left:19.5px top:101.5px width:72px height:25px\n[shapeLayer] 矩形 426 left:0px top:85px width:375px height:92px\n[shapeLayer] icon left:18px top:53.8px width:11px height:19.6px\n[textLayer] \"我的工单\" 我的工单 left:151.5px top:54px width:72px height:25px\n[shapeLayer] icon left:337px top:64.6px width:18.8px height:3.8px\n[textLayer] \"9:41\" Time left:28.2px top:12.7px width:56px height:18.5px\n[shapeLayer] Cellular-Connection-path left:289.5px top:19.4px width:3.1px height:11px\n[shapeLayer] Cellular-Connection-path left:284.7px top:21.8px width:3.1px height:8.6px\n[shapeLayer] Cellular-Connection-path left:279.8px top:24.2px width:3.1px height:6.2px\n[shapeLayer] Cellular-Connection-path left:275px top:26.3px width:3.1px height:4.1px\n[shapeLayer] Wifi-path left:305.8px top:26.9px width:4.8px height:3.5px\n[shapeLayer] Wifi-path left:303px top:23px width:10.3px height:3.8px\n[shapeLayer] Wifi-path left:300.3px top:19px width:15.9px height:4.9px\n[shapeLayer] Capacity left:325.9px top:21.1px width:18.6px height:7.6px\n[shapeLayer] Cap left:347.6px top:22.8px width:1.4px height:4.1px\n[shapeLayer] Border left:323.8px top:19px width:22.8px height:11.7px\n[shapeLayer] Capacity left:325.9px top:20.1px width:18.6px height:7.6px\n[shapeLayer] Capacity left:325.9px top:20.1px width:18.6px height:7.6px\n[shapeLayer] 矩形 344 left:0px top:0px width:375px height:85px",
+        "layout_source": "sketch",
+        "layer_tree": "Artboard: Web 1920 – 13 (750x1624)\nTotal layers: 50\n\nshapeLayer: 矩形 344 (750x170 @0,0) [fill:rgba(255,255,255,1)]\ngroupLayer: 组 8 (642x37 @56,25) (13 children)\n  shapeLayer: Capacity (37x15 @652,40) [fill:rgba(255,255,255,1)]\n  shapeLayer: Capacity (37x15 @652,40) [fill:rgba(255,255,255,1)]\n  shapeLayer: Border (46x23 @648,38) [fill:rgba(0,0,0,0.6) border:1]\n  shapeLayer: Cap (3x8 @695,46) [fill:rgba(0,0,0,1)]\n  shapeLayer: Capacity (37x15 @652,42) [fill:rgba(0,0,0,1)]\n  shapeLayer: Wifi-path (32x10 @601,38) [fill:rgba(0,0,0,1)]\n  shapeLayer: Wifi-path (21x8 @606,46) [fill:rgba(0,0,0,1)]\n  shapeLayer: Wifi-path (10x7 @612,54) [fill:rgba(0,0,0,1)]\n  shapeLayer: Cellular-Connection-path (6x8 @550,53) [fill:rgba(0,0,0,1)]\n  shapeLayer: Cellular-Connection-path (6x12 @560,48) [fill:rgba(0,0,0,1)]\n  shapeLayer: Cellular-Connection-path (6x17 @569,44) [fill:rgba(0,0,0,1)]\n  shapeLayer: Cellular-Connection-path (6x22 @579,39) [fill:rgba(0,0,0,1)]\n  textLayer: Time (112x37 @56,25) \"9:41\" [fill:rgba(0,0,0,1)]\nshapeLayer: icon (38x8 @674,129) [fill:rgba(20,16,28,1)]\ntextLayer: 我的工单 (144x50 @303,108) \"我的工单\" [fill:rgba(51,51,51,1)]\nshapeLayer: icon (22x39 @36,108) [fill:rgba(0,14,35,1)]\nshapeLayer: 矩形 426 (750x184 @0,170) [fill:rgba(255,255,255,1)]\ntextLayer: 维修工单 (144x50 @39,203) \"维修工单\" [fill:rgba(0,103,255,1)]\ntextLayer: 寻检工单 (128x45 @407,204) \"寻检工单\" [fill:rgba(102,102,102,1)]\ntextLayer: 点检工单 (128x45 @583,204) \"点检工单\" [fill:rgba(102,102,102,1)]\ntextLayer: 保养工单 (128x45 @231,204) \"保养工单\" [fill:rgba(102,102,102,1)]\nshapeLayer: 矩形 407 (47x7 @88,257) [fill:rgba(0,103,255,1)]\nshapeLayer: 矩形 409 (148x56 @24,284) [fill:rgba(0,103,255,1)]\nshapeLayer: 矩形 410 (148x56 @191,284) [fill:rgba(247,247,247,1)]\nshapeLayer: 矩形 411 (148x56 @358,284) [fill:rgba(247,247,247,1)]\nshapeLayer: 矩形 412 (148x56 @528,284) [fill:rgba(247,247,247,1)]\nshapeLayer: 矩形 447 (148x56 @695,284) [fill:rgba(247,247,247,1)]\ntextLayer: 全部 (52x37 @72,292) \"全部\" [fill:rgba(0,103,255,1)]\ntextLayer: 待签收 (78x37 @226,292) \"待签收\" [fill:rgba(102,102,102,1)]\ntextLayer: 待处理 (78x37 @393,292) \"待处理\" [fill:rgba(102,102,102,1)]\ntextLayer: 待验收 (78x37 @563,292) \"待验收\" [fill:rgba(102,102,102,1)]\ntextLayer: 待验收 (78x37 @730,292) \"待验收\" [fill:rgba(102,102,102,1)]\nshapeLayer: 矩形 420 (702x207 @24,374) [fill:rgba(255,255,255,1)]\nshapeLayer: 矩形 448 (702x207 @24,601) [fill:rgba(255,255,255,1)]\nshapeLayer: 矩形 449 (702x207 @24,828) [fill:rgba(255,255,255,1)]\nshapeLayer: 矩形 450 (702x207 @24,1055) [fill:rgba(255,255,255,1)]\ntextLayer: 待签收 (84x40 @611,402) \"待签收\" [fill:rgba(0,184,12,1)]\ntextLayer: 待处理 (84x40 @611,629) \"待处理\" [fill:rgba(255,61,0,1)]\ntextLayer: 待验收 (84x40 @611,856) \"待验收\" [fill:rgba(0,103,255,1)]\ntextLayer: 已完成 (84x40 @611,1083) \"已完成\" [fill:rgba(153,153,153,1)]\ntextLayer: 描述信息描述信息描述信息描述信息描述信息描述信息... (595x33 @58,462) \"描述信息描述信息描述信息描述信息描述信息描述信息...\" [fill:rgba(153,153,153,1)]\ntextLayer: 描述信息描述信息描述信息描述信息描述信息描述信息... (595x33 @58,689) \"描述信息描述信息描述信息描述信息描述信息描述信息...\" [fill:rgba(153,153,153,1)]\ntextLayer: 描述信息描述信息描述信息描述信息描述信息描述信息... (595x33 @58,916) \"描述信息描述信息描述信息描述信息描述信息描述信息...\" [fill:rgba(153,153,153,1)]\ntextLayer: 描述信息描述信息描述信息描述信息描述信息描述信息... (595x33 @58,1143) \"描述信息描述信息描述信息描述信息描述信息描述信息...\" [fill:rgba(153,153,153,1)]\ntextLayer: 2026-10-20 14:32:20 (251x33 @58,524) \"2026-10-20 14:32:20\" [fill:rgba(153,153,153,1)]\ntextLayer: 2026-10-20 14:32:20 (251x33 @58,751) \"2026-10-20 14:32:20\" [fill:rgba(153,153,153,1)]\ntextLayer: 2026-10-20 14:32:20 (251x33 @58,978) \"2026-10-20 14:32:20\" [fill:rgba(153,153,153,1)]\ntextLayer: 2026-10-20 14:32:20 (251x33 @58,1205) \"2026-10-20 14:32:20\" [fill:rgba(153,153,153,1)]\ntextLayer: 一厂设备的设备名称 (306x48 @165,400) \"一厂设备的设备名称\" [fill:rgba(51,51,51,1)]\ntextLayer: 一厂设备的设备名称 (306x48 @165,627) \"一厂设备的设备名称\" [fill:rgba(51,51,51,1)]\ntextLayer: 一厂设备的设备名称 (306x48 @165,854) \"一厂设备的设备名称\" [fill:rgba(51,51,51,1)]\ntextLayer: 一厂设备的设备名称 (306x48 @165,1081) \"一厂设备的设备名称\" [fill:rgba(51,51,51,1)]\nshapeLayer: 直线 129 (750x0 @1,268) [border:1]\nshapeLayer: 矩形 472 (88x45 @58,402) [fill:rgba(255,255,255,1) border:1]\nshapeLayer: 矩形 473 (88x45 @58,624) [fill:rgba(255,255,255,1) border:1]\nshapeLayer: 矩形 474 (88x45 @58,854) [fill:rgba(255,255,255,1) border:1]\nshapeLayer: 矩形 475 (88x45 @58,1083) [fill:rgba(255,255,255,1) border:1]\ntextLayer: 紧急 (48x33 @78,408) \"紧急\" [fill:rgba(255,25,25,1)]\ntextLayer: 紧急 (48x33 @78,630) \"紧急\" [fill:rgba(255,25,25,1)]\ntextLayer: 一般 (48x33 @78,860) \"一般\" [fill:rgba(255,171,25,1)]\ntextLayer: 一般 (48x33 @78,1089) \"一般\" [fill:rgba(255,171,25,1)]",
+        "layer_tree_truncated": false,
+        "layer_depth": "all",
+        "layer_annotations": [
+          {
+            "name": "一般",
+            "type": "textLayer",
+            "css": {
+              "position": "absolute",
+              "left": "39px",
+              "top": "544.5px",
+              "width": "24px",
+              "height": "16.5px",
+              "color": "rgba(255,171,25,1)",
+              "font-size": "12px",
+              "font-family": "PingFang SC",
+              "font-weight": "400",
+              "line-height": "1"
+            },
+            "text": "一般",
+            "text_source": "layer-text"
+          },
+          {
+            "name": "一般",
+            "type": "textLayer",
+            "css": {
+              "position": "absolute",
+              "left": "39px",
+              "top": "430px",
+              "width": "24px",
+              "height": "16.5px",
+              "color": "rgba(255,171,25,1)",
+              "font-size": "12px",
+              "font-family": "PingFang SC",
+              "font-weight": "400",
+              "line-height": "1"
+            },
+            "text": "一般",
+            "text_source": "layer-text"
+          },
+          {
+            "name": "紧急",
+            "type": "textLayer",
+            "css": {
+              "position": "absolute",
+              "left": "39px",
+              "top": "315px",
+              "width": "24px",
+              "height": "16.5px",
+              "color": "rgba(255,25,25,1)",
+              "font-size": "12px",
+              "font-family": "PingFang SC",
+              "font-weight": "400",
+              "line-height": "1"
+            },
+            "text": "紧急",
+            "text_source": "layer-text"
+          },
+          {
+            "name": "紧急",
+            "type": "textLayer",
+            "css": {
+              "position": "absolute",
+              "left": "39px",
+              "top": "204px",
+              "width": "24px",
+              "height": "16.5px",
+              "color": "rgba(255,25,25,1)",
+              "font-size": "12px",
+              "font-family": "PingFang SC",
+              "font-weight": "400",
+              "line-height": "1"
+            },
+            "text": "紧急",
+            "text_source": "layer-text"
+          },
+          {
+            "name": "矩形 475",
+            "type": "shapeLayer",
+            "css": {
+              "position": "absolute",
+              "left": "29px",
+              "top": "541.5px",
+              "width": "44px",
+              "height": "22.5px"
+            }
+          },
+          {
+            "name": "矩形 474",
+            "type": "shapeLayer",
+            "css": {
+              "position": "absolute",
+              "left": "29px",
+              "top": "427px",
+              "width": "44px",
+              "height": "22.5px"
+            }
+          },
+          {
+            "name": "矩形 473",
+            "type": "shapeLayer",
+            "css": {
+              "position": "absolute",
+              "left": "29px",
+              "top": "312px",
+              "width": "44px",
+              "height": "22.5px"
+            }
+          },
+          {
+            "name": "矩形 472",
+            "type": "shapeLayer",
+            "css": {
+              "position": "absolute",
+              "left": "29px",
+              "top": "201px",
+              "width": "44px",
+              "height": "22.5px"
+            }
+          },
+          {
+            "name": "直线 129",
+            "type": "shapeLayer",
+            "css": {
+              "position": "absolute",
+              "left": "0.3px",
+              "top": "134px",
+              "width": "375px",
+              "height": "0px"
+            }
+          },
+          {
+            "name": "一厂设备的设备名称",
+            "type": "textLayer",
+            "css": {
+              "position": "absolute",
+              "left": "82.5px",
+              "top": "540.5px",
+              "width": "153px",
+              "height": "24px",
+              "color": "rgba(51,51,51,1)",
+              "font-size": "17px",
+              "font-family": "PingFang SC",
+              "font-weight": "700",
+              "text-align": "right",
+              "line-height": "1"
+            },
+            "text": "一厂设备的设备名称",
+            "text_source": "layer-text"
+          },
+          {
+            "name": "一厂设备的设备名称",
+            "type": "textLayer",
+            "css": {
+              "position": "absolute",
+              "left": "82.5px",
+              "top": "427px",
+              "width": "153px",
+              "height": "24px",
+              "color": "rgba(51,51,51,1)",
+              "font-size": "17px",
+              "font-family": "PingFang SC",
+              "font-weight": "700",
+              "text-align": "right",
+              "line-height": "1"
+            },
+            "text": "一厂设备的设备名称",
+            "text_source": "layer-text"
+          },
+          {
+            "name": "一厂设备的设备名称",
+            "type": "textLayer",
+            "css": {
+              "position": "absolute",
+              "left": "82.5px",
+              "top": "313.5px",
+              "width": "153px",
+              "height": "24px",
+              "color": "rgba(51,51,51,1)",
+              "font-size": "17px",
+              "font-family": "PingFang SC",
+              "font-weight": "700",
+              "text-align": "right",
+              "line-height": "1"
+            },
+            "text": "一厂设备的设备名称",
+            "text_source": "layer-text"
+          },
+          {
+            "name": "一厂设备的设备名称",
+            "type": "textLayer",
+            "css": {
+              "position": "absolute",
+              "left": "82.5px",
+              "top": "200px",
+              "width": "153px",
+              "height": "24px",
+              "color": "rgba(51,51,51,1)",
+              "font-size": "17px",
+              "font-family": "PingFang SC",
+              "font-weight": "700",
+              "text-align": "right",
+              "line-height": "1"
+            },
+            "text": "一厂设备的设备名称",
+            "text_source": "layer-text"
+          },
+          {
+            "name": "2026-10-20 14:32:20",
+            "type": "textLayer",
+            "css": {
+              "position": "absolute",
+              "left": "29px",
+              "top": "602.5px",
+              "width": "125.5px",
+              "height": "16.5px",
+              "color": "rgba(153,153,153,1)",
+              "font-size": "12px",
+              "font-family": "PingFang SC",
+              "font-weight": "400",
+              "line-height": "1"
+            },
+            "text": "2026-10-20 14:32:20",
+            "text_source": "layer-text"
+          },
+          {
+            "name": "2026-10-20 14:32:20",
+            "type": "textLayer",
+            "css": {
+              "position": "absolute",
+              "left": "29px",
+              "top": "489px",
+              "width": "125.5px",
+              "height": "16.5px",
+              "color": "rgba(153,153,153,1)",
+              "font-size": "12px",
+              "font-family": "PingFang SC",
+              "font-weight": "400",
+              "line-height": "1"
+            },
+            "text": "2026-10-20 14:32:20",
+            "text_source": "layer-text"
+          },
+          {
+            "name": "2026-10-20 14:32:20",
+            "type": "textLayer",
+            "css": {
+              "position": "absolute",
+              "left": "29px",
+              "top": "375.5px",
+              "width": "125.5px",
+              "height": "16.5px",
+              "color": "rgba(153,153,153,1)",
+              "font-size": "12px",
+              "font-family": "PingFang SC",
+              "font-weight": "400",
+              "line-height": "1"
+            },
+            "text": "2026-10-20 14:32:20",
+            "text_source": "layer-text"
+          },
+          {
+            "name": "2026-10-20 14:32:20",
+            "type": "textLayer",
+            "css": {
+              "position": "absolute",
+              "left": "29px",
+              "top": "262px",
+              "width": "125.5px",
+              "height": "16.5px",
+              "color": "rgba(153,153,153,1)",
+              "font-size": "12px",
+              "font-family": "PingFang SC",
+              "font-weight": "400",
+              "line-height": "1"
+            },
+            "text": "2026-10-20 14:32:20",
+            "text_source": "layer-text"
+          },
+          {
+            "name": "描述信息描述信息描述信息描述信息描述信息描述信息...",
+            "type": "textLayer",
+            "css": {
+              "position": "absolute",
+              "left": "29px",
+              "top": "571.5px",
+              "width": "297.5px",
+              "height": "16.5px",
+              "color": "rgba(153,153,153,1)",
+              "font-size": "12px",
+              "font-family": "PingFang SC",
+              "font-weight": "400",
+              "line-height": "1"
+            },
+            "text": "描述信息描述信息描述信息描述信息描述信息描述信息...",
+            "text_source": "layer-text"
+          },
+          {
+            "name": "描述信息描述信息描述信息描述信息描述信息描述信息...",
+            "type": "textLayer",
+            "css": {
+              "position": "absolute",
+              "left": "29px",
+              "top": "458px",
+              "width": "297.5px",
+              "height": "16.5px",
+              "color": "rgba(153,153,153,1)",
+              "font-size": "12px",
+              "font-family": "PingFang SC",
+              "font-weight": "400",
+              "line-height": "1"
+            },
+            "text": "描述信息描述信息描述信息描述信息描述信息描述信息...",
+            "text_source": "layer-text"
+          },
+          {
+            "name": "描述信息描述信息描述信息描述信息描述信息描述信息...",
+            "type": "textLayer",
+            "css": {
+              "position": "absolute",
+              "left": "29px",
+              "top": "344.5px",
+              "width": "297.5px",
+              "height": "16.5px",
+              "color": "rgba(153,153,153,1)",
+              "font-size": "12px",
+              "font-family": "PingFang SC",
+              "font-weight": "400",
+              "line-height": "1"
+            },
+            "text": "描述信息描述信息描述信息描述信息描述信息描述信息...",
+            "text_source": "layer-text"
+          },
+          {
+            "name": "描述信息描述信息描述信息描述信息描述信息描述信息...",
+            "type": "textLayer",
+            "css": {
+              "position": "absolute",
+              "left": "29px",
+              "top": "231px",
+              "width": "297.5px",
+              "height": "16.5px",
+              "color": "rgba(153,153,153,1)",
+              "font-size": "12px",
+              "font-family": "PingFang SC",
+              "font-weight": "400",
+              "line-height": "1"
+            },
+            "text": "描述信息描述信息描述信息描述信息描述信息描述信息...",
+            "text_source": "layer-text"
+          },
+          {
+            "name": "已完成",
+            "type": "textLayer",
+            "css": {
+              "position": "absolute",
+              "left": "305.5px",
+              "top": "541.5px",
+              "width": "42px",
+              "height": "20px",
+              "color": "rgba(153,153,153,1)",
+              "font-size": "14px",
+              "font-family": "PingFang SC",
+              "font-weight": "400",
+              "line-height": "1"
+            },
+            "text": "已完成",
+            "text_source": "layer-text"
+          },
+          {
+            "name": "待验收",
+            "type": "textLayer",
+            "css": {
+              "position": "absolute",
+              "left": "305.5px",
+              "top": "428px",
+              "width": "42px",
+              "height": "20px",
+              "color": "rgba(0,103,255,1)",
+              "font-size": "14px",
+              "font-family": "PingFang SC",
+              "font-weight": "400",
+              "line-height": "1"
+            },
+            "text": "待验收",
+            "text_source": "layer-text"
+          },
+          {
+            "name": "待处理",
+            "type": "textLayer",
+            "css": {
+              "position": "absolute",
+              "left": "305.5px",
+              "top": "314.5px",
+              "width": "42px",
+              "height": "20px",
+              "color": "rgba(255,61,0,1)",
+              "font-size": "14px",
+              "font-family": "PingFang SC",
+              "font-weight": "400",
+              "line-height": "1"
+            },
+            "text": "待处理",
+            "text_source": "layer-text"
+          },
+          {
+            "name": "待签收",
+            "type": "textLayer",
+            "css": {
+              "position": "absolute",
+              "left": "305.5px",
+              "top": "201px",
+              "width": "42px",
+              "height": "20px",
+              "color": "rgba(0,184,12,1)",
+              "font-size": "14px",
+              "font-family": "PingFang SC",
+              "font-weight": "400",
+              "line-height": "1"
+            },
+            "text": "待签收",
+            "text_source": "layer-text"
+          },
+          {
+            "name": "矩形 450",
+            "type": "shapeLayer",
+            "css": {
+              "position": "absolute",
+              "left": "12px",
+              "top": "527.5px",
+              "width": "351px",
+              "height": "103.5px"
+            }
+          },
+          {
+            "name": "矩形 449",
+            "type": "shapeLayer",
+            "css": {
+              "position": "absolute",
+              "left": "12px",
+              "top": "414px",
+              "width": "351px",
+              "height": "103.5px"
+            }
+          },
+          {
+            "name": "矩形 448",
+            "type": "shapeLayer",
+            "css": {
+              "position": "absolute",
+              "left": "12px",
+              "top": "300.5px",
+              "width": "351px",
+              "height": "103.5px"
+            }
+          },
+          {
+            "name": "矩形 420",
+            "type": "shapeLayer",
+            "css": {
+              "position": "absolute",
+              "left": "12px",
+              "top": "187px",
+              "width": "351px",
+              "height": "103.5px"
+            }
+          },
+          {
+            "name": "待验收",
+            "type": "textLayer",
+            "css": {
+              "position": "absolute",
+              "left": "365px",
+              "top": "146px",
+              "width": "39px",
+              "height": "18.5px",
+              "color": "rgba(102,102,102,1)",
+              "font-size": "13px",
+              "font-family": "PingFang SC",
+              "font-weight": "400",
+              "text-align": "center",
+              "line-height": "1"
+            },
+            "text": "待验收",
+            "text_source": "layer-text"
+          },
+          {
+            "name": "待验收",
+            "type": "textLayer",
+            "css": {
+              "position": "absolute",
+              "left": "281.5px",
+              "top": "146px",
+              "width": "39px",
+              "height": "18.5px",
+              "color": "rgba(102,102,102,1)",
+              "font-size": "13px",
+              "font-family": "PingFang SC",
+              "font-weight": "400",
+              "text-align": "center",
+              "line-height": "1"
+            },
+            "text": "待验收",
+            "text_source": "layer-text"
+          },
+          {
+            "name": "待处理",
+            "type": "textLayer",
+            "css": {
+              "position": "absolute",
+              "left": "196.5px",
+              "top": "146px",
+              "width": "39px",
+              "height": "18.5px",
+              "color": "rgba(102,102,102,1)",
+              "font-size": "13px",
+              "font-family": "PingFang SC",
+              "font-weight": "400",
+              "text-align": "center",
+              "line-height": "1"
+            },
+            "text": "待处理",
+            "text_source": "layer-text"
+          },
+          {
+            "name": "待签收",
+            "type": "textLayer",
+            "css": {
+              "position": "absolute",
+              "left": "113px",
+              "top": "146px",
+              "width": "39px",
+              "height": "18.5px",
+              "color": "rgba(102,102,102,1)",
+              "font-size": "13px",
+              "font-family": "PingFang SC",
+              "font-weight": "400",
+              "text-align": "center",
+              "line-height": "1"
+            },
+            "text": "待签收",
+            "text_source": "layer-text"
+          },
+          {
+            "name": "全部",
+            "type": "textLayer",
+            "css": {
+              "position": "absolute",
+              "left": "36px",
+              "top": "146px",
+              "width": "26px",
+              "height": "18.5px",
+              "color": "rgba(0,103,255,1)",
+              "font-size": "13px",
+              "font-family": "PingFang SC",
+              "font-weight": "400",
+              "text-align": "center",
+              "line-height": "1"
+            },
+            "text": "全部",
+            "text_source": "layer-text"
+          },
+          {
+            "name": "矩形 447",
+            "type": "shapeLayer",
+            "css": {
+              "position": "absolute",
+              "left": "347.5px",
+              "top": "142px",
+              "width": "74px",
+              "height": "28px"
+            }
+          },
+          {
+            "name": "矩形 412",
+            "type": "shapeLayer",
+            "css": {
+              "position": "absolute",
+              "left": "264px",
+              "top": "142px",
+              "width": "74px",
+              "height": "28px"
+            }
+          },
+          {
+            "name": "矩形 411",
+            "type": "shapeLayer",
+            "css": {
+              "position": "absolute",
+              "left": "179px",
+              "top": "142px",
+              "width": "74px",
+              "height": "28px"
+            }
+          },
+          {
+            "name": "矩形 410",
+            "type": "shapeLayer",
+            "css": {
+              "position": "absolute",
+              "left": "95.5px",
+              "top": "142px",
+              "width": "74px",
+              "height": "28px"
+            }
+          },
+          {
+            "name": "矩形 409",
+            "type": "shapeLayer",
+            "css": {
+              "position": "absolute",
+              "left": "12px",
+              "top": "142px",
+              "width": "74px",
+              "height": "28px"
+            }
+          },
+          {
+            "name": "矩形 407",
+            "type": "shapeLayer",
+            "css": {
+              "position": "absolute",
+              "left": "44px",
+              "top": "128.3px",
+              "width": "23.5px",
+              "height": "3.5px"
+            }
+          },
+          {
+            "name": "保养工单",
+            "type": "textLayer",
+            "css": {
+              "position": "absolute",
+              "left": "115.5px",
+              "top": "102px",
+              "width": "64px",
+              "height": "22.5px",
+              "color": "rgba(102,102,102,1)",
+              "font-size": "16px",
+              "font-family": "PingFang SC",
+              "font-weight": "400",
+              "line-height": "1"
+            },
+            "text": "保养工单",
+            "text_source": "layer-text"
+          },
+          {
+            "name": "点检工单",
+            "type": "textLayer",
+            "css": {
+              "position": "absolute",
+              "left": "291.5px",
+              "top": "102px",
+              "width": "64px",
+              "height": "22.5px",
+              "color": "rgba(102,102,102,1)",
+              "font-size": "16px",
+              "font-family": "PingFang SC",
+              "font-weight": "400",
+              "line-height": "1"
+            },
+            "text": "点检工单",
+            "text_source": "layer-text"
+          },
+          {
+            "name": "寻检工单",
+            "type": "textLayer",
+            "css": {
+              "position": "absolute",
+              "left": "203.5px",
+              "top": "102px",
+              "width": "64px",
+              "height": "22.5px",
+              "color": "rgba(102,102,102,1)",
+              "font-size": "16px",
+              "font-family": "PingFang SC",
+              "font-weight": "400",
+              "line-height": "1"
+            },
+            "text": "寻检工单",
+            "text_source": "layer-text"
+          },
+          {
+            "name": "维修工单",
+            "type": "textLayer",
+            "css": {
+              "position": "absolute",
+              "left": "19.5px",
+              "top": "101.5px",
+              "width": "72px",
+              "height": "25px",
+              "color": "rgba(0,103,255,1)",
+              "font-size": "18px",
+              "font-family": "PingFang SC",
+              "font-weight": "700",
+              "line-height": "1"
+            },
+            "text": "维修工单",
+            "text_source": "layer-text"
+          },
+          {
+            "name": "矩形 426",
+            "type": "shapeLayer",
+            "css": {
+              "position": "absolute",
+              "left": "0px",
+              "top": "85px",
+              "width": "375px",
+              "height": "92px"
+            }
+          },
+          {
+            "name": "icon",
+            "type": "shapeLayer",
+            "css": {
+              "position": "absolute",
+              "left": "18px",
+              "top": "53.8px",
+              "width": "11px",
+              "height": "19.6px"
+            }
+          },
+          {
+            "name": "我的工单",
+            "type": "textLayer",
+            "css": {
+              "position": "absolute",
+              "left": "151.5px",
+              "top": "54px",
+              "width": "72px",
+              "height": "25px",
+              "color": "rgba(51,51,51,1)",
+              "font-size": "18px",
+              "font-family": "PingFang SC",
+              "font-weight": "700",
+              "text-align": "center",
+              "line-height": "1"
+            },
+            "text": "我的工单",
+            "text_source": "layer-text"
+          },
+          {
+            "name": "icon",
+            "type": "shapeLayer",
+            "css": {
+              "position": "absolute",
+              "left": "337px",
+              "top": "64.6px",
+              "width": "18.8px",
+              "height": "3.8px"
+            }
+          },
+          {
+            "name": "Time",
+            "type": "textLayer",
+            "css": {
+              "position": "absolute",
+              "left": "28.2px",
+              "top": "12.7px",
+              "width": "56px",
+              "height": "18.5px",
+              "color": "rgba(0,0,0,1)",
+              "font-size": "17px",
+              "font-family": "SF Pro Text",
+              "font-weight": "600",
+              "text-align": "center",
+              "letter-spacing": "-10px",
+              "line-height": "1"
+            },
+            "text": "9:41",
+            "text_source": "layer-text"
+          },
+          {
+            "name": "Cellular-Connection-path",
+            "type": "shapeLayer",
+            "css": {
+              "position": "absolute",
+              "left": "289.5px",
+              "top": "19.4px",
+              "width": "3.1px",
+              "height": "11px"
+            }
+          },
+          {
+            "name": "Cellular-Connection-path",
+            "type": "shapeLayer",
+            "css": {
+              "position": "absolute",
+              "left": "284.7px",
+              "top": "21.8px",
+              "width": "3.1px",
+              "height": "8.6px"
+            }
+          },
+          {
+            "name": "Cellular-Connection-path",
+            "type": "shapeLayer",
+            "css": {
+              "position": "absolute",
+              "left": "279.8px",
+              "top": "24.2px",
+              "width": "3.1px",
+              "height": "6.2px"
+            }
+          },
+          {
+            "name": "Cellular-Connection-path",
+            "type": "shapeLayer",
+            "css": {
+              "position": "absolute",
+              "left": "275px",
+              "top": "26.3px",
+              "width": "3.1px",
+              "height": "4.1px"
+            }
+          },
+          {
+            "name": "Wifi-path",
+            "type": "shapeLayer",
+            "css": {
+              "position": "absolute",
+              "left": "305.8px",
+              "top": "26.9px",
+              "width": "4.8px",
+              "height": "3.5px"
+            }
+          },
+          {
+            "name": "Wifi-path",
+            "type": "shapeLayer",
+            "css": {
+              "position": "absolute",
+              "left": "303px",
+              "top": "23px",
+              "width": "10.3px",
+              "height": "3.8px"
+            }
+          },
+          {
+            "name": "Wifi-path",
+            "type": "shapeLayer",
+            "css": {
+              "position": "absolute",
+              "left": "300.3px",
+              "top": "19px",
+              "width": "15.9px",
+              "height": "4.9px"
+            }
+          },
+          {
+            "name": "Capacity",
+            "type": "shapeLayer",
+            "css": {
+              "position": "absolute",
+              "left": "325.9px",
+              "top": "21.1px",
+              "width": "18.6px",
+              "height": "7.6px"
+            }
+          },
+          {
+            "name": "Cap",
+            "type": "shapeLayer",
+            "css": {
+              "position": "absolute",
+              "left": "347.6px",
+              "top": "22.8px",
+              "width": "1.4px",
+              "height": "4.1px"
+            }
+          },
+          {
+            "name": "Border",
+            "type": "shapeLayer",
+            "css": {
+              "position": "absolute",
+              "left": "323.8px",
+              "top": "19px",
+              "width": "22.8px",
+              "height": "11.7px"
+            }
+          },
+          {
+            "name": "Capacity",
+            "type": "shapeLayer",
+            "css": {
+              "position": "absolute",
+              "left": "325.9px",
+              "top": "20.1px",
+              "width": "18.6px",
+              "height": "7.6px"
+            }
+          },
+          {
+            "name": "Capacity",
+            "type": "shapeLayer",
+            "css": {
+              "position": "absolute",
+              "left": "325.9px",
+              "top": "20.1px",
+              "width": "18.6px",
+              "height": "7.6px"
+            }
+          },
+          {
+            "name": "矩形 344",
+            "type": "shapeLayer",
+            "css": {
+              "position": "absolute",
+              "left": "0px",
+              "top": "0px",
+              "width": "375px",
+              "height": "85px"
+            }
+          }
+        ],
+        "design_tokens": "=== Design Tokens ===\n\nColors (14 unique):\n  rgba(153,153,153,1) x18\n  rgba(102,102,102,1) x14\n  rgba(255,255,255,1) x12\n  rgba(0,0,0,1) x11\n  rgba(51,51,51,1) x10\n  rgba(0,103,255,1) x8\n  rgba(247,247,247,1) x4\n  rgba(255,25,25,1) x4\n  rgba(255,171,25,1) x4\n  rgba(0,184,12,1) x2\n  rgba(255,61,0,1) x2\n  rgba(0,0,0,0.6) x1\n  rgba(20,16,28,1) x1\n  rgba(0,14,35,1) x1\n\nFonts (7 unique):\n  PingFang SC / 400 / 24px x12\n  PingFang SC / 400 / 26px x5\n  PingFang SC / 400 / 28px x4\n  PingFang SC / 700 / 34px x4\n  PingFang SC / 400 / 32px x3\n  PingFang SC / 700 / 36px x2\n  SF Pro Text / 600 / 34px x1\n\nBorders (4 unique):\n  1px center rgba(255,25,25,1) x2\n  1px center rgba(255,171,25,1) x2\n  1px center rgba(255,255,255,1) x1\n  1px center rgba(236,236,236,1) x1",
+        "sketch_annotations": "============================================================\n设计标注信息（从原始 Sketch/PSD 数据提取）\n============================================================\n设计稿名称: Web 1920 – 13\n设备:   |  缩放: @2x\n画布尺寸: 375x812 (逻辑像素)\n画布背景色: #FFFFFF\n\n以下所有尺寸/坐标均为逻辑像素（已除以 @2x）\n------------------------------------------------------------\n\n📂 图层组结构 (布局参考):\n  [组] \"组 8\" @(28.2,12.7) 320.8x18.5\n\n📝 文本图层:\n  \"9:41\"\n    位置: (28.2,12.7) 56x18.5\n    样式: font-size: 17px; font-family: SF Pro Text; font-weight: bold; color: rgba(0,0,0,1); text-align: center; line-height: 0px; letter-spacing: -10\n  \"我的工单\"\n    位置: (151.5,54) 72x25\n    样式: font-size: 18px; font-family: PingFang SC; font-weight: bold; color: rgba(51,51,51,1); text-align: center; line-height: 0px; letter-spacing: 0\n  \"维修工单\"\n    位置: (19.5,101.5) 72x25\n    样式: font-size: 18px; font-family: PingFang SC; font-weight: bold; color: rgba(0,103,255,1); line-height: 0px; letter-spacing: 0\n  \"寻检工单\"\n    位置: (203.5,102) 64x22.5\n    样式: font-size: 16px; font-family: PingFang SC; color: rgba(102,102,102,1); line-height: 0px; letter-spacing: 0\n  \"点检工单\"\n    位置: (291.5,102) 64x22.5\n    样式: font-size: 16px; font-family: PingFang SC; color: rgba(102,102,102,1); line-height: 0px; letter-spacing: 0\n  \"保养工单\"\n    位置: (115.5,102) 64x22.5\n    样式: font-size: 16px; font-family: PingFang SC; color: rgba(102,102,102,1); line-height: 0px; letter-spacing: 0\n  \"全部\"\n    位置: (36,146) 26x18.5\n    样式: font-size: 13px; font-family: PingFang SC; color: rgba(0,103,255,1); text-align: center; line-height: 0px; letter-spacing: 0\n  \"待签收\"\n    位置: (113,146) 39x18.5\n    样式: font-size: 13px; font-family: PingFang SC; color: rgba(102,102,102,1); text-align: center; line-height: 0px; letter-spacing: 0\n  \"待处理\"\n    位置: (196.5,146) 39x18.5\n    样式: font-size: 13px; font-family: PingFang SC; color: rgba(102,102,102,1); text-align: center; line-height: 0px; letter-spacing: 0\n  \"待验收\"\n    位置: (281.5,146) 39x18.5\n    样式: font-size: 13px; font-family: PingFang SC; color: rgba(102,102,102,1); text-align: center; line-height: 0px; letter-spacing: 0\n  \"待验收\"\n    位置: (365,146) 39x18.5\n    样式: font-size: 13px; font-family: PingFang SC; color: rgba(102,102,102,1); text-align: center; line-height: 0px; letter-spacing: 0\n  \"待签收\"\n    位置: (305.5,201) 42x20\n    样式: font-size: 14px; font-family: PingFang SC; color: rgba(0,184,12,1); line-height: 0px; letter-spacing: 0\n  \"待处理\"\n    位置: (305.5,314.5) 42x20\n    样式: font-size: 14px; font-family: PingFang SC; color: rgba(255,61,0,1); line-height: 0px; letter-spacing: 0\n  \"待验收\"\n    位置: (305.5,428) 42x20\n    样式: font-size: 14px; font-family: PingFang SC; color: rgba(0,103,255,1); line-height: 0px; letter-spacing: 0\n  \"已完成\"\n    位置: (305.5,541.5) 42x20\n    样式: font-size: 14px; font-family: PingFang SC; color: rgba(153,153,153,1); line-height: 0px; letter-spacing: 0\n  \"描述信息描述信息描述信息描述信息描述信息描述信息...\"\n    位置: (29,231) 297.5x16.5\n    样式: font-size: 12px; font-family: PingFang SC; color: rgba(153,153,153,1); line-height: 0px; letter-spacing: 0\n  \"描述信息描述信息描述信息描述信息描述信息描述信息...\"\n    位置: (29,344.5) 297.5x16.5\n    样式: font-size: 12px; font-family: PingFang SC; color: rgba(153,153,153,1); line-height: 0px; letter-spacing: 0\n  \"描述信息描述信息描述信息描述信息描述信息描述信息...\"\n    位置: (29,458) 297.5x16.5\n    样式: font-size: 12px; font-family: PingFang SC; color: rgba(153,153,153,1); line-height: 0px; letter-spacing: 0\n  \"描述信息描述信息描述信息描述信息描述信息描述信息...\"\n    位置: (29,571.5) 297.5x16.5\n    样式: font-size: 12px; font-family: PingFang SC; color: rgba(153,153,153,1); line-height: 0px; letter-spacing: 0\n  \"2026-10-20 14:32:20\"\n    位置: (29,262) 125.5x16.5\n    样式: font-size: 12px; font-family: PingFang SC; color: rgba(153,153,153,1); line-height: 0px; letter-spacing: 0\n  \"2026-10-20 14:32:20\"\n    位置: (29,375.5) 125.5x16.5\n    样式: font-size: 12px; font-family: PingFang SC; color: rgba(153,153,153,1); line-height: 0px; letter-spacing: 0\n  \"2026-10-20 14:32:20\"\n    位置: (29,489) 125.5x16.5\n    样式: font-size: 12px; font-family: PingFang SC; color: rgba(153,153,153,1); line-height: 0px; letter-spacing: 0\n  \"2026-10-20 14:32:20\"\n    位置: (29,602.5) 125.5x16.5\n    样式: font-size: 12px; font-family: PingFang SC; color: rgba(153,153,153,1); line-height: 0px; letter-spacing: 0\n  \"一厂设备的设备名称\"\n    位置: (82.5,200) 153x24\n    样式: font-size: 17px; font-family: PingFang SC; font-weight: bold; color: rgba(51,51,51,1); text-align: right; line-height: 0px; letter-spacing: 0\n  \"一厂设备的设备名称\"\n    位置: (82.5,313.5) 153x24\n    样式: font-size: 17px; font-family: PingFang SC; font-weight: bold; color: rgba(51,51,51,1); text-align: right; line-height: 0px; letter-spacing: 0\n  \"一厂设备的设备名称\"\n    位置: (82.5,427) 153x24\n    样式: font-size: 17px; font-family: PingFang SC; font-weight: bold; color: rgba(51,51,51,1); text-align: right; line-height: 0px; letter-spacing: 0\n  \"一厂设备的设备名称\"\n    位置: (82.5,540.5) 153x24\n    样式: font-size: 17px; font-family: PingFang SC; font-weight: bold; color: rgba(51,51,51,1); text-align: right; line-height: 0px; letter-spacing: 0\n  \"紧急\"\n    位置: (39,204) 24x16.5\n    样式: font-size: 12px; font-family: PingFang SC; color: rgba(255,25,25,1); line-height: 0px; letter-spacing: 0\n  \"紧急\"\n    位置: (39,315) 24x16.5\n    样式: font-size: 12px; font-family: PingFang SC; color: rgba(255,25,25,1); line-height: 0px; letter-spacing: 0\n  \"一般\"\n    位置: (39,430) 24x16.5\n    样式: font-size: 12px; font-family: PingFang SC; color: rgba(255,171,25,1); line-height: 0px; letter-spacing: 0\n  \"一般\"\n    位置: (39,544.5) 24x16.5\n    样式: font-size: 12px; font-family: PingFang SC; color: rgba(255,171,25,1); line-height: 0px; letter-spacing: 0\n\n🔷 形状图层:\n  \"矩形 344\" (矩形 344)\n    位置: (0,0) 375x85\n    样式: fill: rgba(255,255,255,1); opacity: 1%\n  \"Capacity\" (组 8/Capacity)\n    位置: (325.9,20.1) 18.6x7.6\n    样式: fill: rgba(255,255,255,1); opacity: 1%\n  \"Capacity\" (组 8/Capacity)\n    位置: (325.9,20.1) 18.6x7.6\n    样式: fill: rgba(255,255,255,1); opacity: 1%\n  \"Border\" (组 8/Border)\n    位置: (323.8,19) 22.8x11.7\n    样式: fill: rgba(0,0,0,0.6); opacity: 0.35%; border: 1px rgba(255,255,255,1)\n  \"Cap\" (组 8/Cap)\n    位置: (347.6,22.8) 1.4x4.1\n    样式: fill: rgba(0,0,0,1); opacity: 0.4%\n  \"Capacity\" (组 8/Capacity)\n    位置: (325.9,21.1) 18.6x7.6\n    样式: fill: rgba(0,0,0,1); opacity: 1%\n  \"Wifi-path\" (组 8/Wifi-path)\n    位置: (300.3,19) 15.9x4.9\n    样式: fill: rgba(0,0,0,1); opacity: 1%\n  \"Wifi-path\" (组 8/Wifi-path)\n    位置: (303,23) 10.3x3.8\n    样式: fill: rgba(0,0,0,1); opacity: 1%\n  \"Wifi-path\" (组 8/Wifi-path)\n    位置: (305.8,26.9) 4.8x3.5\n    样式: fill: rgba(0,0,0,1); opacity: 1%\n  \"Cellular-Connection-path\" (组 8/Cellular-Connection-path)\n    位置: (275,26.3) 3.1x4.1\n    样式: fill: rgba(0,0,0,1); opacity: 1%\n  \"Cellular-Connection-path\" (组 8/Cellular-Connection-path)\n    位置: (279.8,24.2) 3.1x6.2\n    样式: fill: rgba(0,0,0,1); opacity: 1%\n  \"Cellular-Connection-path\" (组 8/Cellular-Connection-path)\n    位置: (284.7,21.8) 3.1x8.6\n    样式: fill: rgba(0,0,0,1); opacity: 1%\n  \"Cellular-Connection-path\" (组 8/Cellular-Connection-path)\n    位置: (289.5,19.4) 3.1x11\n    样式: fill: rgba(0,0,0,1); opacity: 1%\n  \"icon\" (icon)\n    位置: (337,64.6) 18.8x3.8\n    样式: fill: rgba(20,16,28,1); opacity: 1%\n  \"icon\" (icon)\n    位置: (18,53.8) 11x19.6\n    样式: fill: rgba(0,14,35,1); opacity: 1%\n  \"矩形 426\" (矩形 426)\n    位置: (0,85) 375x92\n    样式: fill: rgba(255,255,255,1); opacity: 1%\n  \"矩形 407\" (矩形 407)\n    位置: (44,128.3) 23.5x3.5\n    样式: fill: rgba(0,103,255,1); opacity: 1%\n  \"矩形 409\" (矩形 409)\n    位置: (12,142) 74x28\n    样式: fill: rgba(0,103,255,1); opacity: 0.08%\n  \"矩形 410\" (矩形 410)\n    位置: (95.5,142) 74x28\n    样式: fill: rgba(247,247,247,1); opacity: 1%\n  \"矩形 411\" (矩形 411)\n    位置: (179,142) 74x28\n    样式: fill: rgba(247,247,247,1); opacity: 1%\n  \"矩形 412\" (矩形 412)\n    位置: (264,142) 74x28\n    样式: fill: rgba(247,247,247,1); opacity: 1%\n  \"矩形 447\" (矩形 447)\n    位置: (347.5,142) 74x28\n    样式: fill: rgba(247,247,247,1); opacity: 1%\n  \"矩形 420\" (矩形 420)\n    位置: (12,187) 351x103.5\n    样式: fill: rgba(255,255,255,1); opacity: 1%\n  \"矩形 448\" (矩形 448)\n    位置: (12,300.5) 351x103.5\n    样式: fill: rgba(255,255,255,1); opacity: 1%\n  \"矩形 449\" (矩形 449)\n    位置: (12,414) 351x103.5\n    样式: fill: rgba(255,255,255,1); opacity: 1%\n  \"矩形 450\" (矩形 450)\n    位置: (12,527.5) 351x103.5\n    样式: fill: rgba(255,255,255,1); opacity: 1%\n  \"直线 129\" (直线 129)\n    位置: (0.3,134) 375x0\n    样式: opacity: 1%; border: 1px rgba(236,236,236,1)\n  \"矩形 472\" (矩形 472)\n    位置: (29,201) 44x22.5\n    样式: fill: rgba(255,255,255,1); opacity: 1%; border: 1px rgba(255,25,25,1)\n  \"矩形 473\" (矩形 473)\n    位置: (29,312) 44x22.5\n    样式: fill: rgba(255,255,255,1); opacity: 1%; border: 1px rgba(255,25,25,1)\n  \"矩形 474\" (矩形 474)\n    位置: (29,427) 44x22.5\n    样式: fill: rgba(255,255,255,1); opacity: 1%; border: 1px rgba(255,171,25,1)\n  \"矩形 475\" (矩形 475)\n    位置: (29,541.5) 44x22.5\n    样式: fill: rgba(255,255,255,1); opacity: 1%; border: 1px rgba(255,171,25,1)\n\n🎨 设计汇总:\n  使用颜色: rgba(0,0,0,0.6), rgba(0,0,0,1), rgba(0,103,255,1), rgba(0,14,35,1), rgba(0,184,12,1), rgba(102,102,102,1), rgba(153,153,153,1), rgba(20,16,28,1), rgba(247,247,247,1), rgba(255,171,25,1), rgba(255,25,25,1), rgba(255,255,255,1), rgba(255,61,0,1), rgba(51,51,51,1)\n  字体/字号: 12px, 13px, 14px, 16px, 17px, 18px, PingFang SC, SF Pro Text\n\n============================================================",
+        "slices": {
+          "designId": "b84afee2-8b6f-4dd2-b295-2686fab367ab",
+          "designName": "Web 1920 – 13",
+          "version": "版本1",
+          "canvasSize": {
+            "width": 187.5,
+            "height": 406
+          },
+          "totalSlices": 0,
+          "slices": []
+        },
+        "fallback_mode": "sketch"
+      }
+    ]
+  }
+}

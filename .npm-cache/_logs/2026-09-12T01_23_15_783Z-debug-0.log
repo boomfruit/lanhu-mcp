@@ -1,0 +1,1398 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v20.17.0
+3 silly config load:file:D:\nvm\nvm\v20.17.0\node_modules\npm\npmrc
+4 silly config load:file:D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\.npmrc
+5 silly config load:file:C:\Users\Administrator\.npmrc
+6 silly config load:file:C:\Program Files\nodejs\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache" "--prefer-online"
+9 verbose logfile logs-max:10 dir:D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\.npm-cache\_logs\2026-09-12T01_23_15_783Z-
+10 verbose logfile D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\.npm-cache\_logs\2026-09-12T01_23_15_783Z-debug-0.log
+11 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 warn EBADENGINE Unsupported engine {
+14 warn EBADENGINE   package: 'rolldown@1.0.0-rc.17',
+14 warn EBADENGINE   required: { node: '^20.19.0 || >=22.12.0' },
+14 warn EBADENGINE   current: { node: 'v20.17.0', npm: '10.8.2' }
+14 warn EBADENGINE }
+15 warn EBADENGINE Unsupported engine {
+15 warn EBADENGINE   package: 'vite@8.0.10',
+15 warn EBADENGINE   required: { node: '^20.19.0 || >=22.12.0' },
+15 warn EBADENGINE   current: { node: 'v20.17.0', npm: '10.8.2' }
+15 warn EBADENGINE }
+16 silly reify mark retired [
+16 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\body-parser'
+16 silly reify ]
+17 silly reify mark retired [
+17 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\ajv'
+17 silly reify ]
+18 silly reify mark retired [
+18 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\hono'
+18 silly reify ]
+19 silly reify mark retired [
+19 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\nanoid'
+19 silly reify ]
+20 silly reify mark retired [
+20 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\postcss'
+20 silly reify ]
+21 silly reify mark retired [
+21 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\rolldown'
+21 silly reify ]
+22 silly reify mark retired [
+22 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\tinyglobby'
+22 silly reify ]
+23 silly reify mark retired [
+23 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\vite'
+23 silly reify ]
+24 silly reify mark retired [
+24 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@emnapi\\core'
+24 silly reify ]
+25 silly reify mark retired [
+25 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@emnapi\\runtime'
+25 silly reify ]
+26 silly reify mark retired [
+26 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@emnapi\\wasi-threads'
+26 silly reify ]
+27 silly reify mark retired [
+27 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@esbuild\\win32-x64'
+27 silly reify ]
+28 silly reify mark retired [
+28 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@napi-rs\\wasm-runtime'
+28 silly reify ]
+29 silly reify mark retired [
+29 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@tybys\\wasm-util'
+29 silly reify ]
+30 silly reify mark retired [
+30 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@vitest\\expect'
+30 silly reify ]
+31 silly reify mark retired [
+31 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@rolldown\\pluginutils'
+31 silly reify ]
+32 silly reify mark retired [
+32 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@vitest\\runner'
+32 silly reify ]
+33 silly reify mark retired [
+33 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@oxc-project\\types'
+33 silly reify ]
+34 silly reify moves {
+34 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\body-parser': 'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\.body-parser-wTgAX3D2',
+34 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\ajv': 'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\.ajv-jwsFTcdO',
+34 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\hono': 'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\.hono-INBJsOxp',
+34 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\nanoid': 'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\.nanoid-0Uhel9gS',
+34 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\postcss': 'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\.postcss-uy6y2tY5',
+34 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\rolldown': 'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\.rolldown-Huwf0M2B',
+34 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\tinyglobby': 'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\.tinyglobby-mgGLewhz',
+34 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\vite': 'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\.vite-FhLQ7Yal',
+34 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@emnapi\\core': 'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@emnapi\\.core-d3eYddsj',
+34 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@emnapi\\runtime': 'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@emnapi\\.runtime-W2pFdz6x',
+34 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@emnapi\\wasi-threads': 'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@emnapi\\.wasi-threads-JjuSDEQs',
+34 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@esbuild\\win32-x64': 'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@esbuild\\.win32-x64-vzrKZF69',
+34 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@napi-rs\\wasm-runtime': 'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@napi-rs\\.wasm-runtime-x0FibFlb',
+34 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@tybys\\wasm-util': 'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@tybys\\.wasm-util-hQr9Afjc',
+34 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@vitest\\expect': 'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@vitest\\.expect-qu1UKHOJ',
+34 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@rolldown\\pluginutils': 'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@rolldown\\.pluginutils-pkePj4xF',
+34 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@vitest\\runner': 'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@vitest\\.runner-FVnLYsrj',
+34 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@oxc-project\\types': 'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@oxc-project\\.types-ldFyuwtv'
+34 silly reify }
+35 silly audit bulk request {
+35 silly audit   '@emnapi/core': [ '1.10.0' ],
+35 silly audit   '@emnapi/runtime': [ '1.10.0' ],
+35 silly audit   '@emnapi/wasi-threads': [ '1.2.1' ],
+35 silly audit   '@esbuild/aix-ppc64': [ '0.27.4' ],
+35 silly audit   '@esbuild/android-arm': [ '0.27.4' ],
+35 silly audit   '@esbuild/android-arm64': [ '0.27.4' ],
+35 silly audit   '@esbuild/android-x64': [ '0.27.4' ],
+35 silly audit   '@esbuild/darwin-arm64': [ '0.27.4' ],
+35 silly audit   '@esbuild/darwin-x64': [ '0.27.4' ],
+35 silly audit   '@esbuild/freebsd-arm64': [ '0.27.4' ],
+35 silly audit   '@esbuild/freebsd-x64': [ '0.27.4' ],
+35 silly audit   '@esbuild/linux-arm': [ '0.27.4' ],
+35 silly audit   '@esbuild/linux-arm64': [ '0.27.4' ],
+35 silly audit   '@esbuild/linux-ia32': [ '0.27.4' ],
+35 silly audit   '@esbuild/linux-loong64': [ '0.27.4' ],
+35 silly audit   '@esbuild/linux-mips64el': [ '0.27.4' ],
+35 silly audit   '@esbuild/linux-ppc64': [ '0.27.4' ],
+35 silly audit   '@esbuild/linux-riscv64': [ '0.27.4' ],
+35 silly audit   '@esbuild/linux-s390x': [ '0.27.4' ],
+35 silly audit   '@esbuild/linux-x64': [ '0.27.4' ],
+35 silly audit   '@esbuild/netbsd-arm64': [ '0.27.4' ],
+35 silly audit   '@esbuild/netbsd-x64': [ '0.27.4' ],
+35 silly audit   '@esbuild/openbsd-arm64': [ '0.27.4' ],
+35 silly audit   '@esbuild/openbsd-x64': [ '0.27.4' ],
+35 silly audit   '@esbuild/openharmony-arm64': [ '0.27.4' ],
+35 silly audit   '@esbuild/sunos-x64': [ '0.27.4' ],
+35 silly audit   '@esbuild/win32-arm64': [ '0.27.4' ],
+35 silly audit   '@esbuild/win32-ia32': [ '0.27.4' ],
+35 silly audit   '@esbuild/win32-x64': [ '0.27.4' ],
+35 silly audit   '@hono/node-server': [ '1.19.14' ],
+35 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+35 silly audit   '@modelcontextprotocol/sdk': [ '1.29.0' ],
+35 silly audit   '@napi-rs/wasm-runtime': [ '1.1.4' ],
+35 silly audit   '@oxc-project/types': [ '0.127.0' ],
+35 silly audit   '@rolldown/binding-android-arm64': [ '1.0.0-rc.17' ],
+35 silly audit   '@rolldown/binding-darwin-arm64': [ '1.0.0-rc.17' ],
+35 silly audit   '@rolldown/binding-darwin-x64': [ '1.0.0-rc.17' ],
+35 silly audit   '@rolldown/binding-freebsd-x64': [ '1.0.0-rc.17' ],
+35 silly audit   '@rolldown/binding-linux-arm-gnueabihf': [ '1.0.0-rc.17' ],
+35 silly audit   '@rolldown/binding-linux-arm64-gnu': [ '1.0.0-rc.17' ],
+35 silly audit   '@rolldown/binding-linux-arm64-musl': [ '1.0.0-rc.17' ],
+35 silly audit   '@rolldown/binding-linux-ppc64-gnu': [ '1.0.0-rc.17' ],
+35 silly audit   '@rolldown/binding-linux-s390x-gnu': [ '1.0.0-rc.17' ],
+35 silly audit   '@rolldown/binding-linux-x64-gnu': [ '1.0.0-rc.17' ],
+35 silly audit   '@rolldown/binding-linux-x64-musl': [ '1.0.0-rc.17' ],
+35 silly audit   '@rolldown/binding-openharmony-arm64': [ '1.0.0-rc.17' ],
+35 silly audit   '@rolldown/binding-wasm32-wasi': [ '1.0.0-rc.17' ],
+35 silly audit   '@rolldown/binding-win32-arm64-msvc': [ '1.0.0-rc.17' ],
+35 silly audit   '@rolldown/binding-win32-x64-msvc': [ '1.0.0-rc.17' ],
+35 silly audit   '@rolldown/pluginutils': [ '1.0.0-rc.17' ],
+35 silly audit   '@standard-schema/spec': [ '1.1.0' ],
+35 silly audit   '@tybys/wasm-util': [ '0.10.1' ],
+35 silly audit   '@types/chai': [ '5.2.3' ],
+35 silly audit   '@types/deep-eql': [ '4.0.2' ],
+35 silly audit   '@types/estree': [ '1.0.8' ],
+35 silly audit   '@types/node': [ '24.12.0' ],
+35 silly audit   '@vitest/expect': [ '4.1.2' ],
+35 silly audit   '@vitest/mocker': [ '4.1.2' ],
+35 silly audit   '@vitest/pretty-format': [ '4.1.2' ],
+35 silly audit   '@vitest/runner': [ '4.1.2' ],
+35 silly audit   '@vitest/snapshot': [ '4.1.2' ],
+35 silly audit   '@vitest/spy': [ '4.1.2' ],
+35 silly audit   '@vitest/utils': [ '4.1.2' ],
+35 silly audit   accepts: [ '2.0.0' ],
+35 silly audit   ajv: [ '8.18.0' ],
+35 silly audit   'ajv-formats': [ '3.0.1' ],
+35 silly audit   'assertion-error': [ '2.0.1' ],
+35 silly audit   'body-parser': [ '2.2.2' ],
+35 silly audit   bytes: [ '3.1.2' ],
+35 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+35 silly audit   'call-bound': [ '1.0.4' ],
+35 silly audit   chai: [ '6.2.2' ],
+35 silly audit   'content-disposition': [ '1.0.1' ],
+35 silly audit   'content-type': [ '1.0.5' ],
+35 silly audit   'convert-source-map': [ '2.0.0' ],
+35 silly audit   cookie: [ '0.7.2' ],
+35 silly audit   'cookie-signature': [ '1.2.2' ],
+35 silly audit   cors: [ '2.8.6' ],
+35 silly audit   'cross-spawn': [ '7.0.6' ],
+35 silly audit   debug: [ '4.4.3' ],
+35 silly audit   depd: [ '2.0.0' ],
+35 silly audit   'detect-libc': [ '2.1.2' ],
+35 silly audit   'dunder-proto': [ '1.0.1' ],
+35 silly audit   'ee-first': [ '1.1.1' ],
+35 silly audit   encodeurl: [ '2.0.0' ],
+35 silly audit   'es-define-property': [ '1.0.1' ],
+35 silly audit   'es-errors': [ '1.3.0' ],
+35 silly audit   'es-module-lexer': [ '2.0.0' ],
+35 silly audit   'es-object-atoms': [ '1.1.1' ],
+35 silly audit   esbuild: [ '0.27.4' ],
+35 silly audit   'escape-html': [ '1.0.3' ],
+35 silly audit   'estree-walker': [ '3.0.3' ],
+35 silly audit   etag: [ '1.8.1' ],
+35 silly audit   eventsource: [ '3.0.7' ],
+35 silly audit   'eventsource-parser': [ '3.0.6' ],
+35 silly audit   'expect-type': [ '1.3.0' ],
+35 silly audit   express: [ '5.2.1' ],
+35 silly audit   'express-rate-limit': [ '8.3.2' ],
+35 silly audit   'fast-deep-equal': [ '3.1.3' ],
+35 silly audit   'fast-uri': [ '3.1.0' ],
+35 silly audit   fdir: [ '6.5.0' ],
+35 silly audit   finalhandler: [ '2.1.1' ],
+35 silly audit   forwarded: [ '0.2.0' ],
+35 silly audit   fresh: [ '2.0.0' ],
+35 silly audit   fsevents: [ '2.3.3' ],
+35 silly audit   'function-bind': [ '1.1.2' ],
+35 silly audit   'get-intrinsic': [ '1.3.0' ],
+35 silly audit   'get-proto': [ '1.0.1' ],
+35 silly audit   'get-tsconfig': [ '4.13.7' ],
+35 silly audit   gopd: [ '1.2.0' ],
+35 silly audit   'has-symbols': [ '1.1.0' ],
+35 silly audit   hasown: [ '2.0.2' ],
+35 silly audit   hono: [ '4.12.15' ],
+35 silly audit   'http-errors': [ '2.0.1' ],
+35 silly audit   'iconv-lite': [ '0.7.2' ],
+35 silly audit   inherits: [ '2.0.4' ],
+35 silly audit   'ip-address': [ '10.1.0' ],
+35 silly audit   'ipaddr.js': [ '1.9.1' ],
+35 silly audit   'is-promise': [ '4.0.0' ],
+35 silly audit   isexe: [ '2.0.0' ],
+35 silly audit   jose: [ '6.2.2' ],
+35 silly audit   'json-schema-traverse': [ '1.0.0' ],
+35 silly audit   'json-schema-typed': [ '8.0.2' ],
+35 silly audit   lightningcss: [ '1.32.0' ],
+35 silly audit   'lightningcss-android-arm64': [ '1.32.0' ],
+35 silly audit   'lightningcss-darwin-arm64': [ '1.32.0' ],
+35 silly audit   'lightningcss-darwin-x64': [ '1.32.0' ],
+35 silly audit   'lightningcss-freebsd-x64': [ '1.32.0' ],
+35 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.32.0' ],
+35 silly audit   'lightningcss-linux-arm64-gnu': [ '1.32.0' ],
+35 silly audit   'lightningcss-linux-arm64-musl': [ '1.32.0' ],
+35 silly audit   'lightningcss-linux-x64-gnu': [ '1.32.0' ],
+35 silly audit   'lightningcss-linux-x64-musl': [ '1.32.0' ],
+35 silly audit   'lightningcss-win32-arm64-msvc': [ '1.32.0' ],
+35 silly audit   'lightningcss-win32-x64-msvc': [ '1.32.0' ],
+35 silly audit   'magic-string': [ '0.30.21' ],
+35 silly audit   'math-intrinsics': [ '1.1.0' ],
+35 silly audit   'media-typer': [ '1.1.0' ],
+35 silly audit   'merge-descriptors': [ '2.0.0' ],
+35 silly audit   'mime-db': [ '1.54.0' ],
+35 silly audit   'mime-types': [ '3.0.2' ],
+35 silly audit   ms: [ '2.1.3' ],
+35 silly audit   nanoid: [ '3.3.11' ],
+35 silly audit   negotiator: [ '1.0.0' ],
+35 silly audit   'object-assign': [ '4.1.1' ],
+35 silly audit   'object-inspect': [ '1.13.4' ],
+35 silly audit   obug: [ '2.1.1' ],
+35 silly audit   'on-finished': [ '2.4.1' ],
+35 silly audit   once: [ '1.4.0' ],
+35 silly audit   parseurl: [ '1.3.3' ],
+35 silly audit   'path-key': [ '3.1.1' ],
+35 silly audit   'path-to-regexp': [ '8.4.1' ],
+35 silly audit   pathe: [ '2.0.3' ],
+35 silly audit   picocolors: [ '1.1.1' ],
+35 silly audit   picomatch: [ '4.0.4' ],
+35 silly audit   'pkce-challenge': [ '5.0.1' ],
+35 silly audit   postcss: [ '8.5.12' ],
+35 silly audit   'proxy-addr': [ '2.0.7' ],
+35 silly audit   qs: [ '6.15.0' ],
+35 silly audit   'range-parser': [ '1.2.1' ],
+35 silly audit   'raw-body': [ '3.0.2' ],
+35 silly audit   'require-from-string': [ '2.0.2' ],
+35 silly audit   'resolve-pkg-maps': [ '1.0.0' ],
+35 silly audit   rolldown: [ '1.0.0-rc.17' ],
+35 silly audit   router: [ '2.2.0' ],
+35 silly audit   'safer-buffer': [ '2.1.2' ],
+35 silly audit   send: [ '1.2.1' ],
+35 silly audit   'serve-static': [ '2.2.1' ],
+35 silly audit   setprototypeof: [ '1.2.0' ],
+35 silly audit   'shebang-command': [ '2.0.0' ],
+35 silly audit   'shebang-regex': [ '3.0.0' ],
+35 silly audit   'side-channel': [ '1.1.0' ],
+35 silly audit   'side-channel-list': [ '1.0.0' ],
+35 silly audit   'side-channel-map': [ '1.0.1' ],
+35 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+35 silly audit   siginfo: [ '2.0.0' ],
+35 silly audit   'source-map-js': [ '1.2.1' ],
+35 silly audit   stackback: [ '0.0.2' ],
+35 silly audit   statuses: [ '2.0.2' ],
+35 silly audit   'std-env': [ '4.0.0' ],
+35 silly audit   tinybench: [ '2.9.0' ],
+35 silly audit   tinyexec: [ '1.0.4' ],
+35 silly audit   tinyglobby: [ '0.2.16' ],
+35 silly audit   tinyrainbow: [ '3.1.0' ],
+35 silly audit   toidentifier: [ '1.0.1' ],
+35 silly audit   tslib: [ '2.8.1' ],
+35 silly audit   tsx: [ '4.21.0' ],
+35 silly audit   'type-is': [ '2.0.1' ],
+35 silly audit   typescript: [ '5.9.3' ],
+35 silly audit   'undici-types': [ '7.16.0' ],
+35 silly audit   unpipe: [ '1.0.0' ],
+35 silly audit   vary: [ '1.1.2' ],
+35 silly audit   vite: [ '8.0.10' ],
+35 silly audit   vitest: [ '4.1.2' ],
+35 silly audit   which: [ '2.0.2' ],
+35 silly audit   'why-is-node-running': [ '2.3.0' ],
+35 silly audit   wrappy: [ '1.0.2' ],
+35 silly audit   zod: [ '4.3.6' ],
+35 silly audit   'zod-to-json-schema': [ '3.25.2' ]
+35 silly audit }
+36 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\lightningcss-win32-arm64-msvc
+37 silly reify mark deleted [
+37 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\lightningcss-win32-arm64-msvc'
+37 silly reify ]
+38 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\lightningcss-linux-x64-musl
+39 silly reify mark deleted [
+39 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\lightningcss-linux-x64-musl'
+39 silly reify ]
+40 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\lightningcss-linux-x64-gnu
+41 silly reify mark deleted [
+41 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\lightningcss-linux-x64-gnu'
+41 silly reify ]
+42 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\lightningcss-linux-arm64-musl
+43 silly reify mark deleted [
+43 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\lightningcss-linux-arm64-musl'
+43 silly reify ]
+44 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\lightningcss-linux-arm64-gnu
+45 silly reify mark deleted [
+45 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\lightningcss-linux-arm64-gnu'
+45 silly reify ]
+46 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\lightningcss-linux-arm-gnueabihf
+47 silly reify mark deleted [
+47 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\lightningcss-linux-arm-gnueabihf'
+47 silly reify ]
+48 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\lightningcss-freebsd-x64
+49 silly reify mark deleted [
+49 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\lightningcss-freebsd-x64'
+49 silly reify ]
+50 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\lightningcss-darwin-x64
+51 silly reify mark deleted [
+51 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\lightningcss-darwin-x64'
+51 silly reify ]
+52 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\lightningcss-darwin-arm64
+53 silly reify mark deleted [
+53 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\lightningcss-darwin-arm64'
+53 silly reify ]
+54 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\lightningcss-android-arm64
+55 silly reify mark deleted [
+55 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\lightningcss-android-arm64'
+55 silly reify ]
+56 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\fsevents
+57 silly reify mark deleted [
+57 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\fsevents'
+57 silly reify ]
+58 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@rolldown\binding-win32-x64-msvc
+59 silly reify mark deleted [
+59 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@rolldown\\binding-win32-x64-msvc'
+59 silly reify ]
+60 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@rolldown\binding-win32-arm64-msvc
+61 silly reify mark deleted [
+61 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@rolldown\\binding-win32-arm64-msvc'
+61 silly reify ]
+62 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@rolldown\binding-wasm32-wasi
+63 silly reify mark deleted [
+63 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@rolldown\\binding-wasm32-wasi'
+63 silly reify ]
+64 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@emnapi\core
+65 silly reify mark deleted [
+65 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@emnapi\\core'
+65 silly reify ]
+66 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@emnapi\runtime
+67 silly reify mark deleted [
+67 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@emnapi\\runtime'
+67 silly reify ]
+68 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@napi-rs\wasm-runtime
+69 silly reify mark deleted [
+69 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@napi-rs\\wasm-runtime'
+69 silly reify ]
+70 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@emnapi\wasi-threads
+71 silly reify mark deleted [
+71 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@emnapi\\wasi-threads'
+71 silly reify ]
+72 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\tslib
+73 silly reify mark deleted [
+73 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\tslib'
+73 silly reify ]
+74 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@tybys\wasm-util
+75 silly reify mark deleted [
+75 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@tybys\\wasm-util'
+75 silly reify ]
+76 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@rolldown\binding-openharmony-arm64
+77 silly reify mark deleted [
+77 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@rolldown\\binding-openharmony-arm64'
+77 silly reify ]
+78 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@rolldown\binding-linux-x64-musl
+79 silly reify mark deleted [
+79 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@rolldown\\binding-linux-x64-musl'
+79 silly reify ]
+80 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@rolldown\binding-linux-x64-gnu
+81 silly reify mark deleted [
+81 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@rolldown\\binding-linux-x64-gnu'
+81 silly reify ]
+82 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@rolldown\binding-linux-s390x-gnu
+83 silly reify mark deleted [
+83 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@rolldown\\binding-linux-s390x-gnu'
+83 silly reify ]
+84 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@rolldown\binding-linux-ppc64-gnu
+85 silly reify mark deleted [
+85 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@rolldown\\binding-linux-ppc64-gnu'
+85 silly reify ]
+86 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@rolldown\binding-linux-arm64-musl
+87 silly reify mark deleted [
+87 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@rolldown\\binding-linux-arm64-musl'
+87 silly reify ]
+88 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@rolldown\binding-linux-arm64-gnu
+89 silly reify mark deleted [
+89 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@rolldown\\binding-linux-arm64-gnu'
+89 silly reify ]
+90 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@rolldown\binding-linux-arm-gnueabihf
+91 silly reify mark deleted [
+91 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@rolldown\\binding-linux-arm-gnueabihf'
+91 silly reify ]
+92 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@rolldown\binding-freebsd-x64
+93 silly reify mark deleted [
+93 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@rolldown\\binding-freebsd-x64'
+93 silly reify ]
+94 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@rolldown\binding-darwin-x64
+95 silly reify mark deleted [
+95 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@rolldown\\binding-darwin-x64'
+95 silly reify ]
+96 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@rolldown\binding-darwin-arm64
+97 silly reify mark deleted [
+97 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@rolldown\\binding-darwin-arm64'
+97 silly reify ]
+98 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@rolldown\binding-android-arm64
+99 silly reify mark deleted [
+99 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@rolldown\\binding-android-arm64'
+99 silly reify ]
+100 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@esbuild\win32-ia32
+101 silly reify mark deleted [
+101 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@esbuild\\win32-ia32'
+101 silly reify ]
+102 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@esbuild\win32-arm64
+103 silly reify mark deleted [
+103 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@esbuild\\win32-arm64'
+103 silly reify ]
+104 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@esbuild\sunos-x64
+105 silly reify mark deleted [
+105 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@esbuild\\sunos-x64'
+105 silly reify ]
+106 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@esbuild\openharmony-arm64
+107 silly reify mark deleted [
+107 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@esbuild\\openharmony-arm64'
+107 silly reify ]
+108 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@esbuild\openbsd-x64
+109 silly reify mark deleted [
+109 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@esbuild\\openbsd-x64'
+109 silly reify ]
+110 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@esbuild\openbsd-arm64
+111 silly reify mark deleted [
+111 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@esbuild\\openbsd-arm64'
+111 silly reify ]
+112 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@esbuild\netbsd-x64
+113 silly reify mark deleted [
+113 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@esbuild\\netbsd-x64'
+113 silly reify ]
+114 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@esbuild\netbsd-arm64
+115 silly reify mark deleted [
+115 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@esbuild\\netbsd-arm64'
+115 silly reify ]
+116 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@esbuild\linux-x64
+117 silly reify mark deleted [
+117 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@esbuild\\linux-x64'
+117 silly reify ]
+118 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@esbuild\linux-s390x
+119 silly reify mark deleted [
+119 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@esbuild\\linux-s390x'
+119 silly reify ]
+120 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@esbuild\linux-riscv64
+121 silly reify mark deleted [
+121 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@esbuild\\linux-riscv64'
+121 silly reify ]
+122 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@esbuild\linux-ppc64
+123 silly reify mark deleted [
+123 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@esbuild\\linux-ppc64'
+123 silly reify ]
+124 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@esbuild\linux-mips64el
+125 silly reify mark deleted [
+125 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@esbuild\\linux-mips64el'
+125 silly reify ]
+126 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@esbuild\linux-loong64
+127 silly reify mark deleted [
+127 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@esbuild\\linux-loong64'
+127 silly reify ]
+128 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@esbuild\linux-ia32
+129 silly reify mark deleted [
+129 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@esbuild\\linux-ia32'
+129 silly reify ]
+130 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@esbuild\linux-arm64
+131 silly reify mark deleted [
+131 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@esbuild\\linux-arm64'
+131 silly reify ]
+132 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@esbuild\linux-arm
+133 silly reify mark deleted [
+133 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@esbuild\\linux-arm'
+133 silly reify ]
+134 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@esbuild\freebsd-x64
+135 silly reify mark deleted [
+135 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@esbuild\\freebsd-x64'
+135 silly reify ]
+136 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@esbuild\freebsd-arm64
+137 silly reify mark deleted [
+137 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@esbuild\\freebsd-arm64'
+137 silly reify ]
+138 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@esbuild\darwin-x64
+139 silly reify mark deleted [
+139 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@esbuild\\darwin-x64'
+139 silly reify ]
+140 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@esbuild\darwin-arm64
+141 silly reify mark deleted [
+141 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@esbuild\\darwin-arm64'
+141 silly reify ]
+142 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@esbuild\android-x64
+143 silly reify mark deleted [
+143 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@esbuild\\android-x64'
+143 silly reify ]
+144 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@esbuild\android-arm64
+145 silly reify mark deleted [
+145 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@esbuild\\android-arm64'
+145 silly reify ]
+146 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@esbuild\android-arm
+147 silly reify mark deleted [
+147 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@esbuild\\android-arm'
+147 silly reify ]
+148 verbose reify failed optional dependency D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot\node_modules\@esbuild\aix-ppc64
+149 silly reify mark deleted [
+149 silly reify   'D:\\Backup\\Documents\\ChatGPT\\数采平台-H5\\lanhu-mcp-mrdbot\\node_modules\\@esbuild\\aix-ppc64'
+149 silly reify ]
+150 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/which/-/which-2.0.2.tgz 281ms (cache miss)
+151 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/std-env/-/std-env-4.0.0.tgz 278ms (cache miss)
+152 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/type-is/-/type-is-2.0.1.tgz 282ms (cache miss)
+153 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/wrappy/-/wrappy-1.0.2.tgz 284ms (cache miss)
+154 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/why-is-node-running/-/why-is-node-running-2.3.0.tgz 285ms (cache miss)
+155 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/tinyexec/-/tinyexec-1.0.4.tgz 280ms (cache miss)
+156 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/unpipe/-/unpipe-1.0.0.tgz 285ms (cache miss)
+157 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/toidentifier/-/toidentifier-1.0.1.tgz 286ms (cache miss)
+158 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/siginfo/-/siginfo-2.0.0.tgz 296ms (cache miss)
+159 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/shebang-regex/-/shebang-regex-3.0.0.tgz 303ms (cache miss)
+160 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/statuses/-/statuses-2.0.2.tgz 309ms (cache miss)
+161 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/side-channel-weakmap/-/side-channel-weakmap-1.0.2.tgz 326ms (cache miss)
+162 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/serve-static/-/serve-static-2.2.1.tgz 324ms (cache miss)
+163 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/setprototypeof/-/setprototypeof-1.2.0.tgz 336ms (cache miss)
+164 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/send/-/send-1.2.1.tgz 347ms (cache miss)
+165 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/shebang-command/-/shebang-command-2.0.0.tgz 352ms (cache miss)
+166 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/undici-types/-/undici-types-7.16.0.tgz 380ms (cache miss)
+167 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/resolve-pkg-maps/-/resolve-pkg-maps-1.0.0.tgz 394ms (cache miss)
+168 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/router/-/router-2.2.0.tgz 399ms (cache miss)
+169 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/raw-body/-/raw-body-3.0.2.tgz 411ms (cache miss)
+170 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/require-from-string/-/require-from-string-2.0.2.tgz 438ms (cache miss)
+171 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/safer-buffer/-/safer-buffer-2.1.2.tgz 440ms (cache miss)
+172 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/stackback/-/stackback-0.0.2.tgz 449ms (cache miss)
+173 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/range-parser/-/range-parser-1.2.1.tgz 457ms (cache miss)
+174 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/side-channel-map/-/side-channel-map-1.0.1.tgz 462ms (cache miss)
+175 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/proxy-addr/-/proxy-addr-2.0.7.tgz 469ms (cache miss)
+176 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/pathe/-/pathe-2.0.3.tgz 467ms (cache miss)
+177 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/pkce-challenge/-/pkce-challenge-5.0.1.tgz 473ms (cache miss)
+178 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/path-to-regexp/-/path-to-regexp-8.4.1.tgz 478ms (cache miss)
+179 http fetch GET 200 https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz 483ms (cache miss)
+180 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/on-finished/-/on-finished-2.4.1.tgz 484ms (cache miss)
+181 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/once/-/once-1.4.0.tgz 486ms (cache miss)
+182 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/obug/-/obug-2.1.1.tgz 488ms (cache miss)
+183 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/negotiator/-/negotiator-1.0.0.tgz 488ms (cache miss)
+184 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/parseurl/-/parseurl-1.3.3.tgz 493ms (cache miss)
+185 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/mime-types/-/mime-types-3.0.2.tgz 493ms (cache miss)
+186 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/object-assign/-/object-assign-4.1.1.tgz 495ms (cache miss)
+187 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/media-typer/-/media-typer-1.1.0.tgz 494ms (cache miss)
+188 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/ms/-/ms-2.1.3.tgz 497ms (cache miss)
+189 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/math-intrinsics/-/math-intrinsics-1.1.0.tgz 497ms (cache miss)
+190 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/picomatch/-/picomatch-4.0.4.tgz 525ms (cache miss)
+191 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/path-key/-/path-key-3.1.1.tgz 524ms (cache miss)
+192 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/tinyrainbow/-/tinyrainbow-3.1.0.tgz 543ms (cache miss)
+193 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/tsx/-/tsx-4.21.0.tgz 546ms (cache miss)
+194 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/mime-db/-/mime-db-1.54.0.tgz 527ms (cache miss)
+195 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/isexe/-/isexe-2.0.0.tgz 554ms (cache miss)
+196 http fetch GET 200 https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 595ms (cache miss)
+197 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/json-schema-traverse/-/json-schema-traverse-1.0.0.tgz 608ms (cache miss)
+198 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/json-schema-typed/-/json-schema-typed-8.0.2.tgz 675ms (cache miss)
+199 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/inherits/-/inherits-2.0.4.tgz 675ms (cache miss)
+200 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/side-channel-list/-/side-channel-list-1.0.0.tgz 710ms (cache miss)
+201 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/merge-descriptors/-/merge-descriptors-2.0.0.tgz 701ms (cache miss)
+202 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/qs/-/qs-6.15.0.tgz 720ms (cache miss)
+203 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/tinybench/-/tinybench-2.9.0.tgz 745ms (cache miss)
+204 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/hasown/-/hasown-2.0.2.tgz 725ms (cache miss)
+205 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/has-symbols/-/has-symbols-1.1.0.tgz 729ms (cache miss)
+206 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/side-channel/-/side-channel-1.1.0.tgz 767ms (cache miss)
+207 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/gopd/-/gopd-1.2.0.tgz 743ms (cache miss)
+208 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/get-intrinsic/-/get-intrinsic-1.3.0.tgz 760ms (cache miss)
+209 http fetch GET 200 https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.16.tgz 741ms (cache miss)
+210 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/fresh/-/fresh-2.0.0.tgz 777ms (cache miss)
+211 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/forwarded/-/forwarded-0.2.0.tgz 790ms (cache miss)
+212 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/finalhandler/-/finalhandler-2.1.1.tgz 788ms (cache miss)
+213 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/get-proto/-/get-proto-1.0.1.tgz 793ms (cache miss)
+214 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz 800ms (cache miss)
+215 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/function-bind/-/function-bind-1.1.2.tgz 815ms (cache miss)
+216 http fetch GET 200 https://registry.npmjs.org/npm 1049ms
+217 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 923ms
+218 silly audit report {
+218 silly audit report   '@hono/node-server': [
+218 silly audit report     {
+218 silly audit report       id: 1139322,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-frvp-7c67-39w9',
+218 silly audit report       title: 'Node.js Adapter for Hono: Path traversal in `serve-static` on Windows via encoded backslash (`%5C`)',
+218 silly audit report       severity: 'moderate',
+218 silly audit report       vulnerable_versions: '<1.19.15',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     }
+218 silly audit report   ],
+218 silly audit report   '@vitest/mocker': [
+218 silly audit report     {
+218 silly audit report       id: 1193684,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-82fw-gwwq-j7x9',
+218 silly audit report       title: 'Vitest: Path Traversal / Arbitrary File Read via @vitest/mocker Redirect Mock',
+218 silly audit report       severity: 'moderate',
+218 silly audit report       vulnerable_versions: '>=2.1.0 <4.1.11',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     }
+218 silly audit report   ],
+218 silly audit report   'body-parser': [
+218 silly audit report     {
+218 silly audit report       id: 1123976,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-v422-hmwv-36x6',
+218 silly audit report       title: 'body-parser vulnerable to denial of service when invalid limit value silently disables size enforcement',
+218 silly audit report       severity: 'low',
+218 silly audit report       vulnerable_versions: '>=2.0.0 <2.3.0',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     }
+218 silly audit report   ],
+218 silly audit report   esbuild: [
+218 silly audit report     {
+218 silly audit report       id: 1120680,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-g7r4-m6w7-qqqr',
+218 silly audit report       title: 'esbuild allows arbitrary file read when running the development server on Windows',
+218 silly audit report       severity: 'low',
+218 silly audit report       vulnerable_versions: '>=0.27.3 <0.28.1',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     }
+218 silly audit report   ],
+218 silly audit report   'fast-uri': [
+218 silly audit report     {
+218 silly audit report       id: 1158524,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-f65p-4m7j-42xc',
+218 silly audit report       title: 'fast-uri vulnerable to server-side request forgery via malformed IPv6 normalization',
+218 silly audit report       severity: 'high',
+218 silly audit report       vulnerable_versions: '>=3.0.0 <3.1.6',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1158530,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-jqff-g426-hqxp',
+218 silly audit report       title: 'fast-uri vulnerable to host confusion via percent-encoded scheme normalization',
+218 silly audit report       severity: 'high',
+218 silly audit report       vulnerable_versions: '>=3.0.0 <3.1.6',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1130720,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-7p8r-x3mc-p8w7',
+218 silly audit report       title: 'fast-uri vulnerable to host confusion via backslash authority introducer',
+218 silly audit report       severity: 'high',
+218 silly audit report       vulnerable_versions: '>=3.0.0 <3.1.5',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1124064,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-v2hh-gcrm-f6hx',
+218 silly audit report       title: 'fast-uri vulnerable to host confusion via literal backslash authority delimiter',
+218 silly audit report       severity: 'high',
+218 silly audit report       vulnerable_versions: '>=3.0.0 <=3.1.3',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1204921,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-4c8g-83qw-93j6',
+218 silly audit report       title: 'fast-uri vulnerable to host confusion via failed IDN canonicalization',
+218 silly audit report       severity: 'high',
+218 silly audit report       vulnerable_versions: '>=3.0.0 <3.1.3',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1145559,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-q3j6-qgpj-74h6',
+218 silly audit report       title: 'fast-uri vulnerable to path traversal via percent-encoded dot segments',
+218 silly audit report       severity: 'high',
+218 silly audit report       vulnerable_versions: '>=3.0.0 <=3.1.0',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1153168,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-v39h-62p7-jpjc',
+218 silly audit report       title: 'fast-uri vulnerable to host confusion via percent-encoded authority delimiters',
+218 silly audit report       severity: 'high',
+218 silly audit report       vulnerable_versions: '>=3.0.0 <=3.1.1',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     }
+218 silly audit report   ],
+218 silly audit report   hono: [
+218 silly audit report     {
+218 silly audit report       id: 1117915,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-qp7p-654g-cw7p',
+218 silly audit report       title: 'Hono has CSS Declaration Injection via Style Object Values in JSX SSR',
+218 silly audit report       severity: 'moderate',
+218 silly audit report       vulnerable_versions: '<4.12.18',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1118963,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-hm8q-7f3q-5f36',
+218 silly audit report       title: 'Hono has improper validation of NumericDate claims (exp, nbf, iat) in JWT verify()',
+218 silly audit report       severity: 'low',
+218 silly audit report       vulnerable_versions: '<4.12.18',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1118964,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-p77w-8qqv-26rm',
+218 silly audit report       title: "Hono's Cache Middleware ignores Vary: Authorization / Vary: Cookie leading to cross-user cache leakage",
+218 silly audit report       severity: 'moderate',
+218 silly audit report       vulnerable_versions: '<4.12.18',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1118982,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-9vqf-7f2p-gf9v',
+218 silly audit report       title: 'Hono: bodyLimit() can be bypassed for chunked / unknown-length requests',
+218 silly audit report       severity: 'moderate',
+218 silly audit report       vulnerable_versions: '<4.12.16',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1118983,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-69xw-7hcm-h432',
+218 silly audit report       title: 'hono/jsx has Unvalidated JSX Tag Names that May Allow HTML Injection',
+218 silly audit report       severity: 'moderate',
+218 silly audit report       vulnerable_versions: '<4.12.16',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1120082,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-xrhx-7g5j-rcj5',
+218 silly audit report       title: 'Hono: IP Restriction bypasses static deny rules for non-canonical IPv6 ',
+218 silly audit report       severity: 'moderate',
+218 silly audit report       vulnerable_versions: '<4.12.21',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1120083,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-3hrh-pfw6-9m5x',
+218 silly audit report       title: 'Hono: Cookie helper does not sanitize sameSite and priority, allowing Set-Cookie injection',
+218 silly audit report       severity: 'moderate',
+218 silly audit report       vulnerable_versions: '<4.12.21',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1120084,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-f577-qrjj-4474',
+218 silly audit report       title: 'Hono: JWT middleware accepts any Authorization scheme, not only Bearer',
+218 silly audit report       severity: 'moderate',
+218 silly audit report       vulnerable_versions: '<4.12.21',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1120085,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-2gcr-mfcq-wcc3',
+218 silly audit report       title: 'Hono: app.mount() strips mount prefix using undecoded path, causing incorrect routing for percent-encoded paths',
+218 silly audit report       severity: 'moderate',
+218 silly audit report       vulnerable_versions: '<4.12.21',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1130733,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-8j4g-w8fx-2239',
+218 silly audit report       title: 'Hono: ReDoS in CORS middleware via Access-Control-Request-Headers',
+218 silly audit report       severity: 'moderate',
+218 silly audit report       vulnerable_versions: '<4.12.34',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1123997,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-rv63-4mwf-qqc2',
+218 silly audit report       title: 'hono: Body Limit Middleware can be bypassed on AWS Lambda by understating `Content-Length`',
+218 silly audit report       severity: 'moderate',
+218 silly audit report       vulnerable_versions: '<4.12.25',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1123998,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-wgpf-jwqj-8h8p',
+218 silly audit report       title: 'hono: Lambda@Edge adapter keeps only the last value of a repeated request header, dropping the rest',
+218 silly audit report       severity: 'moderate',
+218 silly audit report       vulnerable_versions: '<4.12.25',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1123999,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-88fw-hqm2-52qc',
+218 silly audit report       title: 'hono: CORS Middleware reflects any Origin with credentials when `origin` defaults to the wildcard',
+218 silly audit report       severity: 'high',
+218 silly audit report       vulnerable_versions: '<4.12.25',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1124000,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-wwfh-h76j-fc44',
+218 silly audit report       title: 'hono: Path traversal in `serve-static` on Windows via encoded backslash (`%5C`)',
+218 silly audit report       severity: 'moderate',
+218 silly audit report       vulnerable_versions: '<4.12.25',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1124001,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-j6c9-x7qj-28xf',
+218 silly audit report       title: 'hono: AWS Lambda adapter merges multiple `Set-Cookie` headers into one value, dropping cookies on ALB single-header and Lattice',
+218 silly audit report       severity: 'moderate',
+218 silly audit report       vulnerable_versions: '<4.12.25',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1124005,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-xgm2-5f3f-mvvc',
+218 silly audit report       title: 'Hono: API Gateway v1 adapter can drop a distinct repeated request header value during de-duplication',
+218 silly audit report       severity: 'moderate',
+218 silly audit report       vulnerable_versions: '>=4.3.3 <4.12.27',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1124009,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-hvrm-45r6-mjfj',
+218 silly audit report       title: 'hono/jsx does not isolate context per request, leading to cross-request data disclosure',
+218 silly audit report       severity: 'moderate',
+218 silly audit report       vulnerable_versions: '>=4.11.8 <4.12.27',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1124010,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-w62v-xxxg-mg59',
+218 silly audit report       title: 'Hono: Server-Side XSS via JSX Escaping Bypass in cx() Utility',
+218 silly audit report       severity: 'moderate',
+218 silly audit report       vulnerable_versions: '>=4.0.0 <4.12.27',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1138771,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-f23p-vx2j-j53r',
+218 silly audit report       title: 'Hono: `memo()` retains SSR output across requests, leading to cross-user data disclosure',
+218 silly audit report       severity: 'moderate',
+218 silly audit report       vulnerable_versions: '>=3.8.0 <4.12.34',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1138772,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-79qm-7rj5-m7r9',
+218 silly audit report       title: 'Hono: Proxy Helper does not remove response headers listed in the `Connection` header',
+218 silly audit report       severity: 'low',
+218 silly audit report       vulnerable_versions: '>=4.7.0 <4.12.34',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1138773,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-54fx-42gc-7vw4',
+218 silly audit report       title: 'Hono: Algorithmic Complexity DoS in Language Middleware',
+218 silly audit report       severity: 'moderate',
+218 silly audit report       vulnerable_versions: '>=4.12.0 <4.12.34',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1193729,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-gqvv-2mrq-wpjv',
+218 silly audit report       title: 'Hono: Incomplete fix for CVE-2026-39408: `toSSG()` still writes files outside the output directory',
+218 silly audit report       severity: 'moderate',
+218 silly audit report       vulnerable_versions: '<4.13.5',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1193730,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-g6gw-c38x-mqfc',
+218 silly audit report       title: 'Hono: Unbounded dot-notation nesting in `parseBody()` can cause memory exhaustion',
+218 silly audit report       severity: 'moderate',
+218 silly audit report       vulnerable_versions: '<4.13.5',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1193731,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-crvj-82cr-hjcx',
+218 silly audit report       title: 'Hono: Query parser reads parameters after the URL fragment, causing cache-key and proxy interpretation differentials',
+218 silly audit report       severity: 'moderate',
+218 silly audit report       vulnerable_versions: '<4.13.5',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     }
+218 silly audit report   ],
+218 silly audit report   'ip-address': [
+218 silly audit report     {
+218 silly audit report       id: 1118827,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-v2v4-37r5-5v8g',
+218 silly audit report       title: 'ip-address has XSS in Address6 HTML-emitting methods',
+218 silly audit report       severity: 'moderate',
+218 silly audit report       vulnerable_versions: '<=10.1.0',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1130722,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-mwp4-54f8-5fhr',
+218 silly audit report       title: 'ip-address: Address4 decodes leading-zero octets as decimal while resolvers decode them as octal, allowing SSRF and trust-boundary bypass',
+218 silly audit report       severity: 'high',
+218 silly audit report       vulnerable_versions: '<=10.3.0',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     }
+218 silly audit report   ],
+218 silly audit report   nanoid: [
+218 silly audit report     {
+218 silly audit report       id: 1138811,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-28wg-ghj8-5hjv',
+218 silly audit report       title: 'nanoid: non-secure generators can loop indefinitely with negative size',
+218 silly audit report       severity: 'high',
+218 silly audit report       vulnerable_versions: '<3.3.16',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1139427,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-2v37-7h3g-55p8',
+218 silly audit report       title: 'nanoid: custom generators can loop indefinitely when size is zero',
+218 silly audit report       severity: 'high',
+218 silly audit report       vulnerable_versions: '<3.3.18',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1153189,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-xwg4-73v4-xw9w',
+218 silly audit report       title: 'nanoid: Integer Overflow or Wraparound',
+218 silly audit report       severity: 'high',
+218 silly audit report       vulnerable_versions: '<3.3.12',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     }
+218 silly audit report   ],
+218 silly audit report   postcss: [
+218 silly audit report     {
+218 silly audit report       id: 1130709,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-fxqj-rqcc-2cmp',
+218 silly audit report       title: 'PostCSS: incomplete fix of GHSA-6g55-p6wh-862q — attacker-controlled sourceMappingURL reads arbitrary .map files when `from` is unset',
+218 silly audit report       severity: 'moderate',
+218 silly audit report       vulnerable_versions: '<=8.5.22',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1139510,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-r28c-9q8g-f849',
+218 silly audit report       title: 'PostCSS: Path Traversal in Previous Source Map Auto-Loading (sourceMappingURL) leads to Arbitrary .map File Disclosure',
+218 silly audit report       severity: 'high',
+218 silly audit report       vulnerable_versions: '<=8.5.17',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     }
+218 silly audit report   ],
+218 silly audit report   qs: [
+218 silly audit report     {
+218 silly audit report       id: 1158506,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-x5fp-wj9c-mxmx',
+218 silly audit report       title: 'qs array-limit bypass via bracket-key comma parsing',
+218 silly audit report       severity: 'moderate',
+218 silly audit report       vulnerable_versions: '>=6.14.2 <=6.15.3',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1158507,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-4mjr-xmp4-gh2g',
+218 silly audit report       title: 'qs: Denial of Service via Attacker Controlled isBuffer',
+218 silly audit report       severity: 'moderate',
+218 silly audit report       vulnerable_versions: '>=2.2.5 <6.16.0',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1119502,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-q8mj-m7cp-5q26',
+218 silly audit report       title: 'qs has a remotely triggerable DoS: qs.stringify crashes with TypeError on null/undefined entries in comma-format arrays when encodeValuesOnly is set',
+218 silly audit report       severity: 'moderate',
+218 silly audit report       vulnerable_versions: '>=6.11.1 <=6.15.1',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     }
+218 silly audit report   ],
+218 silly audit report   vite: [
+218 silly audit report     {
+218 silly audit report       id: 1120786,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-v6wh-96g9-6wx3',
+218 silly audit report       title: 'launch-editor: NTLMv2 hash disclosure via UNC path handling on Windows',
+218 silly audit report       severity: 'moderate',
+218 silly audit report       vulnerable_versions: '>=8.0.0 <=8.0.15',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     },
+218 silly audit report     {
+218 silly audit report       id: 1123527,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-fx2h-pf6j-xcff',
+218 silly audit report       title: 'vite: `server.fs.deny` bypass on Windows alternate paths',
+218 silly audit report       severity: 'high',
+218 silly audit report       vulnerable_versions: '>=8.0.0 <=8.0.15',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     }
+218 silly audit report   ],
+218 silly audit report   vitest: [
+218 silly audit report     {
+218 silly audit report       id: 1193683,
+218 silly audit report       url: 'https://github.com/advisories/GHSA-82fw-gwwq-j7x9',
+218 silly audit report       title: 'Vitest: Path Traversal / Arbitrary File Read via @vitest/mocker Redirect Mock',
+218 silly audit report       severity: 'moderate',
+218 silly audit report       vulnerable_versions: '>=2.1.0 <4.1.11',
+218 silly audit report       cwe: [Array],
+218 silly audit report       cvss: [Object]
+218 silly audit report     }
+218 silly audit report   ]
+218 silly audit report }
+219 silly packumentCache corgi:https://registry.npmjs.org/@hono%2fnode-server cache-miss
+220 silly packumentCache corgi:https://registry.npmjs.org/@vitest%2fmocker cache-miss
+221 silly packumentCache corgi:https://registry.npmjs.org/body-parser cache-miss
+222 silly packumentCache corgi:https://registry.npmjs.org/esbuild cache-miss
+223 silly packumentCache corgi:https://registry.npmjs.org/fast-uri cache-miss
+224 silly packumentCache corgi:https://registry.npmjs.org/hono cache-miss
+225 silly packumentCache corgi:https://registry.npmjs.org/ip-address cache-miss
+226 silly packumentCache corgi:https://registry.npmjs.org/nanoid cache-miss
+227 silly packumentCache corgi:https://registry.npmjs.org/postcss cache-miss
+228 silly packumentCache corgi:https://registry.npmjs.org/qs cache-miss
+229 silly packumentCache corgi:https://registry.npmjs.org/vite cache-miss
+230 silly packumentCache corgi:https://registry.npmjs.org/vitest cache-miss
+231 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/fdir/-/fdir-6.5.0.tgz 909ms (cache miss)
+232 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/eventsource-parser/-/eventsource-parser-3.0.6.tgz 979ms (cache miss)
+233 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/etag/-/etag-1.8.1.tgz 980ms (cache miss)
+234 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/is-promise/-/is-promise-4.0.0.tgz 998ms (cache miss)
+235 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/http-errors/-/http-errors-2.0.1.tgz 997ms (cache miss)
+236 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/es-object-atoms/-/es-object-atoms-1.1.1.tgz 985ms (cache miss)
+237 http fetch GET 200 https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz 962ms (cache miss)
+238 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/es-errors/-/es-errors-1.3.0.tgz 987ms (cache miss)
+239 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/express-rate-limit/-/express-rate-limit-8.3.2.tgz 994ms (cache miss)
+240 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/vary/-/vary-1.1.2.tgz 1047ms (cache miss)
+241 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/escape-html/-/escape-html-1.0.3.tgz 1005ms (cache miss)
+242 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/es-define-property/-/es-define-property-1.0.1.tgz 1017ms (cache miss)
+243 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/ee-first/-/ee-first-1.1.1.tgz 1016ms (cache miss)
+244 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/encodeurl/-/encodeurl-2.0.0.tgz 1045ms (cache miss)
+245 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/debug/-/debug-4.4.3.tgz 1045ms (cache miss)
+246 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/lightningcss/-/lightningcss-1.32.0.tgz 1076ms (cache miss)
+247 http fetch GET 200 https://registry.npmjs.org/@oxc-project/types/-/types-0.127.0.tgz 1054ms (cache miss)
+248 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/express/-/express-5.2.1.tgz 1074ms (cache miss)
+249 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/get-tsconfig/-/get-tsconfig-4.13.7.tgz 1085ms (cache miss)
+250 http fetch GET 200 https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz 1115ms (cache miss)
+251 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/cors/-/cors-2.8.6.tgz 1072ms (cache miss)
+252 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/object-inspect/-/object-inspect-1.13.4.tgz 1118ms (cache miss)
+253 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/cross-spawn/-/cross-spawn-7.0.6.tgz 1087ms (cache miss)
+254 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/depd/-/depd-2.0.0.tgz 1089ms (cache miss)
+255 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/cookie/-/cookie-0.7.2.tgz 1090ms (cache miss)
+256 http fetch GET 200 https://registry.npmjs.org/@hono%2fnode-server 258ms (cache miss)
+257 silly packumentCache corgi:https://registry.npmjs.org/@hono%2fnode-server set size:undefined disposed:false
+258 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/expect-type/-/expect-type-1.3.0.tgz 1116ms (cache miss)
+259 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/magic-string/-/magic-string-0.30.21.tgz 1134ms (cache miss)
+260 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/eventsource/-/eventsource-3.0.7.tgz 1117ms (cache miss)
+261 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/convert-source-map/-/convert-source-map-2.0.0.tgz 1117ms (cache miss)
+262 http fetch GET 200 https://registry.npmjs.org/ip-address 277ms (cache miss)
+263 silly packumentCache corgi:https://registry.npmjs.org/ip-address set size:undefined disposed:false
+264 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/estree-walker/-/estree-walker-3.0.3.tgz 1139ms (cache miss)
+265 http fetch GET 200 https://registry.npmjs.org/body-parser 309ms (cache miss)
+266 silly packumentCache corgi:https://registry.npmjs.org/body-parser set size:undefined disposed:false
+267 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/bytes/-/bytes-3.1.2.tgz 1194ms (cache miss)
+268 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/call-bound/-/call-bound-1.0.4.tgz 1204ms (cache miss)
+269 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.2.tgz 1212ms (cache miss)
+270 http fetch GET 200 https://registry.npmjs.org/nanoid 378ms (cache miss)
+271 silly packumentCache corgi:https://registry.npmjs.org/nanoid set size:undefined disposed:false
+272 http fetch GET 200 https://registry.npmjs.org/@hono/node-server/-/node-server-1.19.14.tgz 1222ms (cache miss)
+273 http fetch GET 200 https://registry.npmjs.org/qs 393ms (cache miss)
+274 silly packumentCache corgi:https://registry.npmjs.org/qs set size:undefined disposed:false
+275 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/es-module-lexer/-/es-module-lexer-2.0.0.tgz 1267ms (cache miss)
+276 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/assertion-error/-/assertion-error-2.0.1.tgz 1259ms (cache miss)
+277 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/fast-uri/-/fast-uri-3.1.0.tgz 1296ms (cache miss)
+278 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/@vitest/spy/-/spy-4.1.2.tgz 1280ms (cache miss)
+279 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/@vitest/snapshot/-/snapshot-4.1.2.tgz 1280ms (cache miss)
+280 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/@vitest/pretty-format/-/pretty-format-4.1.2.tgz 1282ms (cache miss)
+281 http fetch GET 200 https://registry.npmjs.org/postcss 447ms (cache miss)
+282 silly packumentCache corgi:https://registry.npmjs.org/postcss set size:undefined disposed:false
+283 http fetch GET 200 https://registry.npmjs.org/postcss/-/postcss-8.5.12.tgz 1291ms (cache miss)
+284 http fetch GET 200 https://registry.npmjs.org/esbuild 471ms (cache miss)
+285 silly packumentCache corgi:https://registry.npmjs.org/esbuild set size:undefined disposed:false
+286 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/dunder-proto/-/dunder-proto-1.0.1.tgz 1324ms (cache miss)
+287 http fetch GET 200 https://registry.npmjs.org/hono 483ms (cache miss)
+288 silly packumentCache corgi:https://registry.npmjs.org/hono set size:undefined disposed:false
+289 http fetch GET 200 https://registry.npmjs.org/@emnapi/core/-/core-1.10.0.tgz 1416ms (cache miss)
+290 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/@types/estree/-/estree-1.0.8.tgz 1423ms (cache miss)
+291 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/accepts/-/accepts-2.0.0.tgz 1427ms (cache miss)
+292 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/esbuild/-/esbuild-0.27.4.tgz 1456ms (cache miss)
+293 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/ip-address/-/ip-address-10.1.0.tgz 1497ms (cache miss)
+294 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/content-type/-/content-type-1.0.5.tgz 1496ms (cache miss)
+295 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/ajv-formats/-/ajv-formats-3.0.1.tgz 1498ms (cache miss)
+296 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/@types/deep-eql/-/deep-eql-4.0.2.tgz 1494ms (cache miss)
+297 http fetch GET 200 https://registry.npmjs.org/rolldown/-/rolldown-1.0.0-rc.17.tgz 1497ms (cache miss)
+298 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/body-parser/-/body-parser-2.2.2.tgz 1506ms (cache miss)
+299 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/iconv-lite/-/iconv-lite-0.7.2.tgz 1548ms (cache miss)
+300 http fetch GET 200 https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.10.0.tgz 1514ms (cache miss)
+301 http fetch GET 200 https://registry.npmjs.org/@emnapi/wasi-threads/-/wasi-threads-1.2.1.tgz 1519ms (cache miss)
+302 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/chai/-/chai-6.2.2.tgz 1533ms (cache miss)
+303 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/@vitest/expect/-/expect-4.1.2.tgz 1523ms (cache miss)
+304 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/@vitest/runner/-/runner-4.1.2.tgz 1553ms (cache miss)
+305 http fetch GET 200 https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.0-rc.17.tgz 1554ms (cache miss)
+306 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/zod-to-json-schema/-/zod-to-json-schema-3.25.2.tgz 1624ms (cache miss)
+307 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/cookie-signature/-/cookie-signature-1.2.2.tgz 1578ms (cache miss)
+308 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/@standard-schema/spec/-/spec-1.1.0.tgz 1594ms (cache miss)
+309 http fetch GET 200 https://registry.npmjs.org/@tybys/wasm-util/-/wasm-util-0.10.1.tgz 1594ms (cache miss)
+310 http fetch GET 200 https://registry.npmjs.org/vite 769ms (cache miss)
+311 silly packumentCache corgi:https://registry.npmjs.org/vite set size:undefined disposed:false
+312 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/@vitest/utils/-/utils-4.1.2.tgz 1648ms (cache miss)
+313 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz 1653ms (cache miss)
+314 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/vitest/-/vitest-4.1.2.tgz 1738ms (cache miss)
+315 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/@vitest/mocker/-/mocker-4.1.2.tgz 1699ms (cache miss)
+316 http fetch GET 200 https://registry.npmjs.org/vite/-/vite-8.0.10.tgz 1700ms (cache miss)
+317 http fetch GET 200 https://registry.npmjs.org/vitest 867ms (cache miss)
+318 silly packumentCache corgi:https://registry.npmjs.org/vitest set size:undefined disposed:false
+319 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/jose/-/jose-6.2.2.tgz 1803ms (cache miss)
+320 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/detect-libc/-/detect-libc-2.1.2.tgz 1810ms (cache miss)
+321 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.32.0.tgz 1901ms (cache miss)
+322 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/@types/chai/-/chai-5.2.3.tgz 1868ms (cache miss)
+323 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/@types/node/-/node-24.12.0.tgz 1905ms (cache miss)
+324 http fetch GET 200 https://registry.npmjs.org/fast-uri 1092ms (cache miss)
+325 silly packumentCache corgi:https://registry.npmjs.org/fast-uri set size:undefined disposed:false
+326 http fetch GET 200 https://registry.npmjs.org/@vitest%2fmocker 1140ms (cache miss)
+327 silly packumentCache corgi:https://registry.npmjs.org/@vitest%2fmocker set size:undefined disposed:false
+328 silly packumentCache corgi:https://registry.npmjs.org/@modelcontextprotocol%2fsdk cache-miss
+329 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/content-disposition/-/content-disposition-1.0.1.tgz 2000ms (cache miss)
+330 http fetch GET 200 https://registry.npmjs.org/@napi-rs/wasm-runtime/-/wasm-runtime-1.1.4.tgz 2018ms (cache miss)
+331 http fetch GET 200 https://registry.npmjs.org/@modelcontextprotocol%2fsdk 110ms (cache miss)
+332 silly packumentCache corgi:https://registry.npmjs.org/@modelcontextprotocol%2fsdk set size:undefined disposed:false
+333 silly packumentCache corgi:https://registry.npmjs.org/express cache-miss
+334 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/@esbuild/win32-x64/-/win32-x64-0.27.4.tgz 2135ms (cache miss)
+335 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/ipaddr.js/-/ipaddr.js-1.9.1.tgz 2246ms (cache miss)
+336 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/typescript/-/typescript-5.9.3.tgz 2341ms (cache miss)
+337 http fetch GET 200 https://registry.npmjs.org/express 158ms (cache miss)
+338 silly packumentCache corgi:https://registry.npmjs.org/express set size:undefined disposed:false
+339 silly packumentCache corgi:https://registry.npmjs.org/tsx cache-miss
+340 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/ajv/-/ajv-8.18.0.tgz 2367ms (cache miss)
+341 http fetch GET 200 https://registry.npmjs.org/tsx 145ms (cache miss)
+342 silly packumentCache corgi:https://registry.npmjs.org/tsx set size:undefined disposed:false
+343 silly packumentCache corgi:https://registry.npmjs.org/ajv cache-miss
+344 http fetch GET 200 https://registry.npmjs.org/hono/-/hono-4.12.15.tgz 2494ms (cache miss)
+345 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/zod/-/zod-4.3.6.tgz 2579ms (cache miss)
+346 http fetch GET 200 https://registry.npmjs.org/ajv 91ms (cache miss)
+347 silly packumentCache corgi:https://registry.npmjs.org/ajv set size:undefined disposed:false
+348 silly packumentCache corgi:https://registry.npmjs.org/express-rate-limit cache-miss
+349 http fetch GET 200 https://repo.huaweicloud.com/repository/npm/@modelcontextprotocol/sdk/-/sdk-1.29.0.tgz 2596ms (cache miss)
+350 info run esbuild@0.27.4 postinstall node_modules/esbuild node install.js
+351 http fetch GET 200 https://registry.npmjs.org/express-rate-limit 201ms (cache miss)
+352 silly packumentCache corgi:https://registry.npmjs.org/express-rate-limit set size:undefined disposed:false
+353 info run esbuild@0.27.4 postinstall { code: 0, signal: null }
+354 silly ADD node_modules/zod-to-json-schema
+355 silly ADD node_modules/zod
+356 silly ADD node_modules/wrappy
+357 silly ADD node_modules/why-is-node-running
+358 silly ADD node_modules/which
+359 silly ADD node_modules/vitest
+360 silly ADD node_modules/vary
+361 silly ADD node_modules/unpipe
+362 silly ADD node_modules/undici-types
+363 silly ADD node_modules/typescript
+364 silly ADD node_modules/type-is
+365 silly ADD node_modules/tsx
+366 silly ADD
+367 silly ADD node_modules/toidentifier
+368 silly ADD node_modules/tinyrainbow
+369 silly ADD node_modules/tinyexec
+370 silly ADD node_modules/tinybench
+371 silly ADD node_modules/std-env
+372 silly ADD node_modules/statuses
+373 silly ADD node_modules/stackback
+374 silly ADD node_modules/source-map-js
+375 silly ADD node_modules/siginfo
+376 silly ADD node_modules/side-channel-weakmap
+377 silly ADD node_modules/side-channel-map
+378 silly ADD node_modules/side-channel-list
+379 silly ADD node_modules/side-channel
+380 silly ADD node_modules/shebang-regex
+381 silly ADD node_modules/shebang-command
+382 silly ADD node_modules/setprototypeof
+383 silly ADD node_modules/serve-static
+384 silly ADD node_modules/send
+385 silly ADD node_modules/safer-buffer
+386 silly ADD node_modules/router
+387 silly ADD node_modules/resolve-pkg-maps
+388 silly ADD node_modules/require-from-string
+389 silly ADD node_modules/raw-body
+390 silly ADD node_modules/range-parser
+391 silly ADD node_modules/qs
+392 silly ADD node_modules/proxy-addr
+393 silly ADD node_modules/pkce-challenge
+394 silly ADD node_modules/picomatch
+395 silly ADD node_modules/picocolors
+396 silly ADD node_modules/pathe
+397 silly ADD node_modules/path-to-regexp
+398 silly ADD node_modules/path-key
+399 silly ADD node_modules/parseurl
+400 silly ADD node_modules/once
+401 silly ADD node_modules/on-finished
+402 silly ADD node_modules/obug
+403 silly ADD node_modules/object-inspect
+404 silly ADD node_modules/object-assign
+405 silly ADD node_modules/negotiator
+406 silly ADD node_modules/ms
+407 silly ADD node_modules/mime-types
+408 silly ADD node_modules/mime-db
+409 silly ADD node_modules/merge-descriptors
+410 silly ADD node_modules/media-typer
+411 silly ADD node_modules/math-intrinsics
+412 silly ADD node_modules/magic-string
+413 silly ADD node_modules/lightningcss-win32-x64-msvc
+414 silly ADD
+415 silly ADD
+416 silly ADD
+417 silly ADD
+418 silly ADD
+419 silly ADD
+420 silly ADD
+421 silly ADD
+422 silly ADD
+423 silly ADD
+424 silly ADD node_modules/lightningcss
+425 silly ADD node_modules/json-schema-typed
+426 silly ADD node_modules/json-schema-traverse
+427 silly ADD node_modules/jose
+428 silly ADD node_modules/isexe
+429 silly ADD node_modules/is-promise
+430 silly ADD node_modules/ipaddr.js
+431 silly ADD node_modules/ip-address
+432 silly ADD node_modules/inherits
+433 silly ADD node_modules/iconv-lite
+434 silly ADD node_modules/http-errors
+435 silly ADD node_modules/hasown
+436 silly ADD node_modules/has-symbols
+437 silly ADD node_modules/gopd
+438 silly ADD node_modules/get-tsconfig
+439 silly ADD node_modules/get-proto
+440 silly ADD node_modules/get-intrinsic
+441 silly ADD node_modules/function-bind
+442 silly ADD
+443 silly ADD node_modules/fresh
+444 silly ADD node_modules/forwarded
+445 silly ADD node_modules/finalhandler
+446 silly ADD node_modules/fdir
+447 silly ADD node_modules/fast-uri
+448 silly ADD node_modules/fast-deep-equal
+449 silly ADD node_modules/express-rate-limit
+450 silly ADD node_modules/express
+451 silly ADD node_modules/expect-type
+452 silly ADD node_modules/eventsource-parser
+453 silly ADD node_modules/eventsource
+454 silly ADD node_modules/etag
+455 silly ADD node_modules/estree-walker
+456 silly ADD node_modules/escape-html
+457 silly ADD node_modules/esbuild
+458 silly ADD node_modules/es-object-atoms
+459 silly ADD node_modules/es-module-lexer
+460 silly ADD node_modules/es-errors
+461 silly ADD node_modules/es-define-property
+462 silly ADD node_modules/encodeurl
+463 silly ADD node_modules/ee-first
+464 silly ADD node_modules/dunder-proto
+465 silly ADD node_modules/detect-libc
+466 silly ADD node_modules/depd
+467 silly ADD node_modules/debug
+468 silly ADD node_modules/cross-spawn
+469 silly ADD node_modules/cors
+470 silly ADD node_modules/cookie-signature
+471 silly ADD node_modules/cookie
+472 silly ADD node_modules/convert-source-map
+473 silly ADD node_modules/content-type
+474 silly ADD node_modules/content-disposition
+475 silly ADD node_modules/chai
+476 silly ADD node_modules/call-bound
+477 silly ADD node_modules/call-bind-apply-helpers
+478 silly ADD node_modules/bytes
+479 silly ADD node_modules/assertion-error
+480 silly ADD node_modules/ajv-formats
+481 silly ADD node_modules/accepts
+482 silly ADD node_modules/@vitest/utils
+483 silly ADD node_modules/@vitest/spy
+484 silly ADD node_modules/@vitest/snapshot
+485 silly ADD node_modules/@vitest/pretty-format
+486 silly ADD node_modules/@vitest/mocker
+487 silly ADD node_modules/@types/node
+488 silly ADD node_modules/@types/estree
+489 silly ADD node_modules/@types/deep-eql
+490 silly ADD node_modules/@types/chai
+491 silly ADD node_modules/@standard-schema/spec
+492 silly ADD
+493 silly ADD
+494 silly ADD
+495 silly ADD
+496 silly ADD
+497 silly ADD
+498 silly ADD
+499 silly ADD
+500 silly ADD
+501 silly ADD
+502 silly ADD
+503 silly ADD
+504 silly ADD
+505 silly ADD
+506 silly ADD
+507 silly ADD node_modules/@modelcontextprotocol/sdk
+508 silly ADD node_modules/@jridgewell/sourcemap-codec
+509 silly ADD node_modules/@hono/node-server
+510 silly ADD
+511 silly ADD
+512 silly ADD
+513 silly ADD
+514 silly ADD
+515 silly ADD
+516 silly ADD
+517 silly ADD
+518 silly ADD
+519 silly ADD
+520 silly ADD
+521 silly ADD
+522 silly ADD
+523 silly ADD
+524 silly ADD
+525 silly ADD
+526 silly ADD
+527 silly ADD
+528 silly ADD
+529 silly ADD
+530 silly ADD
+531 silly ADD
+532 silly ADD
+533 silly ADD
+534 silly ADD
+535 silly CHANGE node_modules/@oxc-project/types
+536 silly CHANGE node_modules/@vitest/runner
+537 silly CHANGE node_modules/@rolldown/pluginutils
+538 silly CHANGE node_modules/@vitest/expect
+539 silly CHANGE node_modules/@tybys/wasm-util
+540 silly CHANGE node_modules/@napi-rs/wasm-runtime
+541 silly CHANGE node_modules/@esbuild/win32-x64
+542 silly CHANGE node_modules/@emnapi/wasi-threads
+543 silly CHANGE node_modules/@emnapi/runtime
+544 silly CHANGE node_modules/@emnapi/core
+545 silly CHANGE node_modules/vite
+546 silly CHANGE node_modules/tinyglobby
+547 silly CHANGE node_modules/rolldown
+548 silly CHANGE node_modules/postcss
+549 silly CHANGE node_modules/nanoid
+550 silly CHANGE node_modules/hono
+551 silly CHANGE node_modules/ajv
+552 silly CHANGE node_modules/body-parser
+553 verbose cwd D:\Backup\Documents\ChatGPT\数采平台-H5\lanhu-mcp-mrdbot
+554 verbose os Windows_NT 10.0.19045
+555 verbose node v20.17.0
+556 verbose npm  v10.8.2
+557 notice
+557 notice New major version of npm available! 10.8.2 -> 12.0.2
+557 notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2
+557 notice To update run: npm install -g npm@12.0.2
+557 notice  { force: true, [Symbol(proc-log.meta)]: true }
+558 verbose exit 0
+559 info ok
